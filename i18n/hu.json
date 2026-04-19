@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "properties": "Ingatlanok",
+    "services": "Szolgáltatások",
+    "about": "Rólunk",
+    "contact": "Kapcsolat"
+  },
+  "hero": {
+    "eyebrow": "Ingatlankezelés · Erdély",
+    "headline": "A távolság nem határozhatja meg ingatlanod minőségét.",
+    "subheadline": "Szakértő ingatlankezelés Erdélyben távolban élő tulajdonosoknak és globális befektetőknek.",
+    "cta_primary": "Ingyenes Konzultáció Foglalása",
+    "cta_secondary": "Írjon WhatsApp-on"
+  },
+  "services": {
+    "eyebrow": "Amit csinálunk",
+    "heading": "Teljes Körű Ingatlankezelés",
+    "subheading": "Mi minden részletet intézünk. A bérlők megtalálásától a hibaelhárításig — mi vagyunk a szemeid és a füleid a helyszínen.",
+    "card1_title": "Marketing & Bérlőkiválasztás",
+    "card1_desc": "Professzionális hirdetések, fotók és alapos átvilágítás a megbízható, hosszú távú bérlők megtalálásához.",
+    "card2_title": "Adminisztráció & Jogi Ügyek",
+    "card2_desc": "Szerződéskötés, bérleti díj beszedése és a román ingatlanjoggal való teljes megfelelés.",
+    "card3_title": "Karbantartás & Felújítás",
+    "card3_desc": "Mindent koordinálunk a kisebb javításoktól a teljes felújításig, megbízható helyi kivitelezőkkel.",
+    "card4_title": "Számlák & Közüzemek",
+    "card4_desc": "A közüzemi számlákat, adókat és helyi befizetéseket az ön nevében intézzük — időben, minden alkalommal."
+  },
+  "trust": {
+    "tagline": "Teljes körű szolgáltatás <strong>angolul, románul, magyarul és spanyolul</strong>",
+    "en": "Angol",
+    "ro": "Román",
+    "hu": "Magyar",
+    "es": "Spanyol"
+  },
+  "why": {
+    "eyebrow": "Miért a Velox Living",
+    "heading": "Mi kezeljük a váratlan helyzeteket és az éjszakai hívásokat.",
+    "subheading": "A távolból való ingatlantulajdon nem kell, hogy stresszel járjon. Családi csapatunk mindig a helyszínen van, mindig elérhető.",
+    "bullet1_title": "24/7 Sürgősségi Reagálás",
+    "bullet1_desc": "Éjfélkor elromlott valami? Intézkedünk. A bérlőinek mindig van kit hívnia.",
+    "bullet2_title": "A Szemeid a Helyszínen",
+    "bullet2_desc": "Rendszeres helyszíni ellenőrzések, fotójelentések és átlátható kommunikáció. Mindig tudni fogod az ingatlan állapotát.",
+    "bullet3_title": "Gondtalan, Teljes Körű Kezelés",
+    "bullet3_desc": "Az első hirdetéstől az utolsó számlával bezárólag — mi mindent intézünk, hogy te az életedre koncentrálhass.",
+    "badge_strong": "Kezdettől Fogva Családi Vállalkozás",
+    "badge_sub": "Professzionális, személyes és megbízható",
+    "cta": "Írjon nekünk WhatsApp-on"
+  },
+  "footer": {
+    "tagline": "A szemeid és füleid a helyszínen Marosvásárhelyen, Erdélyben.",
+    "links_heading": "Gyors Linkek",
+    "contact_heading": "Kapcsolatfelvétel",
+    "copyright": "© 2025 Velox Living. Minden jog fenntartva.",
+    "made_with": "Szeretettel készítve ❤️ Erdélyben"
+  },
+  "property": {
+    "for_rent": "Kiadó",
+    "for_sale": "Eladó",
+    "bedrooms": "Hálószobák",
+    "bathrooms": "Fürdőszobák",
+    "area": "Alapterület",
+    "floor": "Emelet",
+    "description": "Leírás",
+    "amenities": "Felszereltség",
+    "location": "Elhelyezkedés",
+    "book_viewing": "Megtekintés Foglalása",
+    "widget_sub": "Töltse ki az űrlapot, és 24 órán belül visszahívjuk.",
+    "field_name": "Neve",
+    "field_email": "E-mail cím",
+    "field_phone": "Telefonszám",
+    "field_message": "Üzenet",
+    "field_message_placeholder": "Érdeklődöm az ingatlan iránt...",
+    "submit_btn": "Érdeklődés Küldése",
+    "or_whatsapp": "vagy lépjen kapcsolatba velünk közvetlenül",
+    "whatsapp_link": "WhatsApp"
+  }
+}

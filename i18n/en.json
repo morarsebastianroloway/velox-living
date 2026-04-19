@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "properties": "Properties",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Property Management · Transylvania",
+    "headline": "Distance Shouldn't Define Your Property's Quality.",
+    "subheadline": "Expert property management in Transylvania for remote owners and global investors.",
+    "cta_primary": "Schedule a Free Consultation",
+    "cta_secondary": "Chat on WhatsApp"
+  },
+  "services": {
+    "eyebrow": "What We Do",
+    "heading": "End-to-End Property Management",
+    "subheading": "We handle every detail so you don't have to. From finding tenants to fixing leaks — we're your eyes and ears on the ground.",
+    "card1_title": "Marketing & Tenant Screening",
+    "card1_desc": "Professional listings, photography, and rigorous vetting to find reliable, long-term tenants.",
+    "card2_title": "Admin & Legal",
+    "card2_desc": "Contract drafting, rent collection, and full compliance with Romanian property law.",
+    "card3_title": "Maintenance & Renovations",
+    "card3_desc": "Coordinating everything from minor repairs to full renovations with trusted local contractors.",
+    "card4_title": "Bill Payments & Utilities",
+    "card4_desc": "We handle utility bills, taxes, and all local payments on your behalf — on time, every time."
+  },
+  "trust": {
+    "tagline": "Fully serviced in <strong>English, Romanian, Hungarian & Spanish</strong>",
+    "en": "English",
+    "ro": "Romanian",
+    "hu": "Hungarian",
+    "es": "Spanish"
+  },
+  "why": {
+    "eyebrow": "Why Velox Living",
+    "heading": "We Handle the What-ifs and the Late-Night Calls.",
+    "subheading": "Owning property remotely shouldn't be stressful. Our family-run team is always on the ground, always reachable.",
+    "bullet1_title": "24/7 Emergency Response",
+    "bullet1_desc": "Something breaks at midnight? We're on it. Your tenants always have someone to call.",
+    "bullet2_title": "Your Eyes on the Ground",
+    "bullet2_desc": "Regular inspections, photo reports, and transparent communication. You'll always know the state of your property.",
+    "bullet3_title": "Hassle-Free, End-to-End",
+    "bullet3_desc": "From the first listing to the final bill — we manage everything so you can focus on life.",
+    "badge_strong": "Family-Run Since Day One",
+    "badge_sub": "Professional, personal, and trusted",
+    "cta": "Message Us on WhatsApp"
+  },
+  "footer": {
+    "tagline": "Your eyes and ears on the ground in Târgu Mureș, Transylvania.",
+    "links_heading": "Quick Links",
+    "contact_heading": "Get in Touch",
+    "copyright": "© 2025 Velox Living. All rights reserved.",
+    "made_with": "Made with ❤️ in Transylvania"
+  },
+  "property": {
+    "for_rent": "For Rent",
+    "for_sale": "For Sale",
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathrooms",
+    "area": "Area",
+    "floor": "Floor",
+    "description": "Description",
+    "amenities": "Amenities",
+    "location": "Location",
+    "book_viewing": "Book a Viewing",
+    "widget_sub": "Fill in the form and we'll get back to you within 24 hours.",
+    "field_name": "Your Name",
+    "field_email": "Email Address",
+    "field_phone": "Phone Number",
+    "field_message": "Message",
+    "field_message_placeholder": "I'm interested in this property...",
+    "submit_btn": "Send Inquiry",
+    "or_whatsapp": "or contact us directly on",
+    "whatsapp_link": "WhatsApp"
+  }
+}

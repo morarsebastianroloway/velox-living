@@ -869,15 +869,31 @@ p { line-height: 1.75; }
   .nav-links { display: none; }
   .nav-hamburger { display: flex; }
 
-  /* Lang switcher stays visible on mobile — flags only, no text */
+  /* Tighten nav bar for mobile */
+  .nav-inner {
+    gap: 8px;
+  }
+
+  .nav-logo-text {
+    font-size: 1rem;
+  }
+
+  /* Lang switcher: flags only, no text — fits in mobile bar */
   .lang-switcher {
     display: flex;
     gap: 2px;
+    flex-shrink: 0;
   }
 
   .lang-btn {
-    padding: 4px 6px;
-    font-size: 0.72rem;
+    padding: 4px 5px;
+    font-size: 1rem;     /* flag emoji only */
+    letter-spacing: 0;
+  }
+
+  /* Hide the text label, keep only the flag emoji */
+  .lang-btn .lang-label {
+    display: none;
   }
 
   /* Hero */

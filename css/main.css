@@ -396,16 +396,7 @@ p { line-height: 1.75; }
 }
 
 .nav-drawer .lang-switcher {
-  padding-top: 8px;
-}
-
-.nav-drawer .lang-btn {
-  color: var(--color-slate);
-}
-.nav-drawer .lang-btn.active,
-.nav-drawer .lang-btn:hover {
-  color: var(--color-navy);
-  background: var(--color-offwhite);
+  display: none; /* now shown in nav bar on mobile instead */
 }
 
 /* ==============================================
@@ -875,8 +866,19 @@ p { line-height: 1.75; }
   }
 
   /* Nav */
-  .nav-links, .lang-switcher { display: none; }
+  .nav-links { display: none; }
   .nav-hamburger { display: flex; }
+
+  /* Lang switcher stays visible on mobile — flags only, no text */
+  .lang-switcher {
+    display: flex;
+    gap: 2px;
+  }
+
+  .lang-btn {
+    padding: 4px 6px;
+    font-size: 0.72rem;
+  }
 
   /* Hero */
   .hero-content { padding: 100px 0 60px; }

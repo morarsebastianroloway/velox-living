@@ -396,7 +396,27 @@ p { line-height: 1.75; }
 }
 
 .nav-drawer .lang-switcher {
-  display: none; /* now shown in nav bar on mobile instead */
+  display: flex;
+  padding-top: 8px;
+  gap: 8px;
+}
+
+.nav-drawer .lang-btn {
+  flex: 1;
+  text-align: center;
+  padding: 8px 4px;
+  border-radius: var(--radius-sm);
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--color-slate);
+  border: 1.5px solid var(--color-border);
+}
+
+.nav-drawer .lang-btn.active,
+.nav-drawer .lang-btn:hover {
+  color: var(--color-navy);
+  background: var(--color-offwhite);
+  border-color: var(--color-green);
 }
 
 /* ==============================================
@@ -867,34 +887,8 @@ p { line-height: 1.75; }
 
   /* Nav */
   .nav-links { display: none; }
+  .lang-switcher { display: none; }
   .nav-hamburger { display: flex; }
-
-  /* Tighten nav bar for mobile */
-  .nav-inner {
-    gap: 8px;
-  }
-
-  .nav-logo-text {
-    font-size: 1rem;
-  }
-
-  /* Lang switcher: flags only, no text — fits in mobile bar */
-  .lang-switcher {
-    display: flex;
-    gap: 2px;
-    flex-shrink: 0;
-  }
-
-  .lang-btn {
-    padding: 4px 5px;
-    font-size: 1rem;     /* flag emoji only */
-    letter-spacing: 0;
-  }
-
-  /* Hide the text label, keep only the flag emoji */
-  .lang-btn .lang-label {
-    display: none;
-  }
 
   /* Hero */
   .hero-content { padding: 100px 0 60px; }

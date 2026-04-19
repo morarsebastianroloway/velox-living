@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "properties": "Propiedades",
+    "services": "Servicios",
+    "about": "Nosotros",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "eyebrow": "Gestión Inmobiliaria · Transilvania",
+    "headline": "La distancia no debería definir la calidad de tu propiedad.",
+    "subheadline": "Gestión inmobiliaria experta en Transilvania para propietarios remotos e inversores globales.",
+    "cta_primary": "Agenda una Consulta Gratuita",
+    "cta_secondary": "Escríbenos por WhatsApp"
+  },
+  "services": {
+    "eyebrow": "Lo que hacemos",
+    "heading": "Gestión Inmobiliaria Integral",
+    "subheading": "Nos encargamos de cada detalle para que tú no tengas que hacerlo. Desde encontrar inquilinos hasta reparar averías — somos tus ojos y oídos en el terreno.",
+    "card1_title": "Marketing & Selección de Inquilinos",
+    "card1_desc": "Anuncios profesionales, fotografías y verificación rigurosa para encontrar inquilinos confiables a largo plazo.",
+    "card2_title": "Administración & Legal",
+    "card2_desc": "Redacción de contratos, cobro de alquiler y pleno cumplimiento de la legislación inmobiliaria rumana.",
+    "card3_title": "Mantenimiento & Reformas",
+    "card3_desc": "Coordinamos todo, desde reparaciones menores hasta reformas completas, con contratistas locales de confianza.",
+    "card4_title": "Pago de Facturas & Suministros",
+    "card4_desc": "Gestionamos facturas de servicios, impuestos y pagos locales en tu nombre — a tiempo, siempre."
+  },
+  "trust": {
+    "tagline": "Servicio completo en <strong>inglés, rumano, húngaro y español</strong>",
+    "en": "Inglés",
+    "ro": "Rumano",
+    "hu": "Húngaro",
+    "es": "Español"
+  },
+  "why": {
+    "eyebrow": "Por qué Velox Living",
+    "heading": "Nos encargamos de los imprevistos y las llamadas de madrugada.",
+    "subheading": "Tener una propiedad a distancia no tiene por qué ser estresante. Nuestro equipo familiar siempre está en el terreno, siempre disponible.",
+    "bullet1_title": "Respuesta de Emergencia 24/7",
+    "bullet1_desc": "¿Algo se rompe a medianoche? Lo resolvemos. Tus inquilinos siempre tienen a alguien a quien llamar.",
+    "bullet2_title": "Tus Ojos en el Terreno",
+    "bullet2_desc": "Inspecciones periódicas, informes fotográficos y comunicación transparente. Siempre sabrás el estado de tu propiedad.",
+    "bullet3_title": "Sin Complicaciones, de A a Z",
+    "bullet3_desc": "Desde el primer anuncio hasta la última factura — lo gestionamos todo para que puedas concentrarte en tu vida.",
+    "badge_strong": "Empresa Familiar desde el Primer Día",
+    "badge_sub": "Profesional, personal y de confianza",
+    "cta": "Escríbenos por WhatsApp"
+  },
+  "footer": {
+    "tagline": "Tus ojos y oídos en Târgu Mureș, Transilvania.",
+    "links_heading": "Enlaces Rápidos",
+    "contact_heading": "Contáctanos",
+    "copyright": "© 2025 Velox Living. Todos los derechos reservados.",
+    "made_with": "Hecho con ❤️ en Transilvania"
+  },
+  "property": {
+    "for_rent": "En Alquiler",
+    "for_sale": "En Venta",
+    "bedrooms": "Habitaciones",
+    "bathrooms": "Baños",
+    "area": "Superficie",
+    "floor": "Planta",
+    "description": "Descripción",
+    "amenities": "Comodidades",
+    "location": "Ubicación",
+    "book_viewing": "Reservar Visita",
+    "widget_sub": "Rellena el formulario y te contactaremos en 24 horas.",
+    "field_name": "Tu Nombre",
+    "field_email": "Correo Electrónico",
+    "field_phone": "Número de Teléfono",
+    "field_message": "Mensaje",
+    "field_message_placeholder": "Me interesa esta propiedad...",
+    "submit_btn": "Enviar Consulta",
+    "or_whatsapp": "o contáctanos directamente por",
+    "whatsapp_link": "WhatsApp"
+  }
+}

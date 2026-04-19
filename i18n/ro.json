@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "properties": "Proprietăți",
+    "services": "Servicii",
+    "about": "Despre noi",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Management Imobiliar · Transilvania",
+    "headline": "Distanța nu ar trebui să definească calitatea proprietății tale.",
+    "subheadline": "Management imobiliar expert în Transilvania pentru proprietari la distanță și investitori globali.",
+    "cta_primary": "Programează o Consultație Gratuită",
+    "cta_secondary": "Scrie-ne pe WhatsApp"
+  },
+  "services": {
+    "eyebrow": "Ce facem",
+    "heading": "Management Imobiliar Complet",
+    "subheading": "Ne ocupăm de fiecare detaliu pentru tine. De la găsirea chiriașilor la reparații — suntem ochii și urechile tale pe teren.",
+    "card1_title": "Marketing & Selecție Chiriași",
+    "card1_desc": "Anunțuri profesionale, fotografii și verificare riguroasă pentru a găsi chiriași de încredere.",
+    "card2_title": "Administrare & Legal",
+    "card2_desc": "Redactare contracte, colectare chirie și conformitate cu legislația imobiliară română.",
+    "card3_title": "Mentenanță & Renovări",
+    "card3_desc": "Coordonăm totul, de la reparații minore la renovări complete, cu meșteri locali de încredere.",
+    "card4_title": "Plata Facturilor & Utilități",
+    "card4_desc": "Ne ocupăm de facturi, taxe și plăți locale în numele tău — la timp, de fiecare dată."
+  },
+  "trust": {
+    "tagline": "Servicii complete în <strong>Engleză, Română, Maghiară și Spaniolă</strong>",
+    "en": "Engleză",
+    "ro": "Română",
+    "hu": "Maghiară",
+    "es": "Spaniolă"
+  },
+  "why": {
+    "eyebrow": "De ce Velox Living",
+    "heading": "Noi gestionăm situațiile neprevăzute și apelurile de noapte.",
+    "subheading": "A deține o proprietate de la distanță nu trebuie să fie stresant. Echipa noastră de familie este mereu pe teren, mereu disponibilă.",
+    "bullet1_title": "Răspuns de Urgență 24/7",
+    "bullet1_desc": "Se strică ceva la miezul nopții? Suntem acolo. Chiriașii tăi au mereu pe cineva la care să sune.",
+    "bullet2_title": "Ochii tăi pe Teren",
+    "bullet2_desc": "Inspecții regulate, rapoarte foto și comunicare transparentă. Vei ști mereu starea proprietății.",
+    "bullet3_title": "Fără Bătăi de Cap, de la A la Z",
+    "bullet3_desc": "De la primul anunț până la ultima factură — gestionăm totul pentru ca tu să te poți concentra pe viața ta.",
+    "badge_strong": "Afacere de Familie",
+    "badge_sub": "Profesioniști, personali și de încredere",
+    "cta": "Scrie-ne pe WhatsApp"
+  },
+  "footer": {
+    "tagline": "Ochii și urechile tale pe teren în Târgu Mureș, Transilvania.",
+    "links_heading": "Linkuri Rapide",
+    "contact_heading": "Contactează-ne",
+    "copyright": "© 2025 Velox Living. Toate drepturile rezervate.",
+    "made_with": "Făcut cu ❤️ în Transilvania"
+  },
+  "property": {
+    "for_rent": "De Închiriat",
+    "for_sale": "De Vânzare",
+    "bedrooms": "Dormitoare",
+    "bathrooms": "Băi",
+    "area": "Suprafață",
+    "floor": "Etaj",
+    "description": "Descriere",
+    "amenities": "Facilități",
+    "location": "Locație",
+    "book_viewing": "Programează o Vizionare",
+    "widget_sub": "Completează formularul și te vom contacta în 24 de ore.",
+    "field_name": "Numele tău",
+    "field_email": "Adresă de email",
+    "field_phone": "Număr de telefon",
+    "field_message": "Mesaj",
+    "field_message_placeholder": "Sunt interesat de această proprietate...",
+    "submit_btn": "Trimite Cererea",
+    "or_whatsapp": "sau contactează-ne direct pe",
+    "whatsapp_link": "WhatsApp"
+  }
+}

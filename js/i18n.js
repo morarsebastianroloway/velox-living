@@ -92,7 +92,15 @@ function setLang(lang) {
 document.addEventListener('DOMContentLoaded', () => {
   // Lang option click handlers
   document.querySelectorAll('.lang-btn').forEach(btn => {
-    btn.addEventListener('click', () => setLang(btn.dataset.lang));
+    btn.addEventListener('click', () => {
+      setLang(btn.dataset.lang);
+      if (btn.closest('.drawer-lang')) {
+        const drawer = document.getElementById('nav-drawer');
+        const hamburger = document.getElementById('nav-hamburger');
+        if (drawer) drawer.classList.remove('open');
+        if (hamburger) hamburger.setAttribute('aria-expanded', 'false');
+      }
+    });
     btn.classList.toggle('active', btn.dataset.lang === currentLang);
   });
 

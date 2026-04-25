@@ -53,6 +53,15 @@
     "copyright": "© 2025 Velox Living. All rights reserved.",
     "made_with": "Made with ❤️ in Transylvania"
   },
+  "properties": {
+    "eyebrow": "Our Properties",
+    "heading": "Featured Listings in Târgu Mureș",
+    "subheading": "Premium apartments available for rent, professionally managed by Velox Living.",
+    "per_month": "/month",
+    "card1_title": "Modern 2-Bedroom Apartment",
+    "card2_title": "Luxury 3-Bedroom Penthouse",
+    "card3_title": "Contemporary Studio — City View"
+  },
   "property": {
     "for_rent": "For Rent",
     "for_sale": "For Sale",

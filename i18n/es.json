@@ -53,6 +53,15 @@
     "copyright": "© 2025 Velox Living. Todos los derechos reservados.",
     "made_with": "Hecho con ❤️ en Transilvania"
   },
+  "properties": {
+    "eyebrow": "Nuestras Propiedades",
+    "heading": "Anuncios Destacados en Târgu Mureș",
+    "subheading": "Apartamentos premium disponibles para alquiler, gestionados profesionalmente por Velox Living.",
+    "per_month": "/mes",
+    "card1_title": "Apartamento Moderno de 2 Habitaciones",
+    "card2_title": "Penthouse de Lujo con 3 Habitaciones",
+    "card3_title": "Estudio Contemporáneo — Vista a la Ciudad"
+  },
   "property": {
     "for_rent": "En Alquiler",
     "for_sale": "En Venta",

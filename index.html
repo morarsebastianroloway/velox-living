@@ -54,10 +54,16 @@
 
         <!-- Language Switcher (desktop) -->
         <div class="lang-switcher" aria-label="Language selector">
-          <button class="lang-btn active" data-lang="en" title="English">🇬🇧 EN</button>
-          <button class="lang-btn" data-lang="ro" title="Română">🇷🇴 RO</button>
-          <button class="lang-btn" data-lang="hu" title="Magyar">🇭🇺 HU</button>
-          <button class="lang-btn" data-lang="es" title="Español">🇪🇸 ES</button>
+          <button class="lang-trigger" aria-haspopup="listbox" aria-expanded="false">
+            <img src="assets/flags/en.svg" alt="English" class="flag-icon lang-current-flag">
+            <svg class="lang-chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="lang-menu" role="listbox">
+            <button class="lang-btn active" data-lang="en" role="option" title="English"><img src="assets/flags/en.svg" alt="" class="flag-icon"><span>EN</span></button>
+            <button class="lang-btn" data-lang="ro" role="option" title="Română"><img src="assets/flags/ro.svg" alt="" class="flag-icon"><span>RO</span></button>
+            <button class="lang-btn" data-lang="hu" role="option" title="Magyar"><img src="assets/flags/hu.svg" alt="" class="flag-icon"><span>HU</span></button>
+            <button class="lang-btn" data-lang="es" role="option" title="Español"><img src="assets/flags/es.svg" alt="" class="flag-icon"><span>ES</span></button>
+          </div>
         </div>
 
         <!-- Hamburger -->
@@ -77,11 +83,11 @@
     <a href="#services" data-i18n="nav.services">Services</a>
     <a href="#why-velox" data-i18n="nav.about">About</a>
     <a href="#footer" data-i18n="nav.contact">Contact</a>
-    <div class="lang-switcher">
-      <button class="lang-btn active" data-lang="en">🇬🇧 EN</button>
-      <button class="lang-btn" data-lang="ro">🇷🇴 RO</button>
-      <button class="lang-btn" data-lang="hu">🇭🇺 HU</button>
-      <button class="lang-btn" data-lang="es">🇪🇸 ES</button>
+    <div class="lang-switcher drawer-lang">
+      <button class="lang-btn active" data-lang="en" title="English"><img src="assets/flags/en.svg" alt="English" class="flag-icon"></button>
+      <button class="lang-btn" data-lang="ro" title="Română"><img src="assets/flags/ro.svg" alt="Română" class="flag-icon"></button>
+      <button class="lang-btn" data-lang="hu" title="Magyar"><img src="assets/flags/hu.svg" alt="Magyar" class="flag-icon"></button>
+      <button class="lang-btn" data-lang="es" title="Español"><img src="assets/flags/es.svg" alt="Español" class="flag-icon"></button>
     </div>
   </div>
 

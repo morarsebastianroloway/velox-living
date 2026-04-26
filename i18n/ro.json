@@ -62,6 +62,24 @@
     "desc_p3": "Ambele dormitoare sunt bine proporționate, cu dulapuri încorporate și finisaje confortabile. Baia a fost recent modernizată cu duș walk-in, port-prosop încălzit și dotări premium.",
     "desc_p4": "Gestionat de Velox Living, acest apartament beneficiază de un management profesional 24/7 — întreținerea curentă este realizată proactiv, utilitățile sunt gestionate în numele dvs., iar clădirea este menținută la un standard excelent."
   },
+  "prop2": {
+    "title": "Penthouse de Lux cu 3 Camere",
+    "location": "Cornișa, Târgu Mureș",
+    "desc_heading": "Penthouse de Lux cu 3 Camere în Cornișa, Târgu Mureș",
+    "desc_p1": "Bun venit în acest penthouse spectaculos cu 3 camere, amplasat la etajul superior al unuia dintre cele mai căutate imobile din Cornișa, cu vedere panoramică impresionantă asupra Târgu Mureșului. Finisaje la cel mai înalt standard, această proprietate redefinește luxul în Transilvania.",
+    "desc_p2": "Vasta zonă de living în concept deschis dispune de ferestre de la podea la tavan care inundă spațiul cu lumină naturală și încadrează vederi panoramice. O bucătărie de design cu electrocasnice premium, blaturi din quartz și o insulă generoasă face din primirea oaspeților o plăcere.",
+    "desc_p3": "Cele trei dormitoare spațioase dispun fiecare de dulapuri încorporate și lumină naturală abundentă. Cele două băi sunt finisate cu gresie efect marmură, blaturi duble și o cadă independentă în baia principală.",
+    "desc_p4": "Gestionat de Velox Living, acest penthouse de prestigiu beneficiază de management profesional 24/7 — fiecare detaliu este menținut impecabil pentru ca dvs. să vă bucurați de un stil de viață elevat, fără bătăi de cap."
+  },
+  "prop3": {
+    "title": "Studio Contemporan — Vedere la Oraș",
+    "location": "Tudor, Târgu Mureș",
+    "desc_heading": "Studio Contemporan cu Vedere Panoramică la Oraș — Tudor, Târgu Mureș",
+    "desc_p1": "Bun venit în acest studio contemporan și elegant, situat în cartierul Tudor din Târgu Mureș, cu vedere panoramică la oraș din poziția sa elevată. Conceput cu grijă pentru a maximiza fiecare metru pătrat, acesta este locuința ideală pentru un singur profesionist sau un cuplu.",
+    "desc_p2": "Zona de zi și de dormit în concept deschis este inteligent organizată cu mobilier modern și soluții de depozitare inteligente, creând un spațiu confortabil și funcțional. Ferestrele mari aduc lumină naturală abundentă pe parcursul întregii zile, înrămând skyline-ul orașului.",
+    "desc_p3": "O bucătărie compactă, complet utilată, și o baie stilată, renovată recent, cu duș walk-in completează distribuția. Fiecare element a fost selectat cu grijă pentru calitate și aspect estetic.",
+    "desc_p4": "Gestionat de Velox Living, acest studio cu întreținere redusă beneficiază de management imobiliar profesional 24/7 — utilitățile, întreținerea și îngrijirea clădirii sunt gestionate în numele dvs., oferind o experiență de închiriere cu adevărat fără griji."
+  },
   "properties": {
     "eyebrow": "Proprietățile noastre",
     "heading": "Anunțuri Recomandate în Târgu Mureș",

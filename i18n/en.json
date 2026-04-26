@@ -62,6 +62,24 @@
     "desc_p3": "Both bedrooms are well-proportioned, with built-in wardrobes and comfortable finishes. The bathroom has been recently modernised with a walk-in shower, heated towel rail, and premium fittings.",
     "desc_p4": "Managed by Velox Living, this property benefits from professional, 24/7 management — routine maintenance is handled proactively, utilities are managed on your behalf, and the building is maintained to an excellent standard."
   },
+  "prop2": {
+    "title": "Luxury 3-Bedroom Penthouse",
+    "location": "Cornișa, Târgu Mureș",
+    "desc_heading": "Luxury 3-Bedroom Penthouse in Cornișa, Târgu Mureș",
+    "desc_p1": "Welcome to this stunning 3-bedroom penthouse perched atop one of Cornișa's most sought-after buildings, offering breathtaking views over Târgu Mureș. Finished to the highest standard, this expansive property redefines luxury living in Transylvania.",
+    "desc_p2": "The spacious open-plan living area features floor-to-ceiling windows that flood the space with natural light and frame panoramic city views. A bespoke kitchen with premium appliances, quartz countertops, and a large island makes entertaining effortless.",
+    "desc_p3": "Three generously sized bedrooms each offer built-in wardrobes and ample natural light. The two bathrooms are finished with marble-effect tiles, double vanities, and a freestanding bath in the master en-suite.",
+    "desc_p4": "Managed by Velox Living, this prestigious penthouse benefits from professional, 24/7 management — ensuring every detail is maintained impeccably so you can enjoy an elevated lifestyle without the hassle."
+  },
+  "prop3": {
+    "title": "Contemporary Studio — City View",
+    "location": "Tudor, Târgu Mureș",
+    "desc_heading": "Contemporary Studio with Panoramic City Views — Tudor, Târgu Mureș",
+    "desc_p1": "Welcome to this sleek, contemporary studio apartment in the Tudor neighbourhood of Târgu Mureș, offering stunning panoramic city views from its elevated position. Thoughtfully designed to maximise every square metre, this is the ideal home for a single professional or couple.",
+    "desc_p2": "The open living and sleeping area is cleverly zoned with modern furniture and smart storage solutions, creating a comfortable and functional space. Large windows invite abundant natural light throughout the day while framing the city skyline.",
+    "desc_p3": "A fully equipped compact kitchen and a stylishly renovated bathroom with walk-in shower complete the layout. Every fixture and fitting has been carefully selected for both quality and aesthetic appeal.",
+    "desc_p4": "Managed by Velox Living, this low-maintenance studio benefits from professional, 24/7 property management — utilities, maintenance, and building upkeep are all handled on your behalf, making it a truly hassle-free rental experience."
+  },
   "properties": {
     "eyebrow": "Our Properties",
     "heading": "Featured Listings in Târgu Mureș",

@@ -62,6 +62,24 @@
     "desc_p3": "Mindkét hálószoba jól arányos, beépített szekrényekkel és kényelmes kivitelezéssel. A fürdőszoba nemrégiben megújult walk-in zuhannyal, fűtött törölközőtartóval és prémium felszerelésekkel.",
     "desc_p4": "A Velox Living által kezelt ingatlan professzionális, 24/7-es menedzsmentből profitál — a rutinszerű karbantartást proaktívan végzik, a közüzemi számlákat az Ön nevében intézik, és az épületet kiváló színvonalon tartják karban."
   },
+  "prop2": {
+    "title": "Luxus 3 Szobás Tetőlakás",
+    "location": "Cornișa, Marosvásárhely",
+    "desc_heading": "Luxus 3 Szobás Tetőlakás a Cornișán, Marosvásárhelyen",
+    "desc_p1": "Üdvözöljük ebben a lenyűgöző 3 szobás tetőlakásban, amely a Cornișa egyik legjobb épületének tetején helyezkedik el, lélegzetelállító panorámával Marosvásárhelyre. A legmagasabb minőségű kivitelezéssel elkészült ingatlan újraértelmezi az erdélyi luxuslakhatást.",
+    "desc_p2": "A tágas, nyílt alaprajzú nappali padlótól mennyezetig érő ablakokkal rendelkezik, amelyek természetes fénnyel árasztják el a teret és panorámakilátást kínálnak a városra. A prémium készülékekkel felszerelt egyedi konyha kvarclap-felülettel és nagy konyhaszigetttel teszi az vendéglátást könnyűvé.",
+    "desc_p3": "A három tágas hálószoba mindegyike beépített szekrényekkel és bőséges természetes fénnyel rendelkezik. A két fürdőszoba márvány hatású csempével, dupla mosdóval és különálló káddal van kialakítva a főhálóban.",
+    "desc_p4": "A Velox Living által kezelt presztízslakás professzionális, 24/7-es menedzsmentből profitál — minden részletet gondosan tartanak karban, hogy Ön gondtalanul élvezhesse a magasabb életszínvonalat."
+  },
+  "prop3": {
+    "title": "Modern Stúdió — Városra Néző",
+    "location": "Tudor negyed, Marosvásárhely",
+    "desc_heading": "Modern Stúdió Panorámás Városkilátással — Tudor negyed, Marosvásárhely",
+    "desc_p1": "Üdvözöljük ebben az elegáns, kortárs stúdió lakásban Marosvásárhely Tudor negyedében, amely emelt pozíciójából lenyűgöző panorámakilátást kínál a városra. Gondosan tervezve minden négyzetméter maximalizálása érdekében, ez az ideális otthon egyedülálló szakemberek vagy párok számára.",
+    "desc_p2": "A nyílt nappali és hálózóna modern bútorokkal és okos tárolási megoldásokkal ügyesen tagolt, kényelmes és funkcionális teret teremtve. A nagy ablakok egész nap bőséges természetes fényt engednek be, miközben a városi panorámát keretbe foglalják.",
+    "desc_p3": "Egy teljesen felszerelt kompakt konyha és egy stílusosan felújított fürdőszoba walk-in zuhannyal egészíti ki az elrendezést. Minden berendezési tárgyat gondosan választottak ki minőség és esztétikai vonzerő szempontjából.",
+    "desc_p4": "A Velox Living által kezelt, kis karbantartást igénylő stúdió professzionális, 24/7-es ingatlankezelésből profitál — a közüzemi díjakat, karbantartást és az épület gondozását mind az Ön nevében intézik, így valóban gondtalan bérlési élményt nyújtva."
+  },
   "properties": {
     "eyebrow": "Ingatlanaink",
     "heading": "Kiemelt Hirdetések Marosvásárhelyen",

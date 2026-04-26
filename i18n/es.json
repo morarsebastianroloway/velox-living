@@ -62,6 +62,24 @@
     "desc_p3": "Ambas habitaciones son bien proporcionadas, con armarios empotrados y acabados cómodos. El baño ha sido modernizado recientemente con ducha a ras de suelo, toallero calefactado y accesorios premium.",
     "desc_p4": "Gestionado por Velox Living, esta propiedad se beneficia de una gestión profesional 24/7 — el mantenimiento rutinario se realiza de forma proactiva, los servicios públicos se gestionan en su nombre y el edificio se mantiene con un estándar excelente."
   },
+  "prop2": {
+    "title": "Penthouse de Lujo con 3 Habitaciones",
+    "location": "Cornișa, Târgu Mureș",
+    "desc_heading": "Penthouse de Lujo con 3 Habitaciones en Cornișa, Târgu Mureș",
+    "desc_p1": "Bienvenido a este impresionante penthouse de 3 habitaciones situado en lo alto de uno de los edificios más codiciados de Cornișa, con vistas impresionantes sobre Târgu Mureș. Terminado con los más altos estándares, esta amplia propiedad redefine el lujo en Transilvania.",
+    "desc_p2": "La amplia zona de estar de planta abierta cuenta con ventanas de suelo a techo que inundan el espacio de luz natural y enmarcan vistas panorámicas de la ciudad. Una cocina a medida con electrodomésticos premium, encimeras de cuarzo y una gran isla hace que recibir invitados sea un placer.",
+    "desc_p3": "Cada uno de los tres amplios dormitorios cuenta con armarios empotrados y abundante luz natural. Los dos baños están acabados con azulejos efecto mármol, dobles lavabos y una bañera exenta en el baño principal.",
+    "desc_p4": "Gestionado por Velox Living, este prestigioso penthouse se beneficia de una gestión profesional 24/7 — cada detalle se mantiene impecablemente para que pueda disfrutar de un estilo de vida elevado sin complicaciones."
+  },
+  "prop3": {
+    "title": "Estudio Contemporáneo — Vista a la Ciudad",
+    "location": "Tudor, Târgu Mureș",
+    "desc_heading": "Estudio Contemporáneo con Vistas Panorámicas a la Ciudad — Tudor, Târgu Mureș",
+    "desc_p1": "Bienvenido a este elegante y contemporáneo estudio situado en el barrio Tudor de Târgu Mureș, que ofrece impresionantes vistas panorámicas a la ciudad desde su posición elevada. Diseñado cuidadosamente para maximizar cada metro cuadrado, es el hogar ideal para un profesional individual o una pareja.",
+    "desc_p2": "La zona de estar y dormitorio abierta está inteligentemente zonificada con muebles modernos y soluciones de almacenamiento inteligentes, creando un espacio cómodo y funcional. Las grandes ventanas invitan a la abundante luz natural durante todo el día mientras enmarcan el horizonte de la ciudad.",
+    "desc_p3": "Una cocina compacta totalmente equipada y un baño estiloso recientemente renovado con ducha a ras de suelo completan la distribución. Cada elemento ha sido cuidadosamente seleccionado por su calidad y atractivo estético.",
+    "desc_p4": "Gestionado por Velox Living, este estudio de bajo mantenimiento se beneficia de una gestión inmobiliaria profesional 24/7 — los servicios públicos, el mantenimiento y el cuidado del edificio se gestionan en su nombre, proporcionando una experiencia de alquiler verdaderamente sin complicaciones."
+  },
   "properties": {
     "eyebrow": "Nuestras Propiedades",
     "heading": "Anuncios Destacados en Târgu Mureș",

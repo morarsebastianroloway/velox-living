@@ -7,8 +7,8 @@
   },
   "hero": {
     "eyebrow": "Gestión Inmobiliaria · Transilvania",
-    "headline": "La distancia no debería definir la calidad de tu propiedad.",
-    "subheadline": "Gestión inmobiliaria experta en Transilvania para propietarios remotos e inversores globales.",
+    "headline": "La distancia no debería definir la calidad de tu propiedad",
+    "subheadline": "Gestión inmobiliaria experta en Transilvania para propietarios remotos e inversores globales",
     "cta_primary": "Agenda una Consulta Gratuita",
     "cta_secondary": "Escríbenos por WhatsApp"
   },
@@ -47,7 +47,7 @@
     "cta": "Escríbenos por WhatsApp"
   },
   "footer": {
-    "tagline": "Tus ojos y oídos en Târgu Mureș, Transilvania.",
+    "tagline": "Estamos aquí para că tú puedas estar en cualquier lugar",
     "links_heading": "Enlaces Rápidos",
     "contact_heading": "Contáctanos",
     "copyright": "© 2025 Velox Living. Todos los derechos reservados.",
@@ -68,7 +68,7 @@
   "prop2": {
     "title": "Apartamento coqueto en la zona Radio",
     "location": "Zona Radio, Târgu Mureș",
-    "floor": "3",
+    "floor": "3.º",
     "desc_heading": "Apartamento coqueto en la zona Radio, Târgu Mureș",
     "desc_p1": "El apartamento está en la zona Radio, situado en el piso 3 de 4, y está equipado con muebles de cocina a medida, horno eléctrico, lavavajillas, campana extractora, frigorífico con congelador independiente, fregadero, placa de inducción y caldera individual. Independiente de la cocina, también hay un comedor con mesa y 4 sillas.",
     "desc_p2": "En el salón se encuentra mobiliario de estilo minimalista, así como un armario. El salón también dispone de sistema de aire acondicionado. Desde el salón se accede al balcón. El balcón tiene vistas hacia la zona Radio y cuenta con mobiliario para el relax.",
@@ -78,23 +78,22 @@
     "desc_p6": ""
   },
   "prop3": {
-    "title": "Estudio Contemporáneo — Vista a la Ciudad",
+    "title": "Apartamento moderno cerca de escuela y parque",
     "location": "Tudor, Târgu Mureș",
-    "floor": "6.º",
-    "desc_heading": "Estudio Contemporáneo con Vistas Panorámicas a la Ciudad — Tudor, Târgu Mureș",
-    "desc_p1": "Bienvenido a este elegante y contemporáneo estudio situado en el barrio Tudor de Târgu Mureș, que ofrece impresionantes vistas panorámicas a la ciudad desde su posición elevada. Diseñado cuidadosamente para maximizar cada metro cuadrado, es el hogar ideal para un profesional individual o una pareja.",
-    "desc_p2": "La zona de estar y dormitorio abierta está inteligentemente zonificada con muebles modernos y soluciones de almacenamiento inteligentes, creando un espacio cómodo y funcional. Las grandes ventanas invitan a la abundante luz natural durante todo el día mientras enmarcan el horizonte de la ciudad.",
-    "desc_p3": "Una cocina compacta totalmente equipada y un baño estiloso recientemente renovado con ducha a ras de suelo completan la distribución. Cada elemento ha sido cuidadosamente seleccionado por su calidad y atractivo estético.",
-    "desc_p4": "Gestionado por Velox Living, este estudio de bajo mantenimiento se beneficia de una gestión inmobiliaria profesional 24/7 — los servicios públicos, el mantenimiento y el cuidado del edificio se gestionan en su nombre, proporcionando una experiencia de alquiler verdaderamente sin complicaciones."
+    "floor": "2.º",
+    "desc_heading": "Apartamento moderno cerca de escuela y parque",
+    "desc_p1": "Este apartamento de 2 habitaciones se encuentra en la calle Rodniciei de Târgu Mureș, muy cerca de la escuela, el parque, el mercado y las tiendas, pero a la vez retirado y lejos del tráfico. Está situado en la segunda planta de un edificio de 4 pisos, recién renovado por dentro.",
+    "desc_p2": "En la cocina encontrará muebles a medida, horno eléctrico, lavavajillas, campana extractora, frigorífico con congelador independiente, fregadero, placa de inducción y una zona de comedor con una mesa elegante y 4 sillas cómodas.",
+    "desc_p3": "El dormitorio cuenta con una cama doble, dos mesitas de noche y un amplio armario con barra para perchas, estantes y cajones. El salón, decorado con un estilo minimalista, dispone de un armario y un sofá cama.",
+    "desc_p4": "La entrada al balcón se realiza desde el salón. El balcón está amueblado para ofrecerle un espacio perfecto para el relax.",
+    "desc_p5": "El equipamiento también incluye una lavadora-secadora ubicada en el trastero. El trastero está acondicionado especialmente para el almacenamiento de artículos de limpieza, tabla de planchar, etc.",
+    "desc_p6": "La entrada está provista de interfono. El recibidor tiene un perchero y cuenta con espacio para zapatos en la base. En el dormitorio y el salón, la conexión de televisión por cable e internet está garantizada a través de instalaciones integradas en la pared, conectadas al router del pasillo."
   },
   "properties": {
     "eyebrow": "Nuestras Propiedades",
     "heading": "Anuncios Destacados en Târgu Mureș",
     "subheading": "Apartamentos premium disponibles para alquiler, gestionados profesionalmente por Velox Living.",
-    "per_month": "/mes",
-    "card1_title": "Apartamento de 2 habitaciones con vistas panorámicas al Tudor",
-    "card2_title": "Penthouse de Lujo con 3 Habitaciones",
-    "card3_title": "Estudio Contemporáneo — Vista a la Ciudad"
+    "per_month": "/mes"
   },
   "property": {
     "per_mo": "/mes",

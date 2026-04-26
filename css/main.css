@@ -231,7 +231,7 @@ p { line-height: 1.75; }
 }
 
 #navbar.transparent {
-  background: transparent;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.45) 0%, transparent 100%);
 }
 
 #navbar.scrolled {
@@ -257,8 +257,9 @@ p { line-height: 1.75; }
 }
 
 .nav-logo img {
-  height: 40px;
+  height: 44px;
   width: auto;
+  filter: drop-shadow(0 1px 4px rgba(0,0,0,0.25));
 }
 
 .nav-logo-text {
@@ -499,7 +500,7 @@ p { line-height: 1.75; }
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url('../assets/images/hero-bg.jpg');
+  background-image: url('../assets/images/house.png');
   background-size: cover;
   background-position: center;
   z-index: 0;
@@ -652,9 +653,10 @@ p { line-height: 1.75; }
   font-weight: 500;
 }
 
-.trust-lang .flag {
-  font-size: 1.6rem;
-  line-height: 1;
+.trust-lang .flag-icon {
+  width: 28px;
+  height: auto;
+  border-radius: 3px;
 }
 
 .trust-divider {

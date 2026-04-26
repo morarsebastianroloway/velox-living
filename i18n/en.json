@@ -90,6 +90,7 @@
     "card3_title": "Contemporary Studio — City View"
   },
   "property": {
+    "per_mo": "/mo",
     "for_rent": "For Rent",
     "for_sale": "For Sale",
     "bedrooms": "Rooms",

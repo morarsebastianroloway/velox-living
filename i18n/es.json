@@ -90,6 +90,7 @@
     "card3_title": "Estudio Contemporáneo — Vista a la Ciudad"
   },
   "property": {
+    "per_mo": "/mes",
     "for_rent": "En Alquiler",
     "for_sale": "En Venta",
     "bedrooms": "Habitaciones",

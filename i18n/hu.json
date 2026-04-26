@@ -68,7 +68,7 @@
   "prop2": {
     "title": "Hangulatos lakás a Radio negyedben",
     "location": "Radio negyed, Marosvásárhely",
-    "floor": "3",
+    "floor": "3.",
     "desc_heading": "Hangulatos lakás a Radio negyedben, Marosvásárhely",
     "desc_p1": "A lakás a Radio negyedben található, egy 4 emeletes épület 3. emeletén. Egyedi konyhabútorral, elektromos sütővel, mosogatógéppel, páraelszívóval, külön fagyasztós hűtőszekrénnyel, mosogatóval, indukciós főzőlappal és saját hőközponttal felszerelt. A konyhától különálló étkező is rendelkezésre áll asztallal és 4 székkel.",
     "desc_p2": "A nappaliban minimál stílusú bútorzat és egy ruhásszekrény található. A nappali légkondicionálóval is fel van szerelve, és innen nyílik a balkon. A balkon a Radio irányába néz, és pihenésre alkalmas bútorokkal van ellátva.",
@@ -78,15 +78,17 @@
     "desc_p6": ""
   },
   "prop3": {
-    "title": "Modern Stúdió — Városra Néző",
+    "title": "Modern lakás iskola és park közelében",
     "location": "Tudor negyed, Marosvásárhely",
-    "floor": "6.",
-    "desc_heading": "Modern Stúdió Panorámás Városkilátással — Tudor negyed, Marosvásárhely",
-    "desc_p1": "Üdvözöljük ebben az elegáns, kortárs stúdió lakásban Marosvásárhely Tudor negyedében, amely emelt pozíciójából lenyűgöző panorámakilátást kínál a városra. Gondosan tervezve minden négyzetméter maximalizálása érdekében, ez az ideális otthon egyedülálló szakemberek vagy párok számára.",
-    "desc_p2": "A nyílt nappali és hálózóna modern bútorokkal és okos tárolási megoldásokkal ügyesen tagolt, kényelmes és funkcionális teret teremtve. A nagy ablakok egész nap bőséges természetes fényt engednek be, miközben a városi panorámát keretbe foglalják.",
-    "desc_p3": "Egy teljesen felszerelt kompakt konyha és egy stílusosan felújított fürdőszoba walk-in zuhannyal egészíti ki az elrendezést. Minden berendezési tárgyat gondosan választottak ki minőség és esztétikai vonzerő szempontjából.",
-    "desc_p4": "A Velox Living által kezelt, kis karbantartást igénylő stúdió professzionális, 24/7-es ingatlankezelésből profitál — a közüzemi díjakat, karbantartást és az épület gondozását mind az Ön nevében intézik, így valóban gondtalan bérlési élményt nyújtva."
-  },
+    "floor": "2.",
+    "desc_heading": "Modern lakás iskola és park közelében",
+    "desc_p1": "Ez a kétszobás lakás a marosvásárhelyi Rodniciei utcában található, nagyon közel iskolához, parkhoz, piachoz és üzletekhez, mégis félreeső, forgalomtól távol eső helyen. Egy 4 emeletes épület 2. emeletén helyezkedik el, belsőleg frissen felújítva.",
+    "desc_p2": "A konyhában egyedi gyártású bútorokat, elektromos sütőt, mosogatógépet, páraelszívót, külön fagyasztóval ellátott hűtőszekrényt, mosogatót, indukciós főzőlapot és egy étkezősarkot talál, elegáns asztallal és 4 kényelmes székkel.",
+    "desc_p3": "A hálószobában franciaágy, két éjjeliszekrény, valamint egy tágas, akasztós résszel, polcokkal és fiókokkal ellátott ruhásszekrény található. A minimál stílusban berendezett nappaliban egy szekrény és egy kihúzható kanapé kapott helyet.",
+    "desc_p4": "A nappaliból nyílik a balkon. Az erkély bútorozott, így tökéletes helyet biztosít a kikapcsolódáshoz.",
+    "desc_p5": "A felszereltséghez tartozik egy mosó-szárítógép is, amely a tárolóban található. A tárolóhelyiség kifejezetten takarítóeszközök, vasalódeszka stb. tárolására lett kialakítva.",
+    "desc_p6": "A bejárat kaputelefonnal felszerelt. Az előszobában egy fogas található, amelynek az alján cipőtároló rész is helyet kapott. A hálószobában és a nappaliban a TV-kábel és az internetcsatlakozás falba épített vezetékeken keresztül biztosított, amelyek az előszobában lévő routerhez csatlakoznak."
+},
   "properties": {
     "eyebrow": "Ingatlanaink",
     "heading": "Kiemelt Hirdetések Marosvásárhelyen",

@@ -68,7 +68,7 @@
   "prop2": {
     "title": "Chic apartment in the Radio area",
     "location": "Radio Area, Târgu Mureș",
-    "floor": "3",
+    "floor": "3rd",
     "desc_heading": "Chic apartment in the Radio area, Târgu Mureș",
     "desc_p1": "The apartment is located in the Radio area, on the 3rd floor of a 4-story building. It is equipped with custom-made kitchen furniture, an electric oven, a dishwasher, a hood, a refrigerator with a separate freezer, a sink, an induction hob, and a central heating unit. Separate from the kitchen, there is a dining area with a table and 4 chairs.",
     "desc_p2": "The living room features minimalist furniture as well as a wardrobe. It is also equipped with an air conditioning system. The living room provides access to the balcony, which overlooks the Radio station area and includes furniture for relaxation.",
@@ -78,14 +78,16 @@
     "desc_p6": ""
   },
   "prop3": {
-    "title": "Contemporary Studio — City View",
+    "title": "Modern apartment near school and park",
     "location": "Tudor, Târgu Mureș",
-    "floor": "6th",
-    "desc_heading": "Contemporary Studio with Panoramic City Views — Tudor, Târgu Mureș",
-    "desc_p1": "Welcome to this sleek, contemporary studio apartment in the Tudor neighbourhood of Târgu Mureș, offering stunning panoramic city views from its elevated position. Thoughtfully designed to maximise every square metre, this is the ideal home for a single professional or couple.",
-    "desc_p2": "The open living and sleeping area is cleverly zoned with modern furniture and smart storage solutions, creating a comfortable and functional space. Large windows invite abundant natural light throughout the day while framing the city skyline.",
-    "desc_p3": "A fully equipped compact kitchen and a stylishly renovated bathroom with walk-in shower complete the layout. Every fixture and fitting has been carefully selected for both quality and aesthetic appeal.",
-    "desc_p4": "Managed by Velox Living, this low-maintenance studio benefits from professional, 24/7 property management — utilities, maintenance, and building upkeep are all handled on your behalf, making it a truly hassle-free rental experience."
+    "floor": "2nd",
+    "desc_heading": "Modern apartment near school and park",
+    "desc_p1": "This 2-room apartment is located on Rodniciei Street in Târgu Mureș, very close to a school, park, market, and shops, yet secluded and away from traffic. It is situated on the 2nd floor of a 4-story building, freshly renovated inside.",
+    "desc_p2": "In the kitchen, you will find custom-made furniture, an electric oven, a dishwasher, a hood, a refrigerator with a separate freezer, a sink, an induction hob, and a dining area with an elegant table and 4 comfortable chairs.",
+    "desc_p3": "The bedroom features a double bed, two nightstands, and a spacious wardrobe with a hanging rod, shelves, and drawers. The living room, decorated in a minimalist style, includes a wardrobe and a pull-out sofa.",
+    "desc_p4": "The balcony is accessed from the living room. It is furnished to provide you with a perfect space for relaxation.",
+    "desc_p5": "Amenities also include a washer-dryer located in the storage closet. The closet is specially organized for storing cleaning supplies, the ironing board, etc.",
+    "desc_p6": "The entrance is equipped with an intercom. The hallway has a coat rack and features shoe storage at the base. In the bedroom and living room, TV cable and internet connections are provided through in-wall installations connected to the router in the hallway."
   },
   "properties": {
     "eyebrow": "Our Properties",

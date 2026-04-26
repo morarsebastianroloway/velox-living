@@ -31,59 +31,9 @@
 </head>
 <body>
 
-  <!-- ================================================
-       NAVIGATION
-       ================================================ -->
-  <nav id="navbar" class="transparent" role="navigation" aria-label="Main navigation">
-    <div class="container">
-      <div class="nav-inner">
-
-        <!-- Logo -->
-        <a href="index.html" class="nav-logo" aria-label="Velox Living Home">
-          <img src="assets/VeloxLivingLogo.svg" alt="Velox Living Logo" width="40" height="40" />
-          <span class="nav-logo-text">Velox Living</span>
-        </a>
-
-        <!-- Desktop Links -->
-        <ul class="nav-links" role="list">
-          <li><a href="#properties" data-i18n="nav.properties">Properties</a></li>
-          <li><a href="#services" data-i18n="nav.services">Services</a></li>
-          <li><a href="#why-velox" data-i18n="nav.about">About</a></li>
-          <li><a href="#footer" data-i18n="nav.contact">Contact</a></li>
-        </ul>
-
-        <!-- Language Switcher (desktop) -->
-        <div class="lang-switcher" aria-label="Language selector">
-          <button class="lang-btn active" data-lang="en" title="English">🇬🇧 EN</button>
-          <button class="lang-btn" data-lang="ro" title="Română">🇷🇴 RO</button>
-          <button class="lang-btn" data-lang="hu" title="Magyar">🇭🇺 HU</button>
-          <button class="lang-btn" data-lang="es" title="Español">🇪🇸 ES</button>
-        </div>
-
-        <!-- Hamburger -->
-        <button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu" aria-expanded="false">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-
-      </div>
-    </div>
-  </nav>
-
-  <!-- Mobile Drawer -->
-  <div class="nav-drawer" id="nav-drawer" role="dialog" aria-label="Mobile navigation">
-    <a href="#properties" data-i18n="nav.properties">Properties</a>
-    <a href="#services" data-i18n="nav.services">Services</a>
-    <a href="#why-velox" data-i18n="nav.about">About</a>
-    <a href="#footer" data-i18n="nav.contact">Contact</a>
-    <div class="lang-switcher">
-      <button class="lang-btn active" data-lang="en">🇬🇧 EN</button>
-      <button class="lang-btn" data-lang="ro">🇷🇴 RO</button>
-      <button class="lang-btn" data-lang="hu">🇭🇺 HU</button>
-      <button class="lang-btn" data-lang="es">🇪🇸 ES</button>
-    </div>
-  </div>
+  <div id="nav-root"></div>
+  <script>window.NAV_BASE = '';</script>
+  <script src="js/nav.js"></script>
 
   <main>
 
@@ -320,10 +270,10 @@
     <section id="properties" style="padding: 80px 0;" aria-label="Featured Properties">
       <div class="container">
         <div class="section-header centered">
-          <span class="eyebrow">Our Properties</span>
-          <h2>Featured Listings in Târgu Mureș</h2>
+          <span class="eyebrow" data-i18n="properties.eyebrow">Our Properties</span>
+          <h2 data-i18n="properties.heading">Featured Listings in Târgu Mureș</h2>
           <div class="divider"></div>
-          <p>Premium apartments available for rent, professionally managed by Velox Living.</p>
+          <p data-i18n="properties.subheading">Premium apartments available for rent, professionally managed by Velox Living.</p>
         </div>
 
         <div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 28px;">
@@ -337,12 +287,12 @@
                    style="width:100%;height:100%;object-fit:cover;opacity:0.85;transition:transform 0.4s ease;"
                    onmouseover="this.style.transform='scale(1.05)'"
                    onmouseout="this.style.transform='scale(1)'" />
-              <span style="position:absolute;top:16px;left:16px;background:#228B22;color:#fff;font-size:0.75rem;font-weight:600;padding:4px 12px;border-radius:20px;">For Rent</span>
+              <span style="position:absolute;top:16px;left:16px;background:#228B22;color:#fff;font-size:0.75rem;font-weight:600;padding:4px 12px;border-radius:20px;" data-i18n="property.for_rent">For Rent</span>
             </div>
             <div style="padding:24px;">
               <p style="font-size:0.8rem;color:#718096;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px;">Centru, Târgu Mureș</p>
-              <h3 style="font-size:1.1rem;margin-bottom:8px;color:#001F3F;">Modern 2-Bedroom Apartment</h3>
-              <p style="font-size:1.3rem;font-weight:700;color:#228B22;font-family:'Playfair Display',serif;">€650 <span style="font-size:0.8rem;font-weight:400;color:#718096;">/month</span></p>
+              <h3 style="font-size:1.1rem;margin-bottom:8px;color:#001F3F;" data-i18n="properties.card1_title">Modern 2-Bedroom Apartment</h3>
+              <p style="font-size:1.3rem;font-weight:700;color:#228B22;font-family:'Playfair Display',serif;">€650 <span style="font-size:0.8rem;font-weight:400;color:#718096;" data-i18n="properties.per_month">/month</span></p>
               <div style="display:flex;gap:16px;margin-top:12px;font-size:0.82rem;color:#718096;">
                 <span>🛏 2 beds</span>
                 <span>🛁 1 bath</span>
@@ -360,12 +310,12 @@
                    style="width:100%;height:100%;object-fit:cover;opacity:0.85;transition:transform 0.4s ease;"
                    onmouseover="this.style.transform='scale(1.05)'"
                    onmouseout="this.style.transform='scale(1)'" />
-              <span style="position:absolute;top:16px;left:16px;background:#228B22;color:#fff;font-size:0.75rem;font-weight:600;padding:4px 12px;border-radius:20px;">For Rent</span>
+              <span style="position:absolute;top:16px;left:16px;background:#228B22;color:#fff;font-size:0.75rem;font-weight:600;padding:4px 12px;border-radius:20px;" data-i18n="property.for_rent">For Rent</span>
             </div>
             <div style="padding:24px;">
               <p style="font-size:0.8rem;color:#718096;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px;">Cornișa, Târgu Mureș</p>
-              <h3 style="font-size:1.1rem;margin-bottom:8px;color:#001F3F;">Luxury 3-Bedroom Penthouse</h3>
-              <p style="font-size:1.3rem;font-weight:700;color:#228B22;font-family:'Playfair Display',serif;">€1,100 <span style="font-size:0.8rem;font-weight:400;color:#718096;">/month</span></p>
+              <h3 style="font-size:1.1rem;margin-bottom:8px;color:#001F3F;" data-i18n="properties.card2_title">Luxury 3-Bedroom Penthouse</h3>
+              <p style="font-size:1.3rem;font-weight:700;color:#228B22;font-family:'Playfair Display',serif;">€1,100 <span style="font-size:0.8rem;font-weight:400;color:#718096;" data-i18n="properties.per_month">/month</span></p>
               <div style="display:flex;gap:16px;margin-top:12px;font-size:0.82rem;color:#718096;">
                 <span>🛏 3 beds</span>
                 <span>🛁 2 baths</span>
@@ -383,12 +333,12 @@
                    style="width:100%;height:100%;object-fit:cover;opacity:0.85;transition:transform 0.4s ease;"
                    onmouseover="this.style.transform='scale(1.05)'"
                    onmouseout="this.style.transform='scale(1)'" />
-              <span style="position:absolute;top:16px;left:16px;background:#228B22;color:#fff;font-size:0.75rem;font-weight:600;padding:4px 12px;border-radius:20px;">For Rent</span>
+              <span style="position:absolute;top:16px;left:16px;background:#228B22;color:#fff;font-size:0.75rem;font-weight:600;padding:4px 12px;border-radius:20px;" data-i18n="property.for_rent">For Rent</span>
             </div>
             <div style="padding:24px;">
               <p style="font-size:0.8rem;color:#718096;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px;">Tudor, Târgu Mureș</p>
-              <h3 style="font-size:1.1rem;margin-bottom:8px;color:#001F3F;">Contemporary Studio — City View</h3>
-              <p style="font-size:1.3rem;font-weight:700;color:#228B22;font-family:'Playfair Display',serif;">€420 <span style="font-size:0.8rem;font-weight:400;color:#718096;">/month</span></p>
+              <h3 style="font-size:1.1rem;margin-bottom:8px;color:#001F3F;" data-i18n="properties.card3_title">Contemporary Studio — City View</h3>
+              <p style="font-size:1.3rem;font-weight:700;color:#228B22;font-family:'Playfair Display',serif;">€420 <span style="font-size:0.8rem;font-weight:400;color:#718096;" data-i18n="properties.per_month">/month</span></p>
               <div style="display:flex;gap:16px;margin-top:12px;font-size:0.82rem;color:#718096;">
                 <span>🛏 Studio</span>
                 <span>🛁 1 bath</span>

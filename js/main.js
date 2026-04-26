@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const navbar = document.getElementById('navbar');
 
   function updateNav() {
+    if (navbar.dataset.alwaysScrolled) return;
     if (window.scrollY > 60) {
       navbar.classList.remove('transparent');
       navbar.classList.add('scrolled');

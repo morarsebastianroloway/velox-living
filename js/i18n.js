@@ -6,11 +6,12 @@
 
 const LANGS = ['en', 'ro', 'hu', 'es'];
 const DEFAULT_LANG = 'en';
+const _fp = (window.NAV_BASE ? window.NAV_BASE.replace(/\/+$/, '') + '/' : '') + 'assets/flags/';
 const FLAG_DATA = {
-  en: { src: 'assets/flags/en.svg', alt: 'English' },
-  ro: { src: 'assets/flags/ro.svg', alt: 'Română' },
-  hu: { src: 'assets/flags/hu.svg', alt: 'Magyar' },
-  es: { src: 'assets/flags/es.svg', alt: 'Español' },
+  en: { src: _fp + 'en.svg', alt: 'English' },
+  ro: { src: _fp + 'ro.svg', alt: 'Română' },
+  hu: { src: _fp + 'hu.svg', alt: 'Magyar' },
+  es: { src: _fp + 'es.svg', alt: 'Español' },
 };
 
 let currentLang = localStorage.getItem('vl-lang') || DEFAULT_LANG;

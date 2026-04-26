@@ -652,9 +652,10 @@ p { line-height: 1.75; }
   font-weight: 500;
 }
 
-.trust-lang .flag {
-  font-size: 1.6rem;
-  line-height: 1;
+.trust-lang .flag-icon {
+  width: 28px;
+  height: auto;
+  border-radius: 3px;
 }
 
 .trust-divider {

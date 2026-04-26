@@ -20,7 +20,7 @@
         ' role="navigation" aria-label="Main navigation">' +
     '<div class="container"><div class="nav-inner">' +
       '<a href="' + p + 'index.html" class="nav-logo" aria-label="Velox Living Home">' +
-        '<img src="' + p + 'assets/VeloxLivingLogo.png" alt="Velox Living Logo" width="40" height="40" />' +
+        '<img src="' + p + 'assets/VeloxLivingLogo.png" alt="Velox Living Logo" width="44" height="44" />' +
         '<span class="nav-logo-text">Velox Living</span>' +
       '</a>' +
       '<ul class="nav-links" role="list">' +

@@ -499,7 +499,7 @@ p { line-height: 1.75; }
 .hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url('../assets/images/hero-bg.jpg');
+  background-image: url('../assets/images/house.png');
   background-size: cover;
   background-position: center;
   z-index: 0;

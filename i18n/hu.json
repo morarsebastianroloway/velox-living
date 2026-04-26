@@ -66,14 +66,16 @@
     "desc_p6": "Az előszobában egy fogas található, amelynek az alján cipőtároló rész is helyet kapott. A hálószobában és a nappaliban a TV-kábel és az internetcsatlakozás falba épített vezetékeken keresztül biztosított, amelyek az előszobában lévő routerhez csatlakoznak."
   },
   "prop2": {
-    "title": "Luxus 3 Szobás Tetőlakás",
-    "location": "Cornișa, Marosvásárhely",
-    "floor": "8.",
-    "desc_heading": "Luxus 3 Szobás Tetőlakás a Cornișán, Marosvásárhelyen",
-    "desc_p1": "Üdvözöljük ebben a lenyűgöző 3 szobás tetőlakásban, amely a Cornișa egyik legjobb épületének tetején helyezkedik el, lélegzetelállító panorámával Marosvásárhelyre. A legmagasabb minőségű kivitelezéssel elkészült ingatlan újraértelmezi az erdélyi luxuslakhatást.",
-    "desc_p2": "A tágas, nyílt alaprajzú nappali padlótól mennyezetig érő ablakokkal rendelkezik, amelyek természetes fénnyel árasztják el a teret és panorámakilátást kínálnak a városra. A prémium készülékekkel felszerelt egyedi konyha kvarclap-felülettel és nagy konyhaszigetttel teszi az vendéglátást könnyűvé.",
-    "desc_p3": "A három tágas hálószoba mindegyike beépített szekrényekkel és bőséges természetes fénnyel rendelkezik. A két fürdőszoba márvány hatású csempével, dupla mosdóval és különálló káddal van kialakítva a főhálóban.",
-    "desc_p4": "A Velox Living által kezelt presztízslakás professzionális, 24/7-es menedzsmentből profitál — minden részletet gondosan tartanak karban, hogy Ön gondtalanul élvezhesse a magasabb életszínvonalat."
+    "title": "Hangulatos lakás a Radio negyedben",
+    "location": "Radio negyed, Marosvásárhely",
+    "floor": "3",
+    "desc_heading": "Hangulatos lakás a Radio negyedben, Marosvásárhely",
+    "desc_p1": "A lakás a Radio negyedben található, egy 4 emeletes épület 3. emeletén. Egyedi konyhabútorral, elektromos sütővel, mosogatógéppel, páraelszívóval, külön fagyasztós hűtőszekrénnyel, mosogatóval, indukciós főzőlappal és saját hőközponttal felszerelt. A konyhától különálló étkező is rendelkezésre áll asztallal és 4 székkel.",
+    "desc_p2": "A nappaliban minimál stílusú bútorzat és egy ruhásszekrény található. A nappali légkondicionálóval is fel van szerelve, és innen nyílik a balkon. A balkon a Radio irányába néz, és pihenésre alkalmas bútorokkal van ellátva.",
+    "desc_p3": "A hálószobában egy franciaágy, két éjjeliszekrény, valamint egy tágas, akasztós résszel, polcokkal és fiókokkal ellátott ruhásszekrény található. A minimál stílusban berendezett nappaliban egy szekrény és egy kihúzható kanapé kapott helyet.",
+    "desc_p4": "A felszereltséghez tartozik továbbá egy Whirlpool mosógép, amely a fürdőszoba melletti fülkében kapott helyet. A fülkét kifejezetten takarítóeszközök, vasalódeszka, szárító, porszívó stb. tárolására alakították ki.",
+    "desc_p5": "A bejárat kaputelefonnal felszerelt. Az előszobában egy fogas található, amelynek az alján cipőtároló rész is helyet kapott. A hálószobában és a nappaliban TV-kábel és internetcsatlakozás biztosított (a falon keresztül vezetve az előszobai routertől).",
+    "desc_p6": ""
   },
   "prop3": {
     "title": "Modern Stúdió — Városra Néző",

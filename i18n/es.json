@@ -66,14 +66,16 @@
     "desc_p6": "El recibidor tiene un perchero y cuenta con espacio para zapatos en la base. En el dormitorio y el salón, la conexión de televisión por cable e internet está garantizada a través de instalaciones integradas en la pared, conectadas al router del pasillo."
   },
   "prop2": {
-    "title": "Penthouse de Lujo con 3 Habitaciones",
-    "location": "Cornișa, Târgu Mureș",
-    "floor": "8.º",
-    "desc_heading": "Penthouse de Lujo con 3 Habitaciones en Cornișa, Târgu Mureș",
-    "desc_p1": "Bienvenido a este impresionante penthouse de 3 habitaciones situado en lo alto de uno de los edificios más codiciados de Cornișa, con vistas impresionantes sobre Târgu Mureș. Terminado con los más altos estándares, esta amplia propiedad redefine el lujo en Transilvania.",
-    "desc_p2": "La amplia zona de estar de planta abierta cuenta con ventanas de suelo a techo que inundan el espacio de luz natural y enmarcan vistas panorámicas de la ciudad. Una cocina a medida con electrodomésticos premium, encimeras de cuarzo y una gran isla hace que recibir invitados sea un placer.",
-    "desc_p3": "Cada uno de los tres amplios dormitorios cuenta con armarios empotrados y abundante luz natural. Los dos baños están acabados con azulejos efecto mármol, dobles lavabos y una bañera exenta en el baño principal.",
-    "desc_p4": "Gestionado por Velox Living, este prestigioso penthouse se beneficia de una gestión profesional 24/7 — cada detalle se mantiene impecablemente para que pueda disfrutar de un estilo de vida elevado sin complicaciones."
+    "title": "Apartamento coqueto en la zona Radio",
+    "location": "Zona Radio, Târgu Mureș",
+    "floor": "3",
+    "desc_heading": "Apartamento coqueto en la zona Radio, Târgu Mureș",
+    "desc_p1": "El apartamento está en la zona Radio, situado en el piso 3 de 4, y está equipado con muebles de cocina a medida, horno eléctrico, lavavajillas, campana extractora, frigorífico con congelador independiente, fregadero, placa de inducción y caldera individual. Independiente de la cocina, también hay un comedor con mesa y 4 sillas.",
+    "desc_p2": "En el salón se encuentra mobiliario de estilo minimalista, así como un armario. El salón también dispone de sistema de aire acondicionado. Desde el salón se accede al balcón. El balcón tiene vistas hacia la zona Radio y cuenta con mobiliario para el relax.",
+    "desc_p3": "El dormitorio tiene una cama doble, dos mesitas de noche y un amplio armario con barra para perchas, estantes y cajones. El salón, decorado con un estilo minimalista, dispone de un armario y un sofá cama.",
+    "desc_p4": "El equipamiento también incluye una lavadora Whirlpool, situada en el nicho cercano al baño. El nicho está acondicionado especialmente para el almacenamiento de artículos de limpieza, tabla de planchar, tendedero, aspiradora, etc.",
+    "desc_p5": "La entrada está provista de interfono. El recibidor tiene un perchero y cuenta con espacio para zapatos en la base. En el dormitorio y el salón existe una instalación para televisión por cable e internet (cableado por dentro de la pared, desde el router del pasillo).",
+    "desc_p6": ""
   },
   "prop3": {
     "title": "Estudio Contemporáneo — Vista a la Ciudad",

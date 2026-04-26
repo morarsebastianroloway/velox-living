@@ -5,6 +5,12 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
+  /* ── Blurred backdrop for main gallery slides ── */
+  document.querySelectorAll('.swiper-property .swiper-slide').forEach(slide => {
+    const img = slide.querySelector('img');
+    if (img) slide.style.setProperty('--bg-img', `url('${img.getAttribute('src')}')`);
+  });
+
   /* ── Swiper Gallery ── */
   const thumbsSwiper = new Swiper('.swiper-thumbs', {
     spaceBetween: 8,

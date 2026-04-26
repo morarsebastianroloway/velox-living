@@ -14,10 +14,29 @@
   height: 520px;
 }
 
+.swiper-property .swiper-slide {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Blurred backdrop fills letterbox area for portrait/landscape photos */
+.swiper-property .swiper-slide::before {
+  content: '';
+  position: absolute;
+  inset: -10%;
+  background-image: var(--bg-img);
+  background-size: cover;
+  background-position: center;
+  filter: blur(24px) brightness(0.55);
+  z-index: 0;
+}
+
 .swiper-property .swiper-slide img {
+  position: relative;
+  z-index: 1;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .swiper-thumbs {

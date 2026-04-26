@@ -402,16 +402,10 @@
     position: static;
   }
 
-  .specs-row {
-    flex-wrap: wrap;
-  }
-
   .spec-item {
-    flex: 1 1 50%;
-    border-bottom: 1px solid var(--color-border);
+    flex: 1;
+    padding: 20px 8px;
   }
-
-  .spec-item:nth-child(even) { border-right: none; }
 
   .amenities-grid { grid-template-columns: repeat(2, 1fr); }
 
@@ -425,5 +419,4 @@
 @media (max-width: 480px) {
   .swiper-property { height: 240px; }
   .amenities-grid { grid-template-columns: repeat(2, 1fr); }
-  .spec-item { flex: 1 1 50%; }
 }

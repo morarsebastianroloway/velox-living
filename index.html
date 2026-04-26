@@ -31,65 +31,9 @@
 </head>
 <body>
 
-  <!-- ================================================
-       NAVIGATION
-       ================================================ -->
-  <nav id="navbar" class="transparent" role="navigation" aria-label="Main navigation">
-    <div class="container">
-      <div class="nav-inner">
-
-        <!-- Logo -->
-        <a href="index.html" class="nav-logo" aria-label="Velox Living Home">
-          <img src="assets/VeloxLivingLogo.svg" alt="Velox Living Logo" width="40" height="40" />
-          <span class="nav-logo-text">Velox Living</span>
-        </a>
-
-        <!-- Desktop Links -->
-        <ul class="nav-links" role="list">
-          <li><a href="#properties" data-i18n="nav.properties">Properties</a></li>
-          <li><a href="#services" data-i18n="nav.services">Services</a></li>
-          <li><a href="#why-velox" data-i18n="nav.about">About</a></li>
-          <li><a href="#footer" data-i18n="nav.contact">Contact</a></li>
-        </ul>
-
-        <!-- Language Switcher (desktop) -->
-        <div class="lang-switcher" aria-label="Language selector">
-          <button class="lang-trigger" aria-haspopup="listbox" aria-expanded="false">
-            <img src="assets/flags/en.svg" alt="English" class="flag-icon lang-current-flag">
-            <svg class="lang-chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" aria-hidden="true"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </button>
-          <div class="lang-menu" role="listbox">
-            <button class="lang-btn active" data-lang="en" role="option" title="English"><img src="assets/flags/en.svg" alt="" class="flag-icon"><span>EN</span></button>
-            <button class="lang-btn" data-lang="ro" role="option" title="Română"><img src="assets/flags/ro.svg" alt="" class="flag-icon"><span>RO</span></button>
-            <button class="lang-btn" data-lang="hu" role="option" title="Magyar"><img src="assets/flags/hu.svg" alt="" class="flag-icon"><span>HU</span></button>
-            <button class="lang-btn" data-lang="es" role="option" title="Español"><img src="assets/flags/es.svg" alt="" class="flag-icon"><span>ES</span></button>
-          </div>
-        </div>
-
-        <!-- Hamburger -->
-        <button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu" aria-expanded="false">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-
-      </div>
-    </div>
-  </nav>
-
-  <!-- Mobile Drawer -->
-  <div class="nav-drawer" id="nav-drawer" role="dialog" aria-label="Mobile navigation">
-    <a href="#properties" data-i18n="nav.properties">Properties</a>
-    <a href="#services" data-i18n="nav.services">Services</a>
-    <a href="#why-velox" data-i18n="nav.about">About</a>
-    <a href="#footer" data-i18n="nav.contact">Contact</a>
-    <div class="lang-switcher drawer-lang">
-      <button class="lang-btn active" data-lang="en" title="English"><img src="assets/flags/en.svg" alt="English" class="flag-icon"></button>
-      <button class="lang-btn" data-lang="ro" title="Română"><img src="assets/flags/ro.svg" alt="Română" class="flag-icon"></button>
-      <button class="lang-btn" data-lang="hu" title="Magyar"><img src="assets/flags/hu.svg" alt="Magyar" class="flag-icon"></button>
-      <button class="lang-btn" data-lang="es" title="Español"><img src="assets/flags/es.svg" alt="Español" class="flag-icon"></button>
-    </div>
-  </div>
+  <div id="nav-root"></div>
+  <script>window.NAV_BASE = '';</script>
+  <script src="js/nav.js"></script>
 
   <main>
 

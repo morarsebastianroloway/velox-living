@@ -61,7 +61,7 @@
 }
 
 #property-sticky-bar.visible {
-  top: 0;
+  top: 72px;
 }
 
 .sticky-bar-inner {

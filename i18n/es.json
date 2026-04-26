@@ -56,6 +56,7 @@
   "prop1": {
     "title": "Apartamento Moderno de 2 Habitaciones",
     "location": "Centru, Târgu Mureș",
+    "floor": "3.º",
     "desc_heading": "Apartamento Moderno de 2 Habitaciones en el Corazón de Târgu Mureș",
     "desc_p1": "Este apartamento está situado en el tercer piso de un edificio de 4 plantas, recién pintado por dentro y equipado con videoportero.",
     "desc_p2": "En la cocina encontrará muebles a medida, horno eléctrico, lavavajillas, campana extractora, frigorífico con congelador independiente, fregadero, placa de inducción y una zona de comedor con una mesa elegante y 4 sillas cómodas.",
@@ -67,6 +68,7 @@
   "prop2": {
     "title": "Penthouse de Lujo con 3 Habitaciones",
     "location": "Cornișa, Târgu Mureș",
+    "floor": "8.º",
     "desc_heading": "Penthouse de Lujo con 3 Habitaciones en Cornișa, Târgu Mureș",
     "desc_p1": "Bienvenido a este impresionante penthouse de 3 habitaciones situado en lo alto de uno de los edificios más codiciados de Cornișa, con vistas impresionantes sobre Târgu Mureș. Terminado con los más altos estándares, esta amplia propiedad redefine el lujo en Transilvania.",
     "desc_p2": "La amplia zona de estar de planta abierta cuenta con ventanas de suelo a techo que inundan el espacio de luz natural y enmarcan vistas panorámicas de la ciudad. Una cocina a medida con electrodomésticos premium, encimeras de cuarzo y una gran isla hace que recibir invitados sea un placer.",
@@ -76,6 +78,7 @@
   "prop3": {
     "title": "Estudio Contemporáneo — Vista a la Ciudad",
     "location": "Tudor, Târgu Mureș",
+    "floor": "6.º",
     "desc_heading": "Estudio Contemporáneo con Vistas Panorámicas a la Ciudad — Tudor, Târgu Mureș",
     "desc_p1": "Bienvenido a este elegante y contemporáneo estudio situado en el barrio Tudor de Târgu Mureș, que ofrece impresionantes vistas panorámicas a la ciudad desde su posición elevada. Diseñado cuidadosamente para maximizar cada metro cuadrado, es el hogar ideal para un profesional individual o una pareja.",
     "desc_p2": "La zona de estar y dormitorio abierta está inteligentemente zonificada con muebles modernos y soluciones de almacenamiento inteligentes, creando un espacio cómodo y funcional. Las grandes ventanas invitan a la abundante luz natural durante todo el día mientras enmarcan el horizonte de la ciudad.",

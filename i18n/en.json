@@ -56,6 +56,7 @@
   "prop1": {
     "title": "Modern 2-Bedroom Apartment",
     "location": "Centru, Târgu Mureș",
+    "floor": "3rd",
     "desc_heading": "Modern 2-Bedroom Apartment in the Heart of Târgu Mureș",
     "desc_p1": "This apartment is located on the 3rd floor of a 4-story building, freshly painted inside and equipped with a video intercom system.",
     "desc_p2": "In the kitchen, you will find custom-made furniture, an electric oven, a dishwasher, a hood, a refrigerator with a separate freezer, a sink, an induction hob, and a dining area with an elegant table and 4 comfortable chairs.",
@@ -67,6 +68,7 @@
   "prop2": {
     "title": "Luxury 3-Bedroom Penthouse",
     "location": "Cornișa, Târgu Mureș",
+    "floor": "8th",
     "desc_heading": "Luxury 3-Bedroom Penthouse in Cornișa, Târgu Mureș",
     "desc_p1": "Welcome to this stunning 3-bedroom penthouse perched atop one of Cornișa's most sought-after buildings, offering breathtaking views over Târgu Mureș. Finished to the highest standard, this expansive property redefines luxury living in Transylvania.",
     "desc_p2": "The spacious open-plan living area features floor-to-ceiling windows that flood the space with natural light and frame panoramic city views. A bespoke kitchen with premium appliances, quartz countertops, and a large island makes entertaining effortless.",
@@ -76,6 +78,7 @@
   "prop3": {
     "title": "Contemporary Studio — City View",
     "location": "Tudor, Târgu Mureș",
+    "floor": "6th",
     "desc_heading": "Contemporary Studio with Panoramic City Views — Tudor, Târgu Mureș",
     "desc_p1": "Welcome to this sleek, contemporary studio apartment in the Tudor neighbourhood of Târgu Mureș, offering stunning panoramic city views from its elevated position. Thoughtfully designed to maximise every square metre, this is the ideal home for a single professional or couple.",
     "desc_p2": "The open living and sleeping area is cleverly zoned with modern furniture and smart storage solutions, creating a comfortable and functional space. Large windows invite abundant natural light throughout the day while framing the city skyline.",

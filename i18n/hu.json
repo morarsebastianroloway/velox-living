@@ -56,6 +56,7 @@
   "prop1": {
     "title": "Modern 2 Szobás Lakás",
     "location": "Belváros, Marosvásárhely",
+    "floor": "3.",
     "desc_heading": "Modern 2 Szobás Lakás Marosvásárhely Szívében",
     "desc_p1": "Ez az apartman egy 4 emeletes épület 3. emeletén található, belsőleg frissen festve, videós kaputelefonnal felszerelve.",
     "desc_p2": "A konyhában egyedi gyártású bútorokat, elektromos sütőt, mosogatógépet, páraelszívót, külön fagyasztóval ellátott hűtőszekrényt, mosogatót, indukciós főzőlapot és egy étkezősarkot talál, elegáns asztallal és 4 kényelmes székkel.",
@@ -67,6 +68,7 @@
   "prop2": {
     "title": "Luxus 3 Szobás Tetőlakás",
     "location": "Cornișa, Marosvásárhely",
+    "floor": "8.",
     "desc_heading": "Luxus 3 Szobás Tetőlakás a Cornișán, Marosvásárhelyen",
     "desc_p1": "Üdvözöljük ebben a lenyűgöző 3 szobás tetőlakásban, amely a Cornișa egyik legjobb épületének tetején helyezkedik el, lélegzetelállító panorámával Marosvásárhelyre. A legmagasabb minőségű kivitelezéssel elkészült ingatlan újraértelmezi az erdélyi luxuslakhatást.",
     "desc_p2": "A tágas, nyílt alaprajzú nappali padlótól mennyezetig érő ablakokkal rendelkezik, amelyek természetes fénnyel árasztják el a teret és panorámakilátást kínálnak a városra. A prémium készülékekkel felszerelt egyedi konyha kvarclap-felülettel és nagy konyhaszigetttel teszi az vendéglátást könnyűvé.",
@@ -76,6 +78,7 @@
   "prop3": {
     "title": "Modern Stúdió — Városra Néző",
     "location": "Tudor negyed, Marosvásárhely",
+    "floor": "6.",
     "desc_heading": "Modern Stúdió Panorámás Városkilátással — Tudor negyed, Marosvásárhely",
     "desc_p1": "Üdvözöljük ebben az elegáns, kortárs stúdió lakásban Marosvásárhely Tudor negyedében, amely emelt pozíciójából lenyűgöző panorámakilátást kínál a városra. Gondosan tervezve minden négyzetméter maximalizálása érdekében, ez az ideális otthon egyedülálló szakemberek vagy párok számára.",
     "desc_p2": "A nyílt nappali és hálózóna modern bútorokkal és okos tárolási megoldásokkal ügyesen tagolt, kényelmes és funkcionális teret teremtve. A nagy ablakok egész nap bőséges természetes fényt engednek be, miközben a városi panorámát keretbe foglalják.",

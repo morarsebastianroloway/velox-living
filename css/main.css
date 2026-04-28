@@ -249,17 +249,23 @@ p { line-height: 1.75; }
 
 /* Logo */
 .nav-logo {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 18px;
   flex-shrink: 0;
   text-decoration: none;
 }
 
 .nav-logo img {
-  height: 44px;
+  display: block;
+  height: 60px;
   width: auto;
-  filter: drop-shadow(0 1px 4px rgba(0,0,0,0.25));
+  filter: drop-shadow(0 1px 6px rgba(0,0,0,0.25));
+  transition: filter var(--transition);
+}
+
+#navbar.scrolled .nav-logo img {
+  filter: drop-shadow(0 1px 4px rgba(0,0,0,0.12));
 }
 
 .nav-logo-text {
@@ -269,6 +275,7 @@ p { line-height: 1.75; }
   color: var(--color-white);
   transition: color var(--transition);
   line-height: 1;
+  white-space: nowrap;
 }
 
 #navbar.scrolled .nav-logo-text {

@@ -17,7 +17,7 @@
 
         '<div>' +
           '<div class="footer-logo">' +
-            '<img src="' + p + 'assets/VeloxLivingLogo.svg" alt="Velox Living" width="36" height="36" />' +
+            '<img src="' + p + 'assets/VeloxLivingLogo.png" alt="Velox Living" width="36" height="36" />' +
             '<span class="footer-logo-text">Velox Living</span>' +
           '</div>' +
           '<p class="footer-tagline" data-i18n="footer.tagline">Your eyes and ears on the ground in Târgu Mureș, Transylvania.</p>' +

@@ -14,7 +14,8 @@ const FLAG_DATA = {
   es: { src: _fp + 'es.svg', alt: 'Español' },
 };
 
-let currentLang = localStorage.getItem('vl-lang') || DEFAULT_LANG;
+const _urlLang = new URLSearchParams(window.location.search).get('lang');
+let currentLang = (LANGS.includes(_urlLang) ? _urlLang : null) || localStorage.getItem('vl-lang') || DEFAULT_LANG;
 let translations = {};
 
 async function loadTranslations(lang) {

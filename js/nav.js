@@ -6,6 +6,18 @@
      window.NAV_ALWAYS_SCROLLED  true on pages without a hero
    ============================================== */
 
+// Google tag (gtag.js)
+(function () {
+  var s = document.createElement('script');
+  s.async = true;
+  s.src = 'https://www.googletagmanager.com/gtag/js?id=G-3QNP6ZYEL6';
+  document.head.insertBefore(s, document.head.firstChild);
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-3QNP6ZYEL6');
+})();
+
 (function () {
   const base = (window.NAV_BASE || '').replace(/\/+$/, '');
   const p    = base ? base + '/' : '';

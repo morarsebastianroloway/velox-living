@@ -27,6 +27,32 @@
   document.head.appendChild(t);
 })();
 
+// Forward UTM parameters from the page URL into Tally popup hidden fields,
+// so each lead is tagged with its acquisition channel.
+(function () {
+  try {
+    var params = new URLSearchParams(window.location.search);
+    var keys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term'];
+    var utm = {};
+    keys.forEach(function (k) { if (params.get(k)) utm[k] = params.get(k); });
+    if (Object.keys(utm).length === 0) return;
+
+    var json = JSON.stringify(utm);
+    function apply() {
+      var els = document.querySelectorAll('[data-tally-open]');
+      els.forEach(function (el) { el.setAttribute('data-tally-hidden-fields', json); });
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', apply);
+    } else {
+      apply();
+    }
+    // Run again after nav.js injects its CTAs into the DOM
+    setTimeout(apply, 300);
+    setTimeout(apply, 1500);
+  } catch (e) { /* fail silently — never break the page over analytics */ }
+})();
+
 (function () {
   const base = (window.NAV_BASE || '').replace(/\/+$/, '');
   const p    = base ? base + '/' : '';

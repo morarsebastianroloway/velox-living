@@ -101,3 +101,48 @@
   var root = document.getElementById('nav-root');
   if (root) root.outerHTML = html;
 }());
+
+// Forward UTM parameters into Tally popup as hidden fields
+// When a visitor arrives via ?utm_source=facebook (or any UTM tag),
+// those values are automatically passed to the Tally form so every
+// submission is attributed to its traffic source.
+(function () {
+  var params  = new URLSearchParams(window.location.search);
+  var utmKeys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content'];
+  var hidden  = {};
+  utmKeys.forEach(function (k) { var v = params.get(k); if (v) hidden[k] = v; });
+
+  // Persist UTMs across page navigations within the same session
+  try {
+    var stored = sessionStorage.getItem('velox_utm');
+    if (stored) {
+      var prev = JSON.parse(stored);
+      // URL params take priority over stored ones
+      hidden = Object.assign({}, prev, hidden);
+    }
+    if (Object.keys(hidden).length) {
+      sessionStorage.setItem('velox_utm', JSON.stringify(hidden));
+    }
+  } catch (e) {}
+
+  if (!Object.keys(hidden).length) return; // no UTMs — let default data-attr behaviour handle it
+
+  // Intercept clicks on any Tally popup trigger and inject hidden fields
+  document.addEventListener('click', function (e) {
+    var el = e.target.closest('[data-tally-open]');
+    if (!el) return;
+    e.preventDefault();
+    e.stopImmediatePropagation();
+    var id = el.getAttribute('data-tally-open');
+    function openWithUtm() {
+      window.Tally.openPopup(id, {
+        layout:       'modal',
+        width:        720,
+        overlay:      true,
+        hiddenFields: hidden
+      });
+    }
+    if (window.Tally) { openWithUtm(); }
+    else { document.addEventListener('tally-loaded', openWithUtm, { once: true }); }
+  }, true);
+}());

@@ -94,12 +94,12 @@
     "location": "Tudor, Târgu Mureș",
     "floor": "1.º",
     "desc_heading": "Tranquilo apartamento de 3 habitaciones en el barrio Tudor",
-    "desc_p1": "Este apartamento de 3 habitaciones está situado en el tranquilo barrio Tudor de Târgu Mureș, en una zona residencial alejada del bullicio del centro. Ubicado en el primer piso de un edificio bien mantenido, ofrece un hogar cómodo y práctico, ideal para familias o profesionales que buscan un entorno sereno.",
-    "desc_p2": "La cocina está completamente equipada con electrodomésticos de calidad — horno eléctrico, lavavajillas, campana extractora, frigorífico con congelador independiente y placa de inducción — junto con una zona de comedor con mesa y sillas.",
-    "desc_p3": "El apartamento cuenta con dos dormitorios bien proporcionados, cada uno con amplio espacio de almacenamiento. El luminoso salón está decorado en estilo moderno y abre directamente al balcón, creando una conexión fluida con el exterior.",
-    "desc_p4": "El balcón da a la tranquila calle residencial de abajo, siendo el lugar perfecto para el café de la mañana o para relajarse por la tarde.",
-    "desc_p5": "El baño es moderno y está bien equipado. El apartamento cuenta también con un trastero para mayor comodidad, así como con un sistema de interfono en la entrada del edificio.",
-    "desc_p6": "La conexión de televisión por cable e internet está garantizada a través de instalaciones integradas en la pared en ambos dormitorios y en el salón, conectadas al router del pasillo."
+    "desc_p1": "Este apartamento de 3 habitaciones está situado en el tranquilo barrio Tudor de Târgu Mureș, en una zona residencial alejada del bullicio. Ubicado en el primer piso de un edificio bien mantenido, ofrece un hogar cómodo y práctico, ideal para familias o profesionales que buscan un entorno sereno.",
+    "desc_p2": "La cocina está equipada con cocina de gas (con horno integrado), campana extractora, frigorífico con congelador independiente y fregadero, junto con una mesa con 6 sillas.",
+    "desc_p3": "El apartamento cuenta con dos dormitorios, cada uno con amplios armarios empotrados (uno de 3 puertas y otro de 4 puertas). El luminoso salón está decorado en estilo moderno.",
+    "desc_p4": "El balcón recorre toda la longitud del apartamento y es accesible tanto desde el salón como desde la cocina, sin división entre ambos. Da a la parte trasera del edificio, con vistas a una zona verde y al arroyo Poklos, ofreciendo un paisaje tranquilo y natural.",
+    "desc_p5": "El apartamento dispone de dos baños, uno de ellos equipado con bañera y ducha. Cuenta también con un trastero y con un sistema de interfono en la entrada del edificio. El edificio ha sido aislado térmicamente a través de un programa municipal.",
+    "desc_p6": ""
   },
   "properties": {
     "eyebrow": "Nuestras Propiedades",

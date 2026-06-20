@@ -94,12 +94,12 @@
     "location": "Tudor negyed, Marosvásárhely",
     "floor": "1.",
     "desc_heading": "Csendes 3 szobás lakás a Tudor negyedben",
-    "desc_p1": "Ez a háromszobás lakás Marosvásárhely csendes Tudor negyedében található, egy nyugodt lakóövezeti környezetben, a belváros nyüzsgésétől távol. Az épület 1. emeletén helyezkedik el, és kényelmes, praktikus otthont kínál családok vagy nyugodt környezetet kereső szakemberek számára.",
-    "desc_p2": "A konyha teljes felszereléssel rendelkezik — elektromos sütő, mosogatógép, páraelszívó, külön fagyasztóval ellátott hűtőszekrény és indukciós főzőlap — valamint egy étkezőrésszel asztallal és székekkel.",
-    "desc_p3": "Az apartmanban két jól arányos hálószoba található, mindkettőben bőséges szekrénytérrel. A világos nappali modern stílusban van berendezve, és közvetlenül a balkónra nyílik, zökkenőmentesen összekapcsolva a bel- és a kültéri teret.",
-    "desc_p4": "A balkón az alatta húzódó csendes lakóutcára néz, tökéletes helyet kínálva a reggeli kávéhoz vagy az esti pihenéshez.",
-    "desc_p5": "A fürdőszoba modern és jól felszerelt. Az apartman tárolóhelyiséggel is rendelkezik a könnyebb elrendezés érdekében, az épület bejáratánál pedig kaputelefon található.",
-    "desc_p6": "A TV-kábel és az internetcsatlakozás mindkét hálószobában és a nappaliban falba épített vezetékeken keresztül biztosított, amelyek az előszobai routerhez csatlakoznak."
+    "desc_p1": "Ez a háromszobás lakás Marosvásárhely csendes Tudor negyedében található, egy nyugodt lakóövezeti környezetben, a nyüzsgéstől távol. Az épület 1. emeletén helyezkedik el, és kényelmes, praktikus otthont kínál családok vagy nyugodt környezetet kereső szakemberek számára.",
+    "desc_p2": "A konyha gáztűzhellyel (sütővel), páraelszívóval, külön fagyasztóval ellátott hűtőszekrénnyel és mosogatóval van felszerelve, mellette egy 6 személyes asztallal.",
+    "desc_p3": "Az apartmanban két hálószoba található, mindkettőben tágas beépített szekrényekkel (az egyikben 3 ajtós, a másikban 4 ajtós). A világos nappali modern stílusban van berendezve.",
+    "desc_p4": "Az erkély hosszú és osztásmenttes — mind a nappalliból, mind a konyhából elérhető. Az épület hátsó részére néz, ahol egy zöldövezet és a Poklos-patak terül el, nyugodt és természetes kilátást nyújtva.",
+    "desc_p5": "Az apartmanban két fürdőszoba található, az egyikben fürdőkáddal és zuhannyal. Emellett tárolóhelyiség is rendelkezésre áll, az épület bejáratánál pedig kaputelefon található. Az épület önkormányzati program keretében hőszigetelést kapott.",
+    "desc_p6": ""
   },
   "properties": {
     "eyebrow": "Ingatlanaink",

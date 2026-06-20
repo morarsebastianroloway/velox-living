@@ -89,6 +89,18 @@
     "desc_p5": "A felszereltséghez tartozik egy mosó-szárítógép is, amely a tárolóban található. A tárolóhelyiség kifejezetten takarítóeszközök, vasalódeszka stb. tárolására lett kialakítva.",
     "desc_p6": "A bejárat kaputelefonnal felszerelt. Az előszobában egy fogas található, amelynek az alján cipőtároló rész is helyet kapott. A hálószobában és a nappaliban a TV-kábel és az internetcsatlakozás falba épített vezetékeken keresztül biztosított, amelyek az előszobában lévő routerhez csatlakoznak."
 },
+  "prop4": {
+    "title": "Csendes 3 szobás lakás a Tudor negyedben",
+    "location": "Tudor negyed, Marosvásárhely",
+    "floor": "1.",
+    "desc_heading": "Csendes 3 szobás lakás a Tudor negyedben",
+    "desc_p1": "Ez a háromszobás lakás Marosvásárhely csendes Tudor negyedében található, egy nyugodt lakóövezeti környezetben, a nyüzsgéstől távol. Az épület 1. emeletén helyezkedik el, és kényelmes, praktikus otthont kínál családok vagy nyugodt környezetet kereső szakemberek számára.",
+    "desc_p2": "A konyha gáztűzhellyel (sütővel), páraelszívóval, külön fagyasztóval ellátott hűtőszekrénnyel és mosogatóval van felszerelve, mellette egy 6 személyes asztallal.",
+    "desc_p3": "Az apartmanban két hálószoba található, mindkettőben tágas beépített szekrényekkel (az egyikben 3 ajtós, a másikban 4 ajtós). A világos nappali modern stílusban van berendezve.",
+    "desc_p4": "Az erkély hosszú és osztásmenttes — mind a nappalliból, mind a konyhából elérhető. Az épület hátsó részére néz, ahol egy zöldövezet és a Poklos-patak terül el, nyugodt és természetes kilátást nyújtva.",
+    "desc_p5": "Az apartmanban két fürdőszoba található, az egyikben fürdőkáddal és zuhannyal. Emellett tárolóhelyiség is rendelkezésre áll, az épület bejáratánál pedig kaputelefon található. Az épület önkormányzati program keretében hőszigetelést kapott.",
+    "desc_p6": ""
+  },
   "properties": {
     "eyebrow": "Ingatlanaink",
     "heading": "Kiemelt Hirdetések Marosvásárhelyen",

@@ -1,0 +1,3 @@
+Optiuni pentru incasarea chiriei:
+1. Velox Living incaseaza banii (cash sau in cont) si vireaza proprietarului valoarea chiriei fara comision. Lunar se emite factura pentru acest comision
+2. Proprietarul incaseaza banii (in cont). Lunar Velox Living emite factura pentru comision si proprietarul va trebui sa faca transfer bancar pentru plata lui. In acest caz, Velox Living nu are control asupra chiriei, nu vom sti daca chiria a fost platita sau nu.

@@ -89,6 +89,18 @@
     "desc_p5": "El equipamiento también incluye una lavadora-secadora ubicada en el trastero. El trastero está acondicionado especialmente para el almacenamiento de artículos de limpieza, tabla de planchar, etc.",
     "desc_p6": "La entrada está provista de interfono. El recibidor tiene un perchero y cuenta con espacio para zapatos en la base. En el dormitorio y el salón, la conexión de televisión por cable e internet está garantizada a través de instalaciones integradas en la pared, conectadas al router del pasillo."
   },
+  "prop4": {
+    "title": "Tranquilo apartamento de 3 habitaciones en Tudor",
+    "location": "Tudor, Târgu Mureș",
+    "floor": "1.º",
+    "desc_heading": "Tranquilo apartamento de 3 habitaciones en el barrio Tudor",
+    "desc_p1": "Este apartamento de 3 habitaciones está situado en el tranquilo barrio Tudor de Târgu Mureș, en una zona residencial alejada del bullicio del centro. Ubicado en el primer piso de un edificio bien mantenido, ofrece un hogar cómodo y práctico, ideal para familias o profesionales que buscan un entorno sereno.",
+    "desc_p2": "La cocina está completamente equipada con electrodomésticos de calidad — horno eléctrico, lavavajillas, campana extractora, frigorífico con congelador independiente y placa de inducción — junto con una zona de comedor con mesa y sillas.",
+    "desc_p3": "El apartamento cuenta con dos dormitorios bien proporcionados, cada uno con amplio espacio de almacenamiento. El luminoso salón está decorado en estilo moderno y abre directamente al balcón, creando una conexión fluida con el exterior.",
+    "desc_p4": "El balcón da a la tranquila calle residencial de abajo, siendo el lugar perfecto para el café de la mañana o para relajarse por la tarde.",
+    "desc_p5": "El baño es moderno y está bien equipado. El apartamento cuenta también con un trastero para mayor comodidad, así como con un sistema de interfono en la entrada del edificio.",
+    "desc_p6": "La conexión de televisión por cable e internet está garantizada a través de instalaciones integradas en la pared en ambos dormitorios y en el salón, conectadas al router del pasillo."
+  },
   "properties": {
     "eyebrow": "Nuestras Propiedades",
     "heading": "Anuncios Destacados en Târgu Mureș",

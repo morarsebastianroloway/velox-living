@@ -89,6 +89,18 @@
     "desc_p5": "A felszereltséghez tartozik egy mosó-szárítógép is, amely a tárolóban található. A tárolóhelyiség kifejezetten takarítóeszközök, vasalódeszka stb. tárolására lett kialakítva.",
     "desc_p6": "A bejárat kaputelefonnal felszerelt. Az előszobában egy fogas található, amelynek az alján cipőtároló rész is helyet kapott. A hálószobában és a nappaliban a TV-kábel és az internetcsatlakozás falba épített vezetékeken keresztül biztosított, amelyek az előszobában lévő routerhez csatlakoznak."
 },
+  "prop4": {
+    "title": "Csendes 3 szobás lakás a Tudor negyedben",
+    "location": "Tudor negyed, Marosvásárhely",
+    "floor": "1.",
+    "desc_heading": "Csendes 3 szobás lakás a Tudor negyedben",
+    "desc_p1": "Ez a háromszobás lakás Marosvásárhely csendes Tudor negyedében található, egy nyugodt lakóövezeti környezetben, a belváros nyüzsgésétől távol. Az épület 1. emeletén helyezkedik el, és kényelmes, praktikus otthont kínál családok vagy nyugodt környezetet kereső szakemberek számára.",
+    "desc_p2": "A konyha teljes felszereléssel rendelkezik — elektromos sütő, mosogatógép, páraelszívó, külön fagyasztóval ellátott hűtőszekrény és indukciós főzőlap — valamint egy étkezőrésszel asztallal és székekkel.",
+    "desc_p3": "Az apartmanban két jól arányos hálószoba található, mindkettőben bőséges szekrénytérrel. A világos nappali modern stílusban van berendezve, és közvetlenül a balkónra nyílik, zökkenőmentesen összekapcsolva a bel- és a kültéri teret.",
+    "desc_p4": "A balkón az alatta húzódó csendes lakóutcára néz, tökéletes helyet kínálva a reggeli kávéhoz vagy az esti pihenéshez.",
+    "desc_p5": "A fürdőszoba modern és jól felszerelt. Az apartman tárolóhelyiséggel is rendelkezik a könnyebb elrendezés érdekében, az épület bejáratánál pedig kaputelefon található.",
+    "desc_p6": "A TV-kábel és az internetcsatlakozás mindkét hálószobában és a nappaliban falba épített vezetékeken keresztül biztosított, amelyek az előszobai routerhez csatlakoznak."
+  },
   "properties": {
     "eyebrow": "Ingatlanaink",
     "heading": "Kiemelt Hirdetések Marosvásárhelyen",

@@ -89,6 +89,18 @@
     "desc_p5": "Din dotări mai face parte o mașină de spălat cu uscator, amplasată în debara. Debaraua e amenajată special pentru depozitarea obiectelor destinate curățeniei, a mesei de călcat, etc.",
     "desc_p6": "Partea de intrare e prevăzută cu interfon. Antreul are un cuier și e prevăzut la bază și cu spațiu pentru pantofi. În dormitor și sufragerie, conexiunea la cablu TV și internet este asigurată prin instalații integrate în perete, conectate la routerul de pe hol."
   },
+  "prop4": {
+    "title": "Apartament liniștit cu 3 camere în Tudor",
+    "location": "Tudor, Târgu Mureș",
+    "floor": "1",
+    "desc_heading": "Apartament liniștit cu 3 camere în zona Tudor",
+    "desc_p1": "Acest apartament cu 3 camere este amplasat în zona liniștită Tudor din Târgu Mureș, într-un cartier rezidențial retras, departe de agitația centrului. Situat la etajul 1 al unui imobil bine întreținut, oferă un spațiu confortabil și practic, ideal pentru familii sau profesioniști care caută liniște.",
+    "desc_p2": "Bucătăria este complet utilată cu electrocasnice de calitate — cuptor electric, mașină de spălat vase, hotă, frigider cu congelator separat și plită cu inducție — alături de o zonă de dining cu masă și scaune.",
+    "desc_p3": "Apartamentul dispune de două dormitoare bine proporționate, fiecare cu spațiu generos pentru depozitare. Sufrageria luminoasă este amenajată în stil modern și oferă acces direct la balcon, prelungind în mod natural spațiul de locuit.",
+    "desc_p4": "Balconul dă spre strada rezidențială liniștită de dedesubt, oferind un loc perfect pentru cafeaua de dimineață sau relaxarea de seară.",
+    "desc_p5": "Baia este modernă și bine dotată. Apartamentul beneficiază de asemenea de o debara pentru depozitare suplimentară, precum și de un sistem de interfon la intrarea în bloc.",
+    "desc_p6": "Conexiunea la cablu TV și internet este asigurată prin instalații integrate în perete în ambele dormitoare și în sufragerie, conectate la routerul de pe hol."
+  },
   "properties": {
     "eyebrow": "Proprietățile noastre",
     "heading": "Anunțuri Recomandate în Târgu Mureș",

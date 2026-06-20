@@ -89,6 +89,18 @@
     "desc_p5": "Amenities also include a washer-dryer located in the storage closet. The closet is specially organized for storing cleaning supplies, the ironing board, etc.",
     "desc_p6": "The entrance is equipped with an intercom. The hallway has a coat rack and features shoe storage at the base. In the bedroom and living room, TV cable and internet connections are provided through in-wall installations connected to the router in the hallway."
   },
+  "prop4": {
+    "title": "Quiet 3-Room Apartment in Tudor",
+    "location": "Tudor, Târgu Mureș",
+    "floor": "1st",
+    "desc_heading": "Quiet 3-Room Apartment in the Tudor Neighbourhood",
+    "desc_p1": "This 3-room apartment is located in the peaceful Tudor neighbourhood of Târgu Mureș, in a quiet residential area away from the hustle of the city centre. Situated on the 1st floor of a well-maintained building, it offers a comfortable and practical home for families or professionals seeking calm surroundings.",
+    "desc_p2": "The kitchen is fully equipped with quality appliances — electric oven, dishwasher, hood, refrigerator with separate freezer, and induction hob — alongside a dedicated dining area with table and chairs.",
+    "desc_p3": "The apartment features two well-proportioned bedrooms, each with generous wardrobe space. The bright living room is furnished in a modern style and opens directly onto the balcony, providing a seamless connection to the outdoors.",
+    "desc_p4": "The balcony looks out over the calm residential street below, making it a perfect spot for morning coffee or evening relaxation.",
+    "desc_p5": "The bathroom is modern and well-appointed. The apartment also benefits from a storage area for additional convenience, as well as an intercom system at the building entrance.",
+    "desc_p6": "TV cable and internet connections are provided through in-wall installations in both bedrooms and the living room, connected to the router in the hallway."
+  },
   "properties": {
     "eyebrow": "Our Properties",
     "heading": "Featured Listings in Târgu Mureș",

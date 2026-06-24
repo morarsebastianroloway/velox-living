@@ -101,6 +101,21 @@
     "desc_p5": "The apartment has two bathrooms, one of which is fitted with a bathtub and shower. It also benefits from a storage room and an intercom system at the building entrance. The building has been thermally insulated through a local council programme.",
     "desc_p6": ""
   },
+  "prop5": {
+    "title": "Commercial Space — Ultracentral",
+    "location": "Centru, Târgu Mureș",
+    "floor": "Ground",
+    "entrances": "Entrances",
+    "desc_heading": "Commercial Space in the Centre of Târgu Mureș",
+    "desc_p1": "This 90 m² commercial space is located on Strada Revoluției in the ultracentral area of Târgu Mureș — one of the most visible and high-footfall streets in the city. With a prominent storefront and two separate entrances (from the street and through the courtyard), the space is ideally suited for retail, a showroom, a medical or beauty practice, or a professional office.",
+    "desc_p2": "The layout is practical and versatile, with a separate bathroom included. The space benefits from central heating, air conditioning, thermopane windows, and an alarm system with intercom — ensuring comfort and security year-round.",
+    "desc_p3": "Full connectivity infrastructure is already in place: high-speed internet, an internal computer network (structured cabling), video monitoring, and POS payment terminal infrastructure — making it ready for immediate business use with minimal setup.",
+    "desc_p4": "Building control panel access is available on the upper floor. Parking is readily available on three adjacent streets: Strada Avram Iancu, Aleea Scăricica, and Strada Revoluției itself.",
+    "desc_p5": "The asking price is €1,500/month, negotiable.",
+    "amenity_alarm": "Alarm & Intercom",
+    "amenity_cctv": "CCTV",
+    "amenity_network": "Network Cabling & POS"
+  },
   "properties": {
     "eyebrow": "Our Properties",
     "heading": "Featured Listings in Târgu Mureș",

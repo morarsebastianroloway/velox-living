@@ -101,6 +101,21 @@
     "desc_p5": "Az apartmanban két fürdőszoba található, az egyikben fürdőkáddal és zuhannyal. Emellett tárolóhelyiség is rendelkezésre áll, az épület bejáratánál pedig kaputelefon található. Az épület önkormányzati program keretében hőszigetelést kapott.",
     "desc_p6": ""
   },
+  "prop5": {
+    "title": "Kereskedelmi Helyiség — Ultracentrális",
+    "location": "Belváros, Marosvásárhely",
+    "floor": "Földszint",
+    "entrances": "Bejárat",
+    "desc_heading": "Kereskedelmi Helyiség Marosvásárhely Belvárosában",
+    "desc_p1": "Ez a 90 m²-es kereskedelmi helyiség a Forradalom utcán (Strada Revoluției) található Marosvásárhely ultracentrális övezetében — a város egyik leglátogatottabb és legforgalmasabb utcáján. Kirakattal és két külön bejárattal (utcáról és az udvaron át), a helyiség ideális kiskereskedelem, bemutatóterem, orvosi vagy szépészeti rendelő, illetve professzionális iroda számára.",
+    "desc_p2": "Az elrendezés praktikus és rugalmas, külön fürdőszobával. A helyiség központi fűtéssel, légkondicionálóval, hőszigetelt ablakokkal és riasztórendszerrel, kaputelefonnal rendelkezik — egész éves kényelmet és biztonságot nyújtva.",
+    "desc_p3": "A teljes kapcsolódási infrastruktúra már kiépített: nagy sebességű internet, belső számítógép-hálózat (strukturált kábelezés), videofelügyelet és POS terminál infrastruktúra — minimális beállítással azonnal üzembe helyezhető.",
+    "desc_p4": "Az épület elektromos tablója a felső emeleten érhető el. Parkolás három szomszédos utcán lehetséges: Avram Iancu utca, Scăricica köz és a Forradalom utca.",
+    "desc_p5": "A kért bérleti díj 1.500 €/hó, tárgyalható.",
+    "amenity_alarm": "Riasztó & Kaputelefon",
+    "amenity_cctv": "Videófelügyelet",
+    "amenity_network": "Hálózat & POS"
+  },
   "properties": {
     "eyebrow": "Ingatlanaink",
     "heading": "Kiemelt Hirdetések Marosvásárhelyen",

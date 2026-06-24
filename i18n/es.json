@@ -101,6 +101,21 @@
     "desc_p5": "El apartamento dispone de dos baños, uno de ellos equipado con bañera y ducha. Cuenta también con un trastero y con un sistema de interfono en la entrada del edificio. El edificio ha sido aislado térmicamente a través de un programa municipal.",
     "desc_p6": ""
   },
+  "prop5": {
+    "title": "Local Comercial — Ultracéntrico",
+    "location": "Centro, Târgu Mureș",
+    "floor": "Planta baja",
+    "entrances": "Entradas",
+    "desc_heading": "Local Comercial en el Centro de Târgu Mureș",
+    "desc_p1": "Este local comercial de 90 m² está situado en la Calle Revoluției, en la zona ultracéntrica de Târgu Mureș — una de las calles más visibles y transitadas de la ciudad. Con escaparate a pie de calle y dos entradas independientes (desde la calle y por el patio interior), el espacio es ideal para comercio minorista, showroom, consulta médica o de estética, u oficina profesional.",
+    "desc_p2": "La distribución es práctica y versátil, con baño independiente incluido. El local cuenta con calefacción central, aire acondicionado, ventanas de termopan y sistema de alarma con interfono — garantizando confort y seguridad durante todo el año.",
+    "desc_p3": "Toda la infraestructura de conectividad ya está instalada: internet de alta velocidad, red informática interna (cableado estructurado), videovigilancia e infraestructura para terminal de pago POS — listo para uso empresarial inmediato con una configuración mínima.",
+    "desc_p4": "El cuadro eléctrico del edificio es accesible en el piso superior. Hay aparcamiento disponible en tres calles adyacentes: Strada Avram Iancu, Aleea Scăricica y la propia Strada Revoluției.",
+    "desc_p5": "El precio solicitado es de 1.500 €/mes, negociable.",
+    "amenity_alarm": "Alarma & Interfono",
+    "amenity_cctv": "Videovigilancia",
+    "amenity_network": "Cableado & TPV"
+  },
   "properties": {
     "eyebrow": "Nuestras Propiedades",
     "heading": "Anuncios Destacados en Târgu Mureș",

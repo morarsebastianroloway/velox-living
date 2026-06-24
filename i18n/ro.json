@@ -101,6 +101,21 @@
     "desc_p5": "Apartamentul dispune de două băi, una dintre ele dotată cu cadă de baie și duș. Există de asemenea o debară pentru depozitare suplimentară, iar la intrarea în bloc se află un interfon. Blocul beneficiază de izolație termică realizată printr-un program al primăriei.",
     "desc_p6": ""
   },
+  "prop5": {
+    "title": "Spațiu Comercial — Ultracentral",
+    "location": "Centru, Târgu Mureș",
+    "floor": "Parter",
+    "entrances": "Intrări",
+    "desc_heading": "Spațiu Comercial în Centrul Târgu Mureșului",
+    "desc_p1": "Acest spațiu comercial de 90 m² este amplasat pe Strada Revoluției, în zona ultracentrală a Târgu Mureșului — una dintre cele mai vizibile și circulate artere ale orașului. Cu vitrină la stradă și două intrări separate (de la stradă și prin curte), spațiul este ideal pentru comerț, showroom, cabinet medical sau de înfrumusețare, ori birou profesional.",
+    "desc_p2": "Compartimentarea este practică și versatilă, cu baie separată inclusă. Spațiul beneficiază de încălzire centrală, aer condiționat, ferestre termopan și sistem de alarmă cu interfon — confort și securitate garantate pe tot parcursul anului.",
+    "desc_p3": "Infrastructura de conectivitate este deja instalată: internet de mare viteză, rețea internă de calculatoare (cablare structurată), monitorizare video și infrastructură pentru terminal POS — gata de utilizare imediată, cu configurare minimă.",
+    "desc_p4": "Tabloul electric al clădirii este accesibil la etajul superior. Parcare disponibilă pe trei străzi adiacente: Strada Avram Iancu, Aleea Scăricica și Strada Revoluției.",
+    "desc_p5": "Prețul solicitat este de 1.500 €/lună, negociabil.",
+    "amenity_alarm": "Alarmă & Interfon",
+    "amenity_cctv": "Supraveghere Video",
+    "amenity_network": "Rețea & POS"
+  },
   "properties": {
     "eyebrow": "Proprietățile noastre",
     "heading": "Anunțuri Recomandate în Târgu Mureș",

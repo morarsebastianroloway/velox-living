@@ -46,6 +46,7 @@
             '<li><a href="' + s('properties') + '" data-i18n="nav.properties">Properties</a></li>' +
             '<li><a href="' + s('services')   + '" data-i18n="nav.services">Services</a></li>' +
             '<li><a href="' + s('why-velox')  + '" data-i18n="nav.about">About</a></li>' +
+            '<li><a href="' + p + 'faq.html" data-i18n="nav.faq">FAQ</a></li>' +
             '<li><a href="' + s('footer')     + '" data-i18n="nav.contact">Contact</a></li>' +
           '</ul>' +
         '</div>' +

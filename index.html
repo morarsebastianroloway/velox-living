@@ -356,6 +356,56 @@
       </div>
     </section>
 
+    <!-- ================================================
+         FAQ TEASER
+         ================================================ -->
+    <section id="faq-teaser" style="padding: 80px 0; background: var(--color-offwhite);" aria-label="FAQ preview">
+      <div class="container">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center;">
+
+          <!-- Left: headline + CTA -->
+          <div>
+            <span class="eyebrow" data-i18n="faq_teaser.eyebrow">Common Questions</span>
+            <h2 style="margin-bottom: 16px;" data-i18n="faq_teaser.heading">Have Questions About Managing Your Property in Romania?</h2>
+            <div class="divider"></div>
+            <p style="color: var(--color-slate-light); font-size: 1rem; margin-bottom: 32px; max-width: 420px;" data-i18n="faq_teaser.subtext">Whether you live abroad or are simply new to the Romanian rental market, we've answered the questions that matter most to remote owners and foreign investors.</p>
+            <a href="faq.html" class="btn btn-primary" data-i18n="faq_teaser.cta">Browse All FAQs →</a>
+          </div>
+
+          <!-- Right: question chips -->
+          <div style="display: flex; flex-direction: column; gap: 12px;">
+            <a href="faq.html#cat-legal" class="card" style="padding: 18px 22px; display: flex; align-items: center; gap: 14px; text-decoration: none;">
+              <span style="flex-shrink:0; width:32px; height:32px; background: rgba(34,139,34,0.1); border-radius:50%; display:flex; align-items:center; justify-content:center; color: var(--color-green); font-size: 0.85rem; font-weight: 700;">?</span>
+              <span style="font-size: 0.9rem; font-weight: 500; color: var(--color-navy);" data-i18n="faq_teaser.q1">Can a foreigner own and rent out property in Romania?</span>
+            </a>
+            <a href="faq.html#cat-services" class="card" style="padding: 18px 22px; display: flex; align-items: center; gap: 14px; text-decoration: none;">
+              <span style="flex-shrink:0; width:32px; height:32px; background: rgba(34,139,34,0.1); border-radius:50%; display:flex; align-items:center; justify-content:center; color: var(--color-green); font-size: 0.85rem; font-weight: 700;">?</span>
+              <span style="font-size: 0.9rem; font-weight: 500; color: var(--color-navy);" data-i18n="faq_teaser.q2">How much does property management cost in Transylvania?</span>
+            </a>
+            <a href="faq.html#cat-tenants" class="card" style="padding: 18px 22px; display: flex; align-items: center; gap: 14px; text-decoration: none;">
+              <span style="flex-shrink:0; width:32px; height:32px; background: rgba(34,139,34,0.1); border-radius:50%; display:flex; align-items:center; justify-content:center; color: var(--color-green); font-size: 0.85rem; font-weight: 700;">?</span>
+              <span style="font-size: 0.9rem; font-weight: 500; color: var(--color-navy);" data-i18n="faq_teaser.q3">What happens if a tenant doesn't pay rent?</span>
+            </a>
+            <a href="faq.html#cat-getting-started" class="card" style="padding: 18px 22px; display: flex; align-items: center; gap: 14px; text-decoration: none;">
+              <span style="flex-shrink:0; width:32px; height:32px; background: rgba(34,139,34,0.1); border-radius:50%; display:flex; align-items:center; justify-content:center; color: var(--color-green); font-size: 0.85rem; font-weight: 700;">?</span>
+              <span style="font-size: 0.9rem; font-weight: 500; color: var(--color-navy);" data-i18n="faq_teaser.q4">How do I get started if I live abroad?</span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Responsive override for FAQ teaser grid -->
+    <style>
+      @media (max-width: 768px) {
+        #faq-teaser .container > div {
+          grid-template-columns: 1fr !important;
+          gap: 40px !important;
+        }
+      }
+    </style>
+
   </main>
 
   <!-- Footer -->

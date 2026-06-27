@@ -71,8 +71,9 @@
         ' data-tally-overlay="1"' +
         ' style="margin-left:14px;padding:8px 16px;background:#228B22;color:#fff;border-radius:6px;font-weight:600;font-size:0.85rem;text-decoration:none;white-space:nowrap;display:inline-flex;align-items:center;transition:background .2s;"' +
         ' onmouseover="this.style.background=\'#1a6b1a\'"' +
-        ' onmouseout="this.style.background=\'#228B22\'">' +
-        'Consult gratuit / Free consult' +
+        ' onmouseout="this.style.background=\'#228B22\'"' +
+        ' data-i18n="nav.cta">' +
+        'Free Consultation' +
       '</a>' +
       '<button class="nav-hamburger" id="nav-hamburger" aria-label="Open menu" aria-expanded="false">' +
         '<span></span><span></span><span></span>' +
@@ -84,8 +85,9 @@
         ' data-tally-layout="modal"' +
         ' data-tally-width="720"' +
         ' data-tally-overlay="1"' +
-        ' style="display:block;margin:0 0 18px;padding:14px 20px;background:#228B22;color:#fff;border-radius:8px;font-weight:600;text-align:center;text-decoration:none;">' +
-        'Consult gratuit / Free consult →' +
+        ' style="display:block;margin:0 0 18px;padding:14px 20px;background:#228B22;color:#fff;border-radius:8px;font-weight:600;text-align:center;text-decoration:none;"' +
+        ' data-i18n="nav.cta">' +
+        'Free Consultation' +
       '</a>' +
       '<a href="' + s('properties') + '" data-i18n="nav.properties">Properties</a>' +
       '<a href="' + s('services')   + '" data-i18n="nav.services">Services</a>' +

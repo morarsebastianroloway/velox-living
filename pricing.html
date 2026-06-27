@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pricing — Velox Living | Property Management Transylvania</title>
+  <meta name="description" content="Clear, transparent pricing for property management in Târgu Mureș and Transylvania. Tenant Finding (50% of first month) or Full Management (25% + 10%/mo). No setup fee, no hidden charges." />
+  <meta name="keywords" content="property management cost Romania, property manager fee Transylvania, Velox Living pricing, administration imobiliara tarif, Târgu Mureș property management" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Pricing — Velox Living | Property Management Transylvania" />
+  <meta property="og:description" content="Transparent property management fees for remote owners in Transylvania. Two packages, no hidden costs, 3-month tenant guarantee." />
+  <meta property="og:url" content="https://living.veloxventures.eu/pricing.html" />
+
+  <!-- hreflang -->
+  <link rel="alternate" hreflang="en" href="pricing.html?lang=en" />
+  <link rel="alternate" hreflang="ro" href="pricing.html?lang=ro" />
+  <link rel="alternate" hreflang="hu" href="pricing.html?lang=hu" />
+  <link rel="alternate" hreflang="es" href="pricing.html?lang=es" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="icon" type="image/svg+xml" href="assets/VeloxLivingLogo.svg" />
+
+  <!-- Schema.org: Offer / PriceSpecification -->
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "name": "Tenant Finding Package",
+      "description": "Professional tenant finding service: premium listing, rigorous tenant screening, legal contract drafting, key handover with photo/video inventory, and 3-month tenant guarantee. One-time fee, no ongoing commitment.",
+      "url": "https://living.veloxventures.eu/pricing.html",
+      "seller": {
+        "@type": "RealEstateAgent",
+        "@id": "https://living.veloxventures.eu/#business",
+        "name": "Velox Living"
+      },
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "unitText": "% of first month rent",
+        "description": "One-time fee of 50% of the first month rent. No recurring charges. No commitment."
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Offer",
+      "name": "Full Management Package",
+      "description": "Complete, hands-off property management including tenant finding (25% of first month) plus 10% monthly management: rent collection, maintenance coordination, utility management, emergency response, and 2 annual inspections.",
+      "url": "https://living.veloxventures.eu/pricing.html",
+      "seller": {
+        "@type": "RealEstateAgent",
+        "@id": "https://living.veloxventures.eu/#business",
+        "name": "Velox Living"
+      },
+      "priceSpecification": [
+        {
+          "@type": "UnitPriceSpecification",
+          "unitText": "% of first month rent",
+          "description": "One-time onboarding fee at contract signing: 25% of first month rent."
+        },
+        {
+          "@type": "UnitPriceSpecification",
+          "unitText": "% of monthly rent",
+          "description": "Recurring monthly management fee: 10% of the monthly rent."
+        }
+      ]
+    }
+  ]
+  </script>
+
+  <style>
+    /* ── Pricing hero ── */
+    #pricing-hero {
+      background: var(--color-navy);
+      padding: 130px 0 80px;
+      text-align: center;
+    }
+    #pricing-hero .eyebrow { color: rgba(255,255,255,0.65); }
+    #pricing-hero h1 { color: #fff; margin: 14px 0 20px; }
+    #pricing-hero p {
+      color: rgba(255,255,255,0.78);
+      font-size: 1.1rem;
+      max-width: 560px;
+      margin: 0 auto;
+      line-height: 1.75;
+    }
+
+    /* ── Fee section ── */
+    #fee { padding: var(--section-pad); background: var(--color-offwhite); }
+    .fee-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: start;
+      margin-top: 52px;
+    }
+    .fee-range-wrap { margin-bottom: 32px; }
+    .fee-range-label {
+      display: block;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--color-slate-light);
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .fee-range {
+      display: block;
+      font-family: var(--font-heading);
+      font-size: clamp(3.5rem, 6vw, 5rem);
+      font-weight: 700;
+      color: var(--color-navy);
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+    .fee-range-sub {
+      display: block;
+      font-size: 1.05rem;
+      color: var(--color-slate-light);
+    }
+    .fee-content p {
+      color: var(--color-slate);
+      font-size: 0.95rem;
+      line-height: 1.8;
+      margin-bottom: 18px;
+    }
+    .fee-content p:last-child { margin-bottom: 0; }
+    .fee-features-wrap {
+      background: #fff;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: 32px 36px;
+      position: sticky;
+      top: 100px;
+    }
+    .fee-feat-label {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--color-slate-light);
+      margin-bottom: 20px;
+    }
+    .fee-features {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .fee-features li {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      font-size: 0.92rem;
+      color: var(--color-slate);
+      line-height: 1.55;
+    }
+    .feat-icon {
+      flex-shrink: 0;
+      width: 18px;
+      height: 18px;
+      color: var(--color-green);
+      margin-top: 2px;
+    }
+
+    /* ── Guarantee strip ── */
+    #guarantee-strip { background: var(--color-green); padding: 24px 0; }
+    .guarantee-inner {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+    .guarantee-icon {
+      flex-shrink: 0;
+      width: 44px;
+      height: 44px;
+      background: rgba(255,255,255,0.2);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+    .guarantee-text {
+      color: #fff;
+      font-size: 0.95rem;
+      line-height: 1.55;
+    }
+    .guarantee-text strong { font-weight: 700; }
+
+    /* ── Optional services ── */
+    #extras { padding: var(--section-pad); }
+    .extras-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+      gap: 20px;
+      margin-top: 44px;
+    }
+    .extra-card {
+      background: var(--color-offwhite);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius);
+      padding: 22px 26px;
+      transition: box-shadow var(--transition);
+    }
+    .extra-card:hover { box-shadow: var(--shadow-sm); }
+    .extra-name {
+      font-weight: 600;
+      color: var(--color-navy);
+      font-size: 0.95rem;
+      margin-bottom: 6px;
+    }
+    .extra-price {
+      font-family: var(--font-heading);
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--color-green);
+      margin-bottom: 5px;
+    }
+    .extra-note {
+      font-size: 0.82rem;
+      color: var(--color-slate-light);
+      line-height: 1.5;
+    }
+    .extras-disclaimer {
+      font-size: 0.83rem;
+      color: var(--color-slate-light);
+      text-align: center;
+      margin-top: 32px;
+      font-style: italic;
+    }
+
+    /* ── Pricing CTA ── */
+    #pricing-cta {
+      background: var(--color-navy);
+      padding: var(--section-pad);
+      text-align: center;
+    }
+    #pricing-cta .eyebrow { color: rgba(255,255,255,0.6); }
+    #pricing-cta h2 { color: #fff; margin: 14px 0 18px; }
+    #pricing-cta p {
+      color: rgba(255,255,255,0.75);
+      max-width: 500px;
+      margin: 0 auto 40px;
+      line-height: 1.75;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 768px) {
+      #pricing-hero { padding: 110px 0 60px; }
+      #pricing-hero h1 { font-size: clamp(1.8rem, 6vw, 2.4rem); }
+      .fee-layout { grid-template-columns: 1fr; gap: 40px; }
+      .fee-features-wrap { position: static; padding: 24px; }
+      .guarantee-inner { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="nav-root"></div>
+  <script>window.NAV_BASE = ''; window.NAV_ALWAYS_SCROLLED = true;</script>
+  <script src="js/nav.js"></script>
+
+  <main>
+
+    <!-- ================================================
+         HERO
+         ================================================ -->
+    <section id="pricing-hero" aria-label="Pricing">
+      <div class="container">
+        <span class="eyebrow" data-i18n="pricing.hero_eyebrow">Transparent Pricing</span>
+        <h1 data-i18n="pricing.hero_title">Simple, Honest Pricing</h1>
+        <p data-i18n="pricing.hero_subtitle">Remote owners need to plan ahead. That's why we publish our fees openly — no hidden charges, no surprises.</p>
+      </div>
+    </section>
+
+    <!-- ================================================
+         FEE SECTION
+         ================================================ -->
+    <section id="fee" aria-label="Pricing">
+      <div class="container">
+        <div class="section-header centered">
+          <span class="eyebrow" data-i18n="pricing.fee_eyebrow">What We Charge</span>
+          <h2 data-i18n="pricing.fee_heading">One Clear Fee. Everything Covered.</h2>
+          <div class="divider"></div>
+        </div>
+
+        <div class="fee-layout">
+
+          <div class="fee-content">
+            <div class="fee-range-wrap">
+              <span class="fee-range-label" data-i18n="pricing.fee_range_label">Typical monthly management fee</span>
+              <span class="fee-range">8–15%</span>
+              <span class="fee-range-sub" data-i18n="pricing.fee_range_sub">of your monthly rent</span>
+            </div>
+            <p data-i18n="pricing.fee_desc">This single percentage covers everything we do on your behalf — from finding and screening tenants to collecting rent, coordinating maintenance, and keeping you updated with photo reports. No add-ons for things that should already be included.</p>
+            <p data-i18n="pricing.fee_finding">Need a tenant found? We handle that too — professional listing, photography, viewings, vetting, and contract signing, all from start to finish.</p>
+            <p data-i18n="pricing.fee_note">The exact rate depends on your property and the scope of services you need. We agree on a clear, fixed percentage before anything starts — no hidden costs, no surprises.</p>
+          </div>
+
+          <div class="fee-features-wrap">
+            <div class="fee-feat-label" data-i18n="pricing.feat_label">What's typically included</div>
+            <ul class="fee-features">
+              <li>
+                <svg class="feat-icon" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                <span data-i18n="pricing.feat1">Tenant finding, photography &amp; screening</span>
+              </li>
+              <li>
+                <svg class="feat-icon" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                <span data-i18n="pricing.feat2">Contract drafting &amp; ANAF registration</span>
+              </li>
+              <li>
+                <svg class="feat-icon" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                <span data-i18n="pricing.feat3">Rent collection &amp; payment monitoring</span>
+              </li>
+              <li>
+                <svg class="feat-icon" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                <span data-i18n="pricing.feat4">Maintenance &amp; repair coordination</span>
+              </li>
+              <li>
+                <svg class="feat-icon" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                <span data-i18n="pricing.feat5">Utility management (on request)</span>
+              </li>
+              <li>
+                <svg class="feat-icon" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                <span data-i18n="pricing.feat6">Bi-annual inspections with photo report</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         GUARANTEE STRIP
+         ================================================ -->
+    <section id="guarantee-strip" aria-label="Tenant guarantee">
+      <div class="container">
+        <div class="guarantee-inner">
+          <div class="guarantee-icon" aria-hidden="true">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+            </svg>
+          </div>
+          <p class="guarantee-text" data-i18n="pricing.guarantee_text"><strong>3-month guarantee:</strong> if the tenant leaves within 3 months, we find the next one at no extra charge — on both packages.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         OPTIONAL ADD-ON SERVICES
+         ================================================ -->
+    <section id="extras" aria-label="Optional add-on services">
+      <div class="container">
+        <div class="section-header centered">
+          <span class="eyebrow" data-i18n="pricing.extras_eyebrow">Optional Services</span>
+          <h2 data-i18n="pricing.extras_heading">Pay Only for What You Need</h2>
+          <div class="divider"></div>
+        </div>
+
+        <div class="extras-grid">
+
+          <div class="extra-card">
+            <div class="extra-name" data-i18n="pricing.extra1_name">Contract Renewal / Redrafting</div>
+            <div class="extra-price" data-i18n="pricing.extra1_price">150–250 RON</div>
+            <div class="extra-note" data-i18n="pricing.extra1_note">Per operation</div>
+          </div>
+
+          <div class="extra-card">
+            <div class="extra-name" data-i18n="pricing.extra2_name">Major Works Coordination</div>
+            <div class="extra-price" data-i18n="pricing.extra2_price">5% of work value (min. 150 EUR)</div>
+            <div class="extra-note" data-i18n="pricing.extra2_note">Owner pays all materials and labour — we coordinate at no extra margin</div>
+          </div>
+
+          <div class="extra-card">
+            <div class="extra-name" data-i18n="pricing.extra3_name">Professional Cleaning Coordination</div>
+            <div class="extra-price" data-i18n="pricing.extra3_price">10% of cleaning company cost</div>
+            <div class="extra-note" data-i18n="pricing.extra3_note">Move-in or move-out</div>
+          </div>
+
+          <div class="extra-card">
+            <div class="extra-name" data-i18n="pricing.extra4_name">ANAF Contract Registration</div>
+            <div class="extra-price" data-i18n="pricing.extra4_price">200 RON</div>
+            <div class="extra-note" data-i18n="pricing.extra4_note">Legally required — we handle the full filing</div>
+          </div>
+
+          <div class="extra-card">
+            <div class="extra-name" data-i18n="pricing.extra5_name">ANAF Income Declaration Assistance</div>
+            <div class="extra-price" data-i18n="pricing.extra5_price">From 200 RON / year</div>
+            <div class="extra-note" data-i18n="pricing.extra5_note">Recommended for individual property owners</div>
+          </div>
+
+          <div class="extra-card">
+            <div class="extra-name" data-i18n="pricing.extra6_name">Eviction Assistance / Lease Termination</div>
+            <div class="extra-price" data-i18n="pricing.extra6_price">From 500 RON</div>
+            <div class="extra-note" data-i18n="pricing.extra6_note">Variable based on complexity; includes legal notification process</div>
+          </div>
+
+        </div>
+
+        <p class="extras-disclaimer" data-i18n="pricing.extras_note">Prices are indicative and may vary based on property type, location, and complexity.</p>
+
+      </div>
+    </section>
+
+    <!-- ================================================
+         CTA
+         ================================================ -->
+    <section id="pricing-cta" aria-label="Get a custom quote">
+      <div class="container">
+        <span class="eyebrow" data-i18n="pricing.cta_eyebrow">Let's Talk</span>
+        <h2 data-i18n="pricing.cta_heading">Get a Custom Quote</h2>
+        <p data-i18n="pricing.cta_subtitle">Every property is different. Message us on WhatsApp with your details and we'll put together a tailored estimate — usually within a few hours.</p>
+        <a href="https://wa.me/40774622914?text=Hello%20Velox%20Living%2C%20I%27d%20like%20a%20custom%20quote%20for%20my%20property."
+           class="btn btn-green"
+           target="_blank"
+           rel="noopener noreferrer"
+           data-i18n="pricing.cta_btn">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+            <path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.552 4.112 1.518 5.84L0 24l6.335-1.51A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.006-1.372l-.36-.214-3.727.888.905-3.63-.234-.373A9.818 9.818 0 1112 21.818z"/>
+          </svg>
+          Get a Custom Quote on WhatsApp
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <div id="footer-root"></div>
+  <script>window.FOOTER_BASE = '';</script>
+  <script src="js/footer.js"></script>
+
+  <!-- Floating WhatsApp button -->
+  <a id="whatsapp-float"
+     href="https://wa.me/40774622914?text=Hello%20Velox%20Living%2C%20I%27m%20interested%20in%20your%20services."
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Contact us on WhatsApp">
+    <svg fill="currentColor" viewBox="0 0 24 24">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+      <path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.552 4.112 1.518 5.84L0 24l6.335-1.51A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.006-1.372l-.36-.214-3.727.888.905-3.63-.234-.373A9.818 9.818 0 1112 21.818z"/>
+    </svg>
+  </a>
+
+  <!-- Scripts -->
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

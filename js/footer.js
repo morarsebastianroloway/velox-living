@@ -47,6 +47,7 @@
             '<li><a href="' + s('services')   + '" data-i18n="nav.services">Services</a></li>' +
             '<li><a href="' + p + 'about.html" data-i18n="nav.about">About</a></li>' +
             '<li><a href="' + p + 'faq.html" data-i18n="nav.faq">FAQ</a></li>' +
+            '<li><a href="' + p + 'pricing.html" data-i18n="nav.pricing">Pricing</a></li>' +
             '<li><a href="' + s('footer')     + '" data-i18n="nav.contact">Contact</a></li>' +
           '</ul>' +
         '</div>' +

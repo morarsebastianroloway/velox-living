@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us — Velox Living | Property Management Târgu Mureș</title>
+  <meta name="description" content="Meet the family-run team behind Velox Living — property management specialists based in Târgu Mureș, Transylvania, serving remote and international owners in English, Romanian, Hungarian and Spanish." />
+  <meta name="keywords" content="Velox Living team, property management Târgu Mureș, about us, family property managers Transylvania, Romania property management company" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="About Velox Living — Family-Run Property Management in Transylvania" />
+  <meta property="og:description" content="Meet the team behind Velox Living. Based in Târgu Mureș, we're a family-run operation serving remote and international property owners across Transylvania." />
+  <meta property="og:url" content="https://living.veloxventures.eu/about.html" />
+
+  <!-- hreflang -->
+  <link rel="alternate" hreflang="en" href="about.html?lang=en" />
+  <link rel="alternate" hreflang="ro" href="about.html?lang=ro" />
+  <link rel="alternate" hreflang="hu" href="about.html?lang=hu" />
+  <link rel="alternate" hreflang="es" href="about.html?lang=es" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="icon" type="image/svg+xml" href="assets/VeloxLivingLogo.svg" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://living.veloxventures.eu/#organization",
+      "name": "Velox Living",
+      "url": "https://living.veloxventures.eu/",
+      "logo": "https://living.veloxventures.eu/assets/VeloxLivingLogo.png",
+      "description": "Family-run property management company based in Târgu Mureș, Transylvania, serving remote and international property owners in English, Romanian, Hungarian and Spanish.",
+      "foundingLocation": {
+        "@type": "Place",
+        "name": "Târgu Mureș, Mureș, Romania"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Târgu Mureș",
+        "addressRegion": "Mureș",
+        "postalCode": "540000",
+        "addressCountry": "RO"
+      },
+      "telephone": "+40774622914",
+      "email": "living@veloxventures.eu",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+40774622914",
+        "contactType": "customer service",
+        "availableLanguage": ["English", "Romanian", "Hungarian", "Spanish"]
+      },
+      "availableLanguage": [
+        { "@type": "Language", "name": "English" },
+        { "@type": "Language", "name": "Romanian" },
+        { "@type": "Language", "name": "Hungarian" },
+        { "@type": "Language", "name": "Spanish" }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/veloxliving",
+        "https://www.instagram.com/veloxliving/",
+        "https://wa.me/40774622914"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "https://living.veloxventures.eu/about.html#adela-maria",
+      "name": "Adela Maria",
+      "jobTitle": "Co-Founder & Managing Director",
+      "worksFor": {
+        "@type": "Organization",
+        "@id": "https://living.veloxventures.eu/#organization"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Târgu Mureș",
+        "addressRegion": "Mureș",
+        "addressCountry": "RO"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "https://living.veloxventures.eu/about.html#sebastian-morar",
+      "name": "Sebastian Morar",
+      "jobTitle": "Co-Founder & Property Manager",
+      "worksFor": {
+        "@type": "Organization",
+        "@id": "https://living.veloxventures.eu/#organization"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Târgu Mureș",
+        "addressRegion": "Mureș",
+        "addressCountry": "RO"
+      }
+    }
+  ]
+  </script>
+
+  <style>
+    /* ── Page Hero ── */
+    .page-hero {
+      background: var(--color-navy);
+      padding: 140px 0 72px;
+      text-align: center;
+    }
+
+    .page-hero .eyebrow {
+      color: var(--color-green);
+      opacity: 0.9;
+    }
+
+    .page-hero h1 {
+      color: var(--color-white);
+      margin-bottom: 20px;
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+    }
+
+    .page-hero p {
+      color: rgba(255,255,255,0.75);
+      font-size: 1.05rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* ── Story Section ── */
+    #story {
+      padding: var(--section-pad);
+    }
+
+    .story-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 72px;
+      align-items: center;
+    }
+
+    .story-content h2 {
+      margin-bottom: 24px;
+    }
+
+    .story-content p {
+      color: var(--color-slate-light);
+      margin-bottom: 16px;
+      font-size: 1.02rem;
+    }
+
+    .story-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-top: 40px;
+    }
+
+    .stat-box {
+      background: var(--color-offwhite);
+      border-radius: var(--radius);
+      padding: 24px;
+      text-align: center;
+      border-left: 3px solid var(--color-green);
+    }
+
+    .stat-number {
+      font-family: var(--font-heading);
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--color-navy);
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+
+    .stat-label {
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: var(--color-slate-light);
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+    }
+
+    .story-image {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      background: var(--color-navy);
+      aspect-ratio: 4/5;
+      position: relative;
+    }
+
+    .story-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.9;
+    }
+
+    .story-image-placeholder {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      color: rgba(255,255,255,0.4);
+      font-size: 0.875rem;
+      text-align: center;
+      padding: 32px;
+    }
+
+    /* ── Team Section ── */
+    #team {
+      padding: var(--section-pad);
+      background: var(--color-offwhite);
+    }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 28px;
+      margin-top: 0;
+    }
+
+    .team-card {
+      background: var(--color-white);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      transition: transform var(--transition), box-shadow var(--transition);
+    }
+
+    .team-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .team-card-photo {
+      height: 200px;
+      background: var(--color-navy);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .team-card-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .team-card-photo-placeholder {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.15);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255,255,255,0.5);
+    }
+
+    .team-card-body {
+      padding: 24px;
+    }
+
+    .team-card-name {
+      font-family: var(--font-heading);
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--color-navy);
+      margin-bottom: 4px;
+    }
+
+    .team-card-role {
+      font-size: 0.82rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--color-green);
+      margin-bottom: 12px;
+    }
+
+    .team-card-bio {
+      font-size: 0.9rem;
+      color: var(--color-slate-light);
+      line-height: 1.65;
+    }
+
+    .team-card-langs {
+      display: flex;
+      gap: 6px;
+      margin-top: 16px;
+      flex-wrap: wrap;
+    }
+
+    .lang-tag {
+      font-size: 0.72rem;
+      font-weight: 600;
+      background: var(--color-offwhite);
+      color: var(--color-slate);
+      padding: 3px 10px;
+      border-radius: 20px;
+      letter-spacing: 0.04em;
+    }
+
+    .placeholder-notice {
+      font-size: 0.75rem;
+      color: #c97c00;
+      background: #fff8e1;
+      border: 1px solid #f5c842;
+      border-radius: var(--radius-sm);
+      padding: 6px 12px;
+      margin-top: 12px;
+      display: inline-block;
+    }
+
+    /* ── Languages Section ── */
+    #languages {
+      padding: var(--section-pad);
+    }
+
+    .languages-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 72px;
+      align-items: center;
+    }
+
+    .lang-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 32px;
+    }
+
+    .lang-row {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .lang-flag {
+      width: 36px;
+      height: auto;
+      border-radius: 3px;
+      flex-shrink: 0;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+    }
+
+    .lang-info strong {
+      display: block;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--color-navy);
+    }
+
+    .lang-info span {
+      font-size: 0.82rem;
+      color: var(--color-slate-light);
+    }
+
+    .languages-callout {
+      background: var(--color-navy);
+      border-radius: var(--radius-lg);
+      padding: 40px;
+      color: rgba(255,255,255,0.85);
+    }
+
+    .languages-callout h3 {
+      color: var(--color-white);
+      margin-bottom: 16px;
+    }
+
+    .languages-callout p {
+      font-size: 0.95rem;
+      line-height: 1.75;
+      margin-bottom: 24px;
+    }
+
+    /* ── Contact/Location Section ── */
+    #location-contact {
+      padding: var(--section-pad);
+      background: var(--color-offwhite);
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 28px;
+    }
+
+    .contact-card {
+      background: var(--color-white);
+      border-radius: var(--radius);
+      padding: 32px;
+      box-shadow: var(--shadow);
+    }
+
+    .contact-icon {
+      width: 44px;
+      height: 44px;
+      background: rgba(34,139,34,0.1);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--color-green);
+      margin-bottom: 16px;
+    }
+
+    .contact-icon svg {
+      width: 22px;
+      height: 22px;
+    }
+
+    .contact-card h4 {
+      margin-bottom: 8px;
+    }
+
+    .contact-card p, .contact-card a {
+      font-size: 0.92rem;
+      color: var(--color-slate-light);
+      line-height: 1.6;
+    }
+
+    .contact-card a {
+      color: var(--color-green);
+      font-weight: 500;
+    }
+
+    .contact-card a:hover {
+      color: var(--color-green-dark);
+    }
+
+    /* ── Affiliations Section ── */
+    #affiliations {
+      padding: var(--section-pad);
+    }
+
+    .affil-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 24px;
+    }
+
+    .affil-item {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+
+    .affil-icon {
+      width: 40px;
+      height: 40px;
+      background: rgba(34,139,34,0.1);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--color-green);
+      flex-shrink: 0;
+    }
+
+    .affil-icon svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    .affil-text strong {
+      display: block;
+      font-size: 0.9rem;
+      color: var(--color-navy);
+      margin-bottom: 4px;
+      font-weight: 600;
+    }
+
+    .affil-text span {
+      font-size: 0.82rem;
+      color: var(--color-slate-light);
+    }
+
+    /* ── CTA Banner ── */
+    #about-cta {
+      padding: var(--section-pad);
+      background: var(--color-navy);
+      text-align: center;
+    }
+
+    #about-cta h2 {
+      color: var(--color-white);
+      margin-bottom: 16px;
+    }
+
+    #about-cta p {
+      color: rgba(255,255,255,0.7);
+      max-width: 560px;
+      margin: 0 auto 36px;
+      font-size: 1.02rem;
+    }
+
+    #about-cta .divider {
+      background: rgba(255,255,255,0.2);
+      margin: 16px auto;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 900px) {
+      .story-inner,
+      .languages-inner {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      .story-image {
+        aspect-ratio: 16/9;
+        order: -1;
+      }
+
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .story-stats {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .team-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="nav-root"></div>
+  <script>
+    window.NAV_BASE = '';
+    window.NAV_ALWAYS_SCROLLED = true;
+  </script>
+  <script src="js/nav.js"></script>
+
+  <main>
+
+    <!-- ================================================
+         PAGE HERO
+         ================================================ -->
+    <section class="page-hero" aria-label="About Velox Living">
+      <div class="container">
+        <span class="eyebrow">Who We Are</span>
+        <h1>Family-Run. On the Ground. Built for Remote Owners.</h1>
+        <p>We started Velox Living because we believed property owners in Transylvania deserved a management service as attentive as a family member — not a faceless agency.</p>
+      </div>
+    </section>
+
+    <!-- ================================================
+         COMPANY STORY
+         ================================================ -->
+    <section id="story" aria-label="Our story">
+      <div class="container">
+        <div class="story-inner">
+
+          <div class="story-content">
+            <div class="section-header">
+              <span class="eyebrow">Our Story</span>
+              <h2>Rooted in Târgu Mureș. Built for Owners Everywhere.</h2>
+              <div class="divider"></div>
+            </div>
+
+            <p>Velox Living grew out of a simple frustration: property owners living abroad — in Western Europe, Latin America, or beyond — had no reliable, communicative partner to trust with their Transylvanian investments. The options were either informal arrangements with limited accountability, or large agencies that treated every property like a number.</p>
+
+            <p>We started the way most landlords do — managing our own apartments in Târgu Mureș. That experience taught us what tenants actually need, what breaks, what causes disputes, and what matters most to owners at the end of every month. We didn't learn property management from a textbook; we lived it first as landlords ourselves.</p>
+
+            <p>So we built something different. As a family-run team with deep roots in Mureș County, we combine the responsiveness of a personal service with the professionalism of a dedicated management firm. Every property we manage receives the same care we give our own — because we still have skin in the game.</p>
+
+            <p>We work exclusively in Transylvania — which means we know the local market, the contractors, the regulations, and the neighbourhoods intimately. When you hand us the keys, you gain a trusted partner on the ground, not just a management contract.</p>
+
+            <div class="story-stats">
+              <div class="stat-box">
+                <div class="stat-number">4</div>
+                <div class="stat-label">Languages spoken</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-number">Fast</div>
+                <div class="stat-label">Emergency response</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Remote-friendly</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-number">TGM</div>
+                <div class="stat-label">Local presence</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="story-image" aria-hidden="true">
+            <img src="assets/images/team-ground.png"
+                 alt="Velox Living team on location in Târgu Mureș"
+                 loading="lazy" />
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         TEAM
+         ================================================ -->
+    <section id="team" aria-label="Our team">
+      <div class="container">
+        <div class="section-header centered">
+          <span class="eyebrow">The Team</span>
+          <h2>The People Behind Every Property</h2>
+          <div class="divider"></div>
+          <p>We are a small, dedicated team — which means you always know who is handling your property and can reach us directly.</p>
+        </div>
+
+        <div class="team-grid">
+
+          <article class="team-card" itemscope itemtype="https://schema.org/Person">
+            <div class="team-card-photo" aria-hidden="true">
+              <div class="team-card-photo-placeholder">
+                <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" width="40" height="40">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"/>
+                </svg>
+              </div>
+            </div>
+            <div class="team-card-body">
+              <h3 class="team-card-name" itemprop="name">Adela Maria</h3>
+              <p class="team-card-role" itemprop="jobTitle">Co-Founder &amp; Managing Director</p>
+              <p class="team-card-bio" itemprop="description">Adela oversees client relationships and day-to-day operations at Velox Living. With a firsthand understanding of the Târgu Mureș rental market — first as a landlord herself — she brings a practical, owner-first perspective to every property we manage.</p>
+            </div>
+          </article>
+
+          <article class="team-card" itemscope itemtype="https://schema.org/Person">
+            <div class="team-card-photo" aria-hidden="true">
+              <div class="team-card-photo-placeholder">
+                <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" width="40" height="40">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"/>
+                </svg>
+              </div>
+            </div>
+            <div class="team-card-body">
+              <h3 class="team-card-name" itemprop="name">Sebastian Morar</h3>
+              <p class="team-card-role" itemprop="jobTitle">Co-Founder &amp; Property Manager</p>
+              <p class="team-card-bio" itemprop="description">Sebastian handles property operations, contractor coordination, and tenant management on the ground. He started as a landlord in Târgu Mureș, which means he understands both sides of the rental relationship — and knows exactly what can go wrong before it does.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         LANGUAGES
+         ================================================ -->
+    <section id="languages" aria-label="Languages we serve">
+      <div class="container">
+        <div class="languages-inner">
+
+          <div>
+            <div class="section-header">
+              <span class="eyebrow">Multilingual Service</span>
+              <h2>We Speak Your Language — Literally.</h2>
+              <div class="divider"></div>
+            </div>
+
+            <p style="color: var(--color-slate-light); margin-bottom: 12px;">
+              Property management in Transylvania sits at a unique cultural crossroads. Târgu Mureș is a bilingual city where both Romanian and Hungarian are everyday languages — and many of our clients are international investors who work in English or Spanish.
+            </p>
+            <p style="color: var(--color-slate-light); margin-bottom: 32px;">
+              That's why Velox Living operates fluently in all four languages — not just translating words, but navigating local customs, legal terminology, and tenant expectations in each language natively.
+            </p>
+
+            <div class="lang-list">
+              <div class="lang-row">
+                <img src="assets/flags/en.svg" alt="English" class="lang-flag" />
+                <div class="lang-info">
+                  <strong>English</strong>
+                  <span>Full service — consultations, contracts, reports &amp; support</span>
+                </div>
+              </div>
+              <div class="lang-row">
+                <img src="assets/flags/ro.svg" alt="Romanian" class="lang-flag" />
+                <div class="lang-info">
+                  <strong>Română</strong>
+                  <span>Native — all ANAF filings, contracts &amp; local administration</span>
+                </div>
+              </div>
+              <div class="lang-row">
+                <img src="assets/flags/hu.svg" alt="Hungarian" class="lang-flag" />
+                <div class="lang-info">
+                  <strong>Magyar</strong>
+                  <span>Native — tenant communication, negotiations &amp; local dealings</span>
+                </div>
+              </div>
+              <div class="lang-row">
+                <img src="assets/flags/es.svg" alt="Spanish" class="lang-flag" />
+                <div class="lang-info">
+                  <strong>Español</strong>
+                  <span>Full service — for clients across Spain and Latin America</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="languages-callout">
+            <h3>Why This Matters for Remote Owners</h3>
+            <p>
+              When your tenant calls about a heating failure on a winter evening, you need someone who can respond in Romanian <em>and</em> coordinate the repair — not one or the other. When you receive a contract to review, it should be in the language you're most comfortable in, not the one that's easiest for us.
+            </p>
+            <p>
+              Our multilingual capability isn't a marketing line — it's how we actually work, every day. Owners receive reports and messages in their preferred language. Tenants are spoken to in theirs. And all official paperwork is handled correctly in Romanian, as Romanian law requires.
+            </p>
+            <a href="https://wa.me/40774622914?text=Hello%20Velox%20Living%2C%20I%27d%20like%20to%20discuss%20my%20property%20in%20Transylvania."
+               class="btn btn-outline"
+               target="_blank"
+               rel="noopener noreferrer"
+               style="border-color: rgba(255,255,255,0.5); color: #fff; margin-top: 8px;">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+                <path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.552 4.112 1.518 5.84L0 24l6.335-1.51A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.006-1.372l-.36-.214-3.727.888.905-3.63-.234-.373A9.818 9.818 0 1112 21.818z"/>
+              </svg>
+              Start the conversation
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         LOCATION & CONTACT
+         ================================================ -->
+    <section id="location-contact" aria-label="Where to find us">
+      <div class="container">
+        <div class="section-header centered">
+          <span class="eyebrow">Find Us</span>
+          <h2>Always on the Ground in Târgu Mureș</h2>
+          <div class="divider"></div>
+          <p>We are permanently based in Târgu Mureș, Mureș County — not a remote office, not a virtual team. When your property needs attention, we're a short drive away.</p>
+        </div>
+
+        <div class="contact-grid">
+
+          <div class="contact-card">
+            <div class="contact-icon" aria-hidden="true">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+              </svg>
+            </div>
+            <h4>Address</h4>
+            <p>
+              Târgu Mureș<br />
+              Mureș County, Romania<br />
+              <em style="font-size:0.8rem; color: #c97c00;">⚠ Full street address — add when available</em>
+            </p>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon" aria-hidden="true">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 3H3a2 2 0 00-2 2v14a2 2 0 002 2h18a2 2 0 002-2V5a2 2 0 00-2-2z"/>
+              </svg>
+            </div>
+            <h4>WhatsApp</h4>
+            <p>The fastest way to reach us. We respond to all messages, typically within a few hours on weekdays.</p>
+            <a href="https://wa.me/40774622914?text=Hello%20Velox%20Living%2C%20I%27d%20like%20to%20know%20more%20about%20your%20services."
+               target="_blank"
+               rel="noopener noreferrer"
+               style="display:inline-flex;align-items:center;gap:8px;margin-top:12px;font-weight:600;color:var(--color-green);">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+                <path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.552 4.112 1.518 5.84L0 24l6.335-1.51A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.006-1.372l-.36-.214-3.727.888.905-3.63-.234-.373A9.818 9.818 0 1112 21.818z"/>
+              </svg>
+              +40 774 622 914
+            </a>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon" aria-hidden="true">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+              </svg>
+            </div>
+            <h4>Email</h4>
+            <p>For formal enquiries, contract questions, or if you prefer asynchronous communication.</p>
+            <a href="mailto:living@veloxventures.eu" style="display:inline-block;margin-top:12px;font-weight:600;color:var(--color-green);">
+              living@veloxventures.eu
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         AFFILIATIONS & COMPLIANCE
+         ================================================ -->
+    <section id="affiliations" aria-label="Registrations and compliance">
+      <div class="container">
+        <div class="section-header centered">
+          <span class="eyebrow">Registrations &amp; Compliance</span>
+          <h2>Operating by the Book</h2>
+          <div class="divider"></div>
+          <p>We manage properties in full compliance with Romanian property law — so your investment is protected and every document holds up legally.</p>
+        </div>
+
+        <div class="affil-grid">
+
+          <div class="affil-item">
+            <div class="affil-icon" aria-hidden="true">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+              </svg>
+            </div>
+            <div class="affil-text">
+              <strong>ANAF-Registered Operations</strong>
+              <span>All rental contracts are registered with the Romanian National Agency for Fiscal Administration as required by law.</span>
+            </div>
+          </div>
+
+          <div class="affil-item">
+            <div class="affil-icon" aria-hidden="true">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+              </svg>
+            </div>
+            <div class="affil-text">
+              <strong>Romanian Civil Code Compliance</strong>
+              <span>Lease agreements drafted in full compliance with the Romanian Civil Code (Codul Civil), protecting both owners and tenants.</span>
+            </div>
+          </div>
+
+          <div class="affil-item">
+            <div class="affil-icon" aria-hidden="true">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+              </svg>
+            </div>
+            <div class="affil-text">
+              <strong>ONRC-Registered Company</strong>
+              <span>Velox Living operates as a legally registered entity in Romania (Registrul Comerțului), providing formal accountability and legal standing.</span>
+            </div>
+          </div>
+
+          <div class="affil-item">
+            <div class="affil-icon" aria-hidden="true">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"/>
+              </svg>
+            </div>
+            <div class="affil-text">
+              <strong>Digital Signing Ready</strong>
+              <span>All contracts can be signed remotely — no need to travel to Romania. Fully valid under Romanian electronic signature legislation.</span>
+            </div>
+          </div>
+
+          <div class="affil-item" style="opacity:0.6;">
+            <div class="affil-icon" aria-hidden="true">
+              <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+            </div>
+            <div class="affil-text">
+              <strong>[Additional Certification — Placeholder]</strong>
+              <span>⚠ Add any professional memberships, ARAI affiliation, or other relevant accreditations here.</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         CTA
+         ================================================ -->
+    <section id="about-cta" aria-label="Get in touch">
+      <div class="container">
+        <span class="eyebrow" style="color: rgba(34,139,34,0.9);">Ready to Get Started?</span>
+        <h2>Let's Talk About Your Property</h2>
+        <div class="divider"></div>
+        <p>Whether you own a single apartment or a portfolio of units in Transylvania, we'd love to hear about your situation. The first conversation is always free.</p>
+        <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;">
+          <a href="javascript:void(0)"
+             class="btn btn-green"
+             data-tally-open="q4o5xY"
+             data-tally-layout="modal"
+             data-tally-width="720"
+             data-tally-overlay="1">
+            Schedule a Free Consultation
+          </a>
+          <a href="https://wa.me/40774622914?text=Hello%20Velox%20Living%2C%20I%27d%20like%20to%20discuss%20my%20property%20in%20Transylvania."
+             class="btn btn-outline"
+             target="_blank"
+             rel="noopener noreferrer">
+            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+              <path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.552 4.112 1.518 5.84L0 24l6.335-1.51A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.006-1.372l-.36-.214-3.727.888.905-3.63-.234-.373A9.818 9.818 0 1112 21.818z"/>
+            </svg>
+            Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <div id="footer-root"></div>
+  <script>window.FOOTER_BASE = '';</script>
+  <script src="js/footer.js"></script>
+
+  <!-- Floating WhatsApp -->
+  <a id="whatsapp-float"
+     href="https://wa.me/40774622914?text=Hello%20Velox%20Living%2C%20I%27m%20interested%20in%20your%20services."
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Contact us on WhatsApp">
+    <svg fill="currentColor" viewBox="0 0 24 24">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+      <path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.552 4.112 1.518 5.84L0 24l6.335-1.51A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.006-1.372l-.36-.214-3.727.888.905-3.63-.234-.373A9.818 9.818 0 1112 21.818z"/>
+    </svg>
+  </a>
+
+  <!-- Scripts -->
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

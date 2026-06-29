@@ -55,7 +55,20 @@
     "links_heading": "Quick Links",
     "contact_heading": "Get in Touch",
     "copyright": "© 2025 Velox Living. All rights reserved.",
-    "made_with": "Made with ❤️ in Transylvania"
+    "made_with": "Made with ❤️ in Transylvania",
+    "guide1": "Renting in Romania: Remote Owner Guide",
+    "guide2": "Property Management in Târgu Mureș"
+  },
+  "guides": {
+    "eyebrow": "Investor Guides",
+    "heading": "Free Guides for Property Owners",
+    "card1_tag": "Remote Owners",
+    "card1_title": "Renting Property in Romania in 2026: A Guide for Remote Owners",
+    "card1_desc": "Legal requirements, tax obligations, rent collection, and tenant rights — everything you need to know to rent out your Romanian property from abroad.",
+    "card2_tag": "Investors",
+    "card2_title": "Property Management in Târgu Mureș: A Complete Guide for Investors",
+    "card2_desc": "Rental yields, market dynamics, management process, and how Transylvania's market compares to Bucharest.",
+    "cta": "Read Guide →"
   },
   "prop1": {
     "title": "2-Bedroom Apartment with Panoramic Views of Tudor",

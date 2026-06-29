@@ -537,8 +537,42 @@
           grid-template-columns: 1fr !important;
           gap: 40px !important;
         }
+        #guides-grid {
+          grid-template-columns: 1fr !important;
+        }
       }
     </style>
+
+    <!-- ================================================
+         GUIDES SECTION
+         ================================================ -->
+    <section id="guides" style="padding: 80px 0;" aria-label="Investor guides">
+      <div class="container">
+        <div class="section-header centered">
+          <span class="eyebrow" data-i18n="guides.eyebrow">Investor Guides</span>
+          <h2 data-i18n="guides.heading">Free Guides for Property Owners</h2>
+          <div class="divider"></div>
+        </div>
+
+        <div id="guides-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:48px;">
+
+          <a href="blog/remote-owners-renting-romania.html" class="card" style="display:flex;flex-direction:column;gap:14px;padding:32px;text-decoration:none;">
+            <span style="font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-green);" data-i18n="guides.card1_tag">Remote Owners</span>
+            <h3 style="font-size:1.1rem;line-height:1.4;color:var(--color-navy);margin:0;" data-i18n="guides.card1_title">Renting Property in Romania in 2026: A Guide for Remote Owners</h3>
+            <p style="font-size:0.9rem;color:var(--color-slate);line-height:1.65;flex:1;margin:0;" data-i18n="guides.card1_desc">Legal requirements, tax obligations, rent collection, and tenant rights — everything you need to know to rent out your Romanian property from abroad.</p>
+            <span style="font-size:0.88rem;font-weight:600;color:var(--color-green);" data-i18n="guides.cta">Read Guide →</span>
+          </a>
+
+          <a href="blog/property-management-targu-mures-guide.html" class="card" style="display:flex;flex-direction:column;gap:14px;padding:32px;text-decoration:none;">
+            <span style="font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-green);" data-i18n="guides.card2_tag">Investors</span>
+            <h3 style="font-size:1.1rem;line-height:1.4;color:var(--color-navy);margin:0;" data-i18n="guides.card2_title">Property Management in Târgu Mureș: A Complete Guide for Investors</h3>
+            <p style="font-size:0.9rem;color:var(--color-slate);line-height:1.65;flex:1;margin:0;" data-i18n="guides.card2_desc">Rental yields, market dynamics, management process, and how Transylvania's market compares to Bucharest.</p>
+            <span style="font-size:0.88rem;font-weight:600;color:var(--color-green);" data-i18n="guides.cta">Read Guide →</span>
+          </a>
+
+        </div>
+      </div>
+    </section>
 
   </main>
 

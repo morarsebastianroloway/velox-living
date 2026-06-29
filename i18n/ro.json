@@ -55,7 +55,20 @@
     "links_heading": "Linkuri Rapide",
     "contact_heading": "Contactează-ne",
     "copyright": "© 2025 Velox Living. Toate drepturile rezervate.",
-    "made_with": "Făcut cu ❤️ în Transilvania"
+    "made_with": "Făcut cu ❤️ în Transilvania",
+    "guide1": "Închiriere în România: Ghid pentru proprietari",
+    "guide2": "Administrare imobiliară la Târgu Mureș"
+  },
+  "guides": {
+    "eyebrow": "Ghiduri pentru investitori",
+    "heading": "Ghiduri gratuite pentru proprietari",
+    "card1_tag": "Proprietari la distanță",
+    "card1_title": "Închirierea proprietăților în România în 2026: Ghid pentru proprietari la distanță",
+    "card1_desc": "Cerințe legale, obligații fiscale, colectarea chiriei și drepturile chiriașilor — tot ce trebuie să știi pentru a închiria proprietatea ta din România din străinătate.",
+    "card2_tag": "Investitori",
+    "card2_title": "Administrarea proprietăților la Târgu Mureș: Ghid complet pentru investitori",
+    "card2_desc": "Randamente din chirii, dinamica pieței, procesul de administrare și cum se compară Transilvania cu Bucureștiul.",
+    "cta": "Citește ghidul →"
   },
   "prop1": {
     "title": "Apartament cu 2 camere cu vedere panoramică a Tudorului",

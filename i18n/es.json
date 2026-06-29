@@ -55,7 +55,20 @@
     "links_heading": "Enlaces Rápidos",
     "contact_heading": "Contáctanos",
     "copyright": "© 2025 Velox Living. Todos los derechos reservados.",
-    "made_with": "Hecho con ❤️ en Transilvania"
+    "made_with": "Hecho con ❤️ en Transilvania",
+    "guide1": "Alquiler en Rumanía: Guía para propietarios",
+    "guide2": "Gestión inmobiliaria en Târgu Mureș"
+  },
+  "guides": {
+    "eyebrow": "Guías para Inversores",
+    "heading": "Guías Gratuitas para Propietarios",
+    "card1_tag": "Propietarios Remotos",
+    "card1_title": "Alquiler de propiedades en Rumanía en 2026: Guía para propietarios remotos",
+    "card1_desc": "Requisitos legales, obligaciones fiscales, cobro de rentas y derechos del inquilino — todo lo que necesita saber para alquilar su propiedad rumana desde el extranjero.",
+    "card2_tag": "Inversores",
+    "card2_title": "Gestión Inmobiliaria en Târgu Mureș: Guía Completa para Inversores",
+    "card2_desc": "Rendimientos de alquiler, dinámica del mercado, proceso de gestión y cómo se compara Transilvania con Bucarest.",
+    "cta": "Leer guía →"
   },
   "prop1": {
     "title": "Apartamento de 2 habitaciones con vistas panorámicas al Tudor",

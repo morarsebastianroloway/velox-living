@@ -55,7 +55,20 @@
     "links_heading": "Gyors Linkek",
     "contact_heading": "Kapcsolatfelvétel",
     "copyright": "© 2025 Velox Living. Minden jog fenntartva.",
-    "made_with": "Szeretettel készítve ❤️ Erdélyben"
+    "made_with": "Szeretettel készítve ❤️ Erdélyben",
+    "guide1": "Bérbeadás Romániában: Tulajdonosi útmutató",
+    "guide2": "Ingatlankezelés Marosvásárhelyen"
+  },
+  "guides": {
+    "eyebrow": "Befektetői útmutatók",
+    "heading": "Ingyenes útmutatók ingatlantulajdonosoknak",
+    "card1_tag": "Távoli tulajdonosok",
+    "card1_title": "Ingatlan bérbeadása Romániában 2026-ban: Útmutató távoli tulajdonosoknak",
+    "card1_desc": "Jogi követelmények, adókötelezettségek, bérleti díj beszedése és bérlői jogok — minden, amit tudnod kell a romániai ingatlanod külföldről történő bérbeadásához.",
+    "card2_tag": "Befektetők",
+    "card2_title": "Ingatlankezelés Marosvásárhelyen: Teljes útmutató befektetőknek",
+    "card2_desc": "Bérleti hozamok, piaci dinamika, kezelési folyamat és hogyan viszonyul Erdély Bukaresthez.",
+    "cta": "Útmutató olvasása →"
   },
   "prop1": {
     "title": "2 Szobás Lakás Panorámás Kilátással a Tudor negyedre",

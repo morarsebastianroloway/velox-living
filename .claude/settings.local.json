@@ -2,10 +2,12 @@
   "permissions": {
     "allow": [
       "WebFetch(domain:raw.githubusercontent.com)",
-      "Bash(mkdir -p \"d:/Projects/Velox/velox-living/assets/images/prop5\")"
+      "Bash(mkdir -p \"d:/Projects/Velox/velox-living/assets/images/prop5\")",
+      "Bash(mkdir -p \"d:/Projects/Velox/velox-living/blog\")"
     ],
     "additionalDirectories": [
-      "d:\\Projects\\Velox\\velox-living\\assets\\images"
+      "d:\\Projects\\Velox\\velox-living\\assets\\images",
+      "d:\\Projects\\Velox\\velox-living"
     ]
   }
 }

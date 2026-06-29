@@ -45,8 +45,12 @@
           '<ul>' +
             '<li><a href="' + s('properties') + '" data-i18n="nav.properties">Properties</a></li>' +
             '<li><a href="' + s('services')   + '" data-i18n="nav.services">Services</a></li>' +
-            '<li><a href="' + s('why-velox')  + '" data-i18n="nav.about">About</a></li>' +
+            '<li><a href="' + p + 'about.html" data-i18n="nav.about">About</a></li>' +
+            '<li><a href="' + p + 'faq.html" data-i18n="nav.faq">FAQ</a></li>' +
+            '<li><a href="' + p + 'pricing.html" data-i18n="nav.pricing">Pricing</a></li>' +
             '<li><a href="' + s('footer')     + '" data-i18n="nav.contact">Contact</a></li>' +
+            '<li style="border-top:1px solid rgba(255,255,255,0.1);margin-top:8px;padding-top:8px;"><a href="' + p + 'blog/remote-owners-renting-romania.html" data-i18n="footer.guide1">Renting in Romania: Remote Owner Guide</a></li>' +
+            '<li><a href="' + p + 'blog/property-management-targu-mures-guide.html" data-i18n="footer.guide2">Property Management in Târgu Mureș</a></li>' +
           '</ul>' +
         '</div>' +
 

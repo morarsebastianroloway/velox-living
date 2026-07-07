@@ -133,6 +133,34 @@
     "amenity_cctv": "Videófelügyelet",
     "amenity_network": "Hálózat & POS"
   },
+  "prop6": {
+    "title": "2 szobás lakás az Acta Residence-ben, Tudor negyed",
+    "location": "Tudor negyed, Marosvásárhely",
+    "floor": "5.",
+    "desc_heading": "Modern 2 szobás lakás az Acta Residence-ben, Tudor negyed",
+    "desc_p1": "Ez a kétszobás lakás egy új építésű tömbház (2000 után épült) 5. emeletén található, az Acta Residence komplexumban, Marosvásárhely Tudor negyedében. A lakás elosztása körüljárható, nem egymásba nyíló szobákkal, és minden helyiség kiváló minőségű kivitelezéssel készült.",
+    "desc_p2": "A lakás teljesen bútorozott és felszerelt: hűtőszekrény, LCD TV, mosógép, beépített főzőlap és sütő, páraelszívó, porszívó, valamint videó-kaputelefon a bejáratnál.",
+    "desc_p3": "Az elhelyezkedés kiváló diákok és dolgozók számára egyaránt: közel van az UMFST Egyetem és az új Megyei Kórház, a komplexum szomszédságában pedig Kaufland, Lidl, City Mall, piac, éjjel-nappal nyitva tartó gyógyszertárak, bankok és buszmegállók találhatók.",
+    "desc_p4": "Az Acta Residence nyugodt, modern életstílust kínál, saját parkolóhellyel és őrzött komplexummal.",
+    "desc_p5": "Azonnal beköltözhető. A bérleti díj 400 €/hónap, alkuképes.",
+    "desc_p6": "",
+    "amenity_intercom": "Videó-kaputelefon",
+    "amenity_security": "Őrzött Komplexum"
+  },
+  "prop7": {
+    "title": "Modern Stúdió Lakás a Városközpontban",
+    "location": "Központ, Marosvásárhely",
+    "floor": "1.",
+    "desc_heading": "Modern Stúdió Lakás Marosvásárhely Szívében",
+    "desc_p1": "Ez az egyszobás stúdió lakás Marosvásárhely központjában található, a Mihai Eminescu utcában, közvetlenül a Procardia Klinikával szemben, mindössze 3 percnyi sétára a Rózsák terétől (Piața Trandafirilor) és a Várfaltól. A lakás egy új építésű, nemrég átadott tömbházban található, és másodszor kerül bérbeadásra.",
+    "desc_p2": "Modern kivitelezésű, a stúdió teljesen bútorozott új, minőségi bútorokkal, és teljesen felszerelt: elektromos sütő, indukciós főzőlap, mosogatógép, mosógép, hűtőszekrény és televízió.",
+    "desc_p3": "A fűtést egy saját kazán biztosítja padlófűtéssel az egész lakásban, a fürdőszobában pedig modern, küszöb nélküli zuhanyzó található.",
+    "desc_p4": "Parkolás az utcán biztosított, éves önkormányzati bérlettel (kb. 500 lej/év).",
+    "desc_p5": "Hosszú távú bérletre elérhető.",
+    "desc_p6": "",
+    "amenity_heating": "Padlófűtés",
+    "amenity_shower": "Küszöb Nélküli Zuhanyzó"
+  },
   "properties": {
     "eyebrow": "Ingatlanaink",
     "heading": "Kiemelt Hirdetések Marosvásárhelyen",

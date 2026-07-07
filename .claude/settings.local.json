@@ -3,7 +3,9 @@
     "allow": [
       "WebFetch(domain:raw.githubusercontent.com)",
       "Bash(mkdir -p \"d:/Projects/Velox/velox-living/assets/images/prop5\")",
-      "Bash(mkdir -p \"d:/Projects/Velox/velox-living/blog\")"
+      "Bash(mkdir -p \"d:/Projects/Velox/velox-living/blog\")",
+      "WebFetch(domain:www.olx.ro)",
+      "WebSearch"
     ],
     "additionalDirectories": [
       "d:\\Projects\\Velox\\velox-living\\assets\\images",

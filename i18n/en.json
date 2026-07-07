@@ -133,6 +133,34 @@
     "amenity_cctv": "CCTV",
     "amenity_network": "Network Cabling & POS"
   },
+  "prop6": {
+    "title": "2-Bedroom Apartment in Acta Residence, Tudor",
+    "location": "Tudor, Târgu Mureș",
+    "floor": "5th",
+    "desc_heading": "Modern 2-Bedroom Apartment in Acta Residence, Tudor",
+    "desc_p1": "This 2-room apartment is located on the 5th floor of a new building (built after 2000) in the Acta Residence complex, in the Tudor area of Târgu Mureș. The decommanded layout keeps the rooms separate and private, and the apartment has been finished to a high standard throughout.",
+    "desc_p2": "The apartment comes fully furnished and equipped, with a refrigerator, an LCD TV, a washing machine, a built-in stovetop and oven, a cooker hood, a vacuum cleaner, and a video intercom system at the entrance.",
+    "desc_p3": "The location is excellent for both students and professionals: UMFST University and the new University Hospital are close by, and the complex neighbours Kaufland, Lidl, City Mall, a local market, 24-hour pharmacies, banks, and bus stops.",
+    "desc_p4": "Acta Residence offers a quiet, modern lifestyle with an on-site parking space and a guarded, secure complex.",
+    "desc_p5": "Available for immediate move-in. Rent is €400/month, negotiable.",
+    "desc_p6": "",
+    "amenity_intercom": "Video Intercom",
+    "amenity_security": "Guarded Complex"
+  },
+  "prop7": {
+    "title": "Modern Studio Apartment in the City Center",
+    "location": "Centru, Târgu Mureș",
+    "floor": "1st",
+    "desc_heading": "Modern Studio Apartment in the Heart of Târgu Mureș",
+    "desc_p1": "This 1-room studio apartment is located in the very centre of Târgu Mureș, on Strada Mihai Eminescu, directly across from Clinica Procardia and just 3 minutes on foot from Piața Trandafirilor and the Cetate. The apartment is in a newly completed building and is being rented for only the second time.",
+    "desc_p2": "Finished to a modern standard, the studio comes fully furnished with new, quality furniture and is completely equipped: electric oven, induction cooktop, dishwasher, washing machine, refrigerator, and a TV.",
+    "desc_p3": "Heating is provided by an individual boiler with underfloor heating throughout, and the bathroom features a modern walk-in shower.",
+    "desc_p4": "Street parking is available directly outside, with an annual permit from the city hall (approx. 500 lei/year).",
+    "desc_p5": "Available for long-term rental.",
+    "desc_p6": "",
+    "amenity_heating": "Underfloor Heating",
+    "amenity_shower": "Walk-in Shower"
+  },
   "properties": {
     "eyebrow": "Our Properties",
     "heading": "Featured Listings in Târgu Mureș",

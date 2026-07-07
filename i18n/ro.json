@@ -133,6 +133,20 @@
     "amenity_cctv": "Supraveghere Video",
     "amenity_network": "Rețea & POS"
   },
+  "prop6": {
+    "title": "Apartament cu 2 camere în Acta Residence, Tudor",
+    "location": "Tudor, Târgu Mureș",
+    "floor": "5",
+    "desc_heading": "Apartament modern cu 2 camere în Acta Residence, Tudor",
+    "desc_p1": "Acest apartament cu 2 camere este situat la etajul 5 al unui bloc nou (construit după anul 2000), în complexul Acta Residence, în zona Tudor din Târgu Mureș. Compartimentarea este decomandată, iar apartamentul este finisat la un standard ridicat.",
+    "desc_p2": "Apartamentul este complet mobilat și utilat, cu frigider, TV LCD, mașină de spălat, plită și cuptor incorporabile, hotă, aspirator și interfon cu cameră video la intrare.",
+    "desc_p3": "Zona este excelentă atât pentru studenți, cât și pentru profesioniști: Universitatea UMFST și noul Spital Universitar se află în apropiere, iar complexul se învecinează cu Kaufland, Lidl, City Mall, piață, farmacii non-stop, bănci și stații de autobuz.",
+    "desc_p4": "Acta Residence oferă un stil de viață liniștit și modern, cu loc de parcare propriu și pază în complex.",
+    "desc_p5": "Disponibil imediat spre închiriere. Chiria este de 400 €/lună, negociabilă.",
+    "desc_p6": "",
+    "amenity_intercom": "Interfon cu Cameră Video",
+    "amenity_security": "Complex Păzit"
+  },
   "properties": {
     "eyebrow": "Proprietățile noastre",
     "heading": "Anunțuri Recomandate în Târgu Mureș",

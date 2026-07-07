@@ -147,6 +147,20 @@
     "amenity_intercom": "Interfon cu Cameră Video",
     "amenity_security": "Complex Păzit"
   },
+  "prop7": {
+    "title": "Apartament Tip Studio Modern în Centru",
+    "location": "Centru, Târgu Mureș",
+    "floor": "1",
+    "desc_heading": "Apartament Tip Studio Modern în Centrul Târgu Mureșului",
+    "desc_p1": "Acest apartament cu 1 cameră este situat chiar în centrul orașului Târgu Mureș, pe Strada Mihai Eminescu nr. 2-4, vizavi de Clinica Procardia, la doar 3 minute de mers pe jos de Piața Trandafirilor și Cetate. Apartamentul se află într-un bloc nou, recent dat în folosință, și este la a doua închiriere.",
+    "desc_p2": "Finisat modern, apartamentul este complet mobilat cu mobilă nouă și de calitate și complet utilat: cuptor electric, plită pe inducție, mașină de spălat vase, mașină de spălat rufe, frigider și televizor.",
+    "desc_p3": "Încălzirea este asigurată de o centrală termică proprie, cu căldură în pardoseală, iar baia este dotată cu duș walk-in modern.",
+    "desc_p4": "Loc de parcare disponibil pe stradă, cu abonament anual la primărie (aprox. 500 lei/an).",
+    "desc_p5": "Disponibil pentru închiriere pe termen lung.",
+    "desc_p6": "",
+    "amenity_heating": "Căldură în Pardoseală",
+    "amenity_shower": "Duș Walk-in"
+  },
   "properties": {
     "eyebrow": "Proprietățile noastre",
     "heading": "Anunțuri Recomandate în Târgu Mureș",

@@ -147,6 +147,20 @@
     "amenity_intercom": "Videoportero",
     "amenity_security": "Complejo Vigilado"
   },
+  "prop7": {
+    "title": "Apartamento Tipo Estudio Moderno en el Centro",
+    "location": "Centro, Târgu Mureș",
+    "floor": "1.º",
+    "desc_heading": "Apartamento Tipo Estudio Moderno en el Corazón de Târgu Mureș",
+    "desc_p1": "Este apartamento de 1 habitación está situado en pleno centro de Târgu Mureș, en la calle Mihai Eminescu, justo enfrente de la Clínica Procardia y a solo 3 minutos a pie de la Piața Trandafirilor y la Ciudadela. El apartamento se encuentra en un edificio recién terminado y se alquila por segunda vez.",
+    "desc_p2": "Con acabados modernos, el estudio se alquila completamente amueblado con muebles nuevos y de calidad, y totalmente equipado: horno eléctrico, placa de inducción, lavavajillas, lavadora, frigorífico y televisor.",
+    "desc_p3": "La calefacción se suministra mediante una caldera individual con suelo radiante en todo el apartamento, y el baño cuenta con una moderna ducha a ras de suelo (walk-in).",
+    "desc_p4": "Aparcamiento disponible en la calle, con abono anual del ayuntamiento (aprox. 500 lei/año).",
+    "desc_p5": "Disponible para alquiler a largo plazo.",
+    "desc_p6": "",
+    "amenity_heating": "Suelo Radiante",
+    "amenity_shower": "Ducha Walk-in"
+  },
   "properties": {
     "eyebrow": "Nuestras Propiedades",
     "heading": "Anuncios Destacados en Târgu Mureș",

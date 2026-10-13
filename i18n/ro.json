@@ -54,7 +54,8 @@
     "made_with": "Făcut cu ❤️ în Transilvania",
     "guide1": "Închiriere în România: Ghid pentru proprietari",
     "guide2": "Administrare imobiliară la Târgu Mureș",
-    "guide3": "Cum alegeți chiriașul din străinătate"
+    "guide3": "Cum alegeți chiriașul din străinătate",
+    "all_guides": "Toate ghidurile →"
   },
   "guides": {
     "eyebrow": "Ghiduri pentru investitori",
@@ -68,7 +69,8 @@
     "card3_tag": "Selecția chiriașilor",
     "card3_title": "Cum să alegeți chiriașul potrivit în România când locuiți în străinătate",
     "card3_desc": "Documente de solicitat, semnale de alarmă, vizionări la distanță și clauzele contractuale care vă protejează — ghid de selecție a chiriașilor pentru proprietarii din străinătate.",
-    "cta": "Citește ghidul →"
+    "cta": "Citește ghidul →",
+    "all_cta": "Vezi toate ghidurile →"
   },
   "prop1": {
     "title": "Apartament cu 2 camere cu vedere panoramică a Tudorului",
@@ -540,5 +542,13 @@
     "cta_p": "Organizăm vizionările, verificăm fiecare document, contactăm fiecare referință, redactăm contractul și îl înregistrăm la ANAF — iar dumneavoastră aprobați alegerea finală. Fiecare plasare include garanția noastră de 3 luni.",
     "cta_btn1": "Programează o consultație gratuită",
     "cta_btn2": "Scrie-ne pe WhatsApp"
+  },
+  "blog_index": {
+    "hero_eyebrow": "Ghiduri și informații",
+    "hero_h1": "Ghiduri pentru proprietarii de imobile din România",
+    "hero_p": "Ghiduri practice, pe înțelesul tuturor, pentru proprietarii la distanță și investitorii cu proprietăți în Târgu Mureș și în Transilvania.",
+    "cta_eyebrow": "Preferați să discutăm direct?",
+    "cta_h2": "Aveți întrebări despre proprietatea dumneavoastră din România?",
+    "cta_p": "Echipa noastră este la fața locului, în Târgu Mureș. Spuneți-ne despre proprietate și vă oferim o părere sinceră despre chirie, chiriași și cum ar arăta administrarea — prima discuție este întotdeauna gratuită."
   }
 }

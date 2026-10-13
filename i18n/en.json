@@ -54,7 +54,8 @@
     "made_with": "Made with ❤️ in Transylvania",
     "guide1": "Renting in Romania: Remote Owner Guide",
     "guide2": "Property Management in Târgu Mureș",
-    "guide3": "Choosing a Tenant from Abroad"
+    "guide3": "Choosing a Tenant from Abroad",
+    "all_guides": "All guides →"
   },
   "guides": {
     "eyebrow": "Investor Guides",
@@ -68,7 +69,8 @@
     "card3_tag": "Tenant Screening",
     "card3_title": "How to Choose the Right Tenant in Romania When You Live Abroad",
     "card3_desc": "Documents to request, red flags, remote viewings, and the lease clauses that protect you — a tenant selection guide for owners living abroad.",
-    "cta": "Read Guide →"
+    "cta": "Read Guide →",
+    "all_cta": "See all guides →"
   },
   "prop1": {
     "title": "2-Bedroom Apartment with Panoramic Views of Tudor",
@@ -540,5 +542,13 @@
     "cta_p": "We run the viewings, verify every document, call every reference, draft the lease and register it with ANAF — and you approve the final choice. Every placement comes with our 3-month tenant guarantee.",
     "cta_btn1": "Schedule a Free Consultation",
     "cta_btn2": "Chat on WhatsApp"
+  },
+  "blog_index": {
+    "hero_eyebrow": "Guides &amp; Insights",
+    "hero_h1": "Guides for Property Owners in Romania",
+    "hero_p": "Practical, plain-language guides for remote owners and investors with property in Târgu Mureș and across Transylvania.",
+    "cta_eyebrow": "Prefer to Talk It Through?",
+    "cta_h2": "Questions About Your Property in Romania?",
+    "cta_p": "Our team is on the ground in Târgu Mureș. Tell us about your property and we'll give you an honest view of rent, tenants, and what management would look like — the first conversation is always free."
   }
 }

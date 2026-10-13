@@ -54,7 +54,8 @@
     "made_with": "Szeretettel készítve ❤️ Erdélyben",
     "guide1": "Bérbeadás Romániában: Tulajdonosi útmutató",
     "guide2": "Ingatlankezelés Marosvásárhelyen",
-    "guide3": "Bérlőválasztás külföldről"
+    "guide3": "Bérlőválasztás külföldről",
+    "all_guides": "Összes útmutató →"
   },
   "guides": {
     "eyebrow": "Befektetői útmutatók",
@@ -68,7 +69,8 @@
     "card3_tag": "Bérlőválasztás",
     "card3_title": "Hogyan válassza ki a megfelelő bérlőt Romániában, ha külföldön él",
     "card3_desc": "Bekérendő dokumentumok, figyelmeztető jelek, távoli megtekintés és a védelmet nyújtó szerződési kikötések — bérlőválasztási útmutató külföldön élő tulajdonosoknak.",
-    "cta": "Útmutató olvasása →"
+    "cta": "Útmutató olvasása →",
+    "all_cta": "Összes útmutató megtekintése →"
   },
   "prop1": {
     "title": "2 Szobás Lakás Panorámás Kilátással a Tudor negyedre",
@@ -540,5 +542,13 @@
     "cta_p": "Mi tartjuk a megtekintéseket, ellenőrzünk minden dokumentumot, felhívunk minden referenciát, megszövegezzük a szerződést és regisztráljuk az ANAF-nál — a végső döntést pedig Ön hagyja jóvá. Minden bérlőkereséshez jár 3 hónapos bérlőgaranciánk.",
     "cta_btn1": "Ingyenes konzultáció tervezése",
     "cta_btn2": "Írjon nekünk WhatsAppon"
+  },
+  "blog_index": {
+    "hero_eyebrow": "Útmutatók és tudnivalók",
+    "hero_h1": "Útmutatók romániai ingatlantulajdonosoknak",
+    "hero_p": "Gyakorlati, közérthető útmutatók távolból gazdálkodó tulajdonosoknak és befektetőknek, akiknek ingatlanuk van Marosvásárhelyen és Erdély-szerte.",
+    "cta_eyebrow": "Inkább beszélne velünk?",
+    "cta_h2": "Kérdése van romániai ingatlanával kapcsolatban?",
+    "cta_p": "Csapatunk helyben, Marosvásárhelyen dolgozik. Meséljen az ingatlanáról, és őszinte képet adunk a bérleti díjról, a bérlőkről és arról, hogyan nézne ki a kezelés — az első beszélgetés mindig ingyenes."
   }
 }

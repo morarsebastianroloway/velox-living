@@ -52,6 +52,7 @@
             '<li style="border-top:1px solid rgba(255,255,255,0.1);margin-top:8px;padding-top:8px;"><a href="' + p + 'blog/remote-owners-renting-romania.html" data-i18n="footer.guide1">Renting in Romania: Remote Owner Guide</a></li>' +
             '<li><a href="' + p + 'blog/property-management-targu-mures-guide.html" data-i18n="footer.guide2">Property Management in Târgu Mureș</a></li>' +
             '<li><a href="' + p + 'blog/how-to-choose-tenants-romania-remote.html" data-i18n="footer.guide3">Choosing a Tenant from Abroad</a></li>' +
+            '<li><a href="' + p + 'blog/" data-i18n="footer.all_guides">All guides →</a></li>' +
           '</ul>' +
         '</div>' +
 

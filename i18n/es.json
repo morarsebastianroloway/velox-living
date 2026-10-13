@@ -54,7 +54,8 @@
     "made_with": "Hecho con ❤️ en Transilvania",
     "guide1": "Alquiler en Rumanía: Guía para propietarios",
     "guide2": "Gestión inmobiliaria en Târgu Mureș",
-    "guide3": "Elegir inquilino desde el extranjero"
+    "guide3": "Elegir inquilino desde el extranjero",
+    "all_guides": "Todas las guías →"
   },
   "guides": {
     "eyebrow": "Guías para Inversores",
@@ -68,7 +69,8 @@
     "card3_tag": "Selección de Inquilinos",
     "card3_title": "Cómo Elegir al Inquilino Adecuado en Rumanía Cuando Vive en el Extranjero",
     "card3_desc": "Documentos a solicitar, señales de alerta, visitas a distancia y las cláusulas que le protegen — guía de selección de inquilinos para propietarios en el extranjero.",
-    "cta": "Leer guía →"
+    "cta": "Leer guía →",
+    "all_cta": "Ver todas las guías →"
   },
   "prop1": {
     "title": "Apartamento de 2 habitaciones con vistas panorámicas al Tudor",
@@ -540,5 +542,13 @@
     "cta_p": "Realizamos las visitas, verificamos cada documento, llamamos a cada referencia, redactamos el contrato y lo registramos ante la ANAF — y usted aprueba la elección final. Cada colocación incluye nuestra garantía de inquilino de 3 meses.",
     "cta_btn1": "Programar una Consulta Gratuita",
     "cta_btn2": "Chatear por WhatsApp"
+  },
+  "blog_index": {
+    "hero_eyebrow": "Guías y Consejos",
+    "hero_h1": "Guías para Propietarios de Inmuebles en Rumanía",
+    "hero_p": "Guías prácticas y claras para propietarios remotos e inversores con inmuebles en Târgu Mureș y en toda Transilvania.",
+    "cta_eyebrow": "¿Prefiere Hablarlo?",
+    "cta_h2": "¿Tiene Preguntas sobre su Propiedad en Rumanía?",
+    "cta_p": "Nuestro equipo está sobre el terreno en Târgu Mureș. Cuéntenos sobre su propiedad y le daremos una opinión honesta sobre la renta, los inquilinos y cómo sería la gestión — la primera conversación es siempre gratuita."
   }
 }

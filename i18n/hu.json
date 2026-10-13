@@ -172,7 +172,9 @@
     "view_all": "Összes ingatlan megtekintése →",
     "owner_eyebrow": "Ingatlantulajdonosoknak",
     "owner_h2": "Ingatlana van Marosvásárhelyen?",
-    "owner_p": "Az oldalon szereplő összes hirdetést a Velox Living kezeli. Ha Önnek lakása van Marosvásárhelyen, bérlőt találunk, intézzük a papírmunkát és kezeljük az ingatlant Ön helyett — akkor is, ha külföldön él."
+    "owner_p": "Az oldalon szereplő összes hirdetést a Velox Living kezeli. Ha Önnek lakása van Marosvásárhelyen, bérlőt találunk, intézzük a papírmunkát és kezeljük az ingatlant Ön helyett — akkor is, ha külföldön él.",
+    "rented_heading": "Nemrég kiadva",
+    "rented_sub": "Ezek az otthonok jelenleg ki vannak adva. Lépjen kapcsolatba velünk, ha tudni szeretné, mikor szabadulnak fel ezek vagy hasonló ingatlanok."
   },
   "property": {
     "per_mo": "/hó",
@@ -201,7 +203,12 @@
     "field_message_placeholder": "Érdeklődöm az ingatlan iránt...",
     "submit_btn": "Érdeklődés Küldése",
     "or_whatsapp": "vagy lépjen kapcsolatba velünk közvetlenül",
-    "whatsapp_link": "WhatsApp"
+    "whatsapp_link": "WhatsApp",
+    "rented": "Kiadva",
+    "rented_notice": "Ez az ingatlan jelenleg ki van adva.",
+    "rented_link": "Elérhető ingatlanok megtekintése →",
+    "rented_cta": "Elérhető ingatlanok",
+    "ask_availability": "Érdeklődjön a szabad időpontokról"
   },
   "faq": {
     "eyebrow": "Tudásbázis",

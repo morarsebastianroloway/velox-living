@@ -58,7 +58,7 @@
           <span class="sticky-bar-price">€400<span data-i18n="property.per_mo">/mo</span></span>
         </div>
         <div class="sticky-bar-cta">
-          <a href="#inquiry" class="btn btn-green" data-i18n="property.book_viewing">Book a Viewing</a>
+          <a href="./" class="btn btn-green" data-i18n="property.rented_cta">Available Properties</a>
         </div>
       </div>
     </div>
@@ -70,6 +70,14 @@
          PROPERTY HERO / GALLERY
          ================================================ -->
     <section class="property-hero" aria-label="Property gallery">
+
+      <!-- Rented notice: remove this block (and restore the two "Book a Viewing" labels) to re-list -->
+      <div class="rented-notice" role="status">
+        <div class="container">
+          <span data-i18n="property.rented_notice">This property is currently rented.</span>
+          <a href="./" data-i18n="property.rented_link">See available properties →</a>
+        </div>
+      </div>
 
       <!-- Main Swiper -->
       <div class="swiper swiper-property">
@@ -281,7 +289,7 @@
 
           <!-- Right: Inquiry Widget -->
           <aside class="inquiry-widget" id="inquiry" aria-label="Book a viewing">
-            <h3 data-i18n="property.book_viewing">Book a Viewing</h3>
+            <h3 data-i18n="property.ask_availability">Ask About Availability</h3>
             <p class="widget-sub" data-i18n="property.widget_sub">Fill in the form and we'll get back to you within 24
               hours.</p>
 

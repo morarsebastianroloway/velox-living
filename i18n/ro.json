@@ -172,7 +172,9 @@
     "view_all": "Vezi toate proprietățile →",
     "owner_eyebrow": "Pentru proprietari",
     "owner_h2": "Dețineți o proprietate în Târgu Mureș?",
-    "owner_p": "Fiecare anunț de pe această pagină este administrat de Velox Living. Dacă dețineți un apartament în Târgu Mureș, putem găsi chiriașul, ne ocupăm de acte și îl administrăm pentru dumneavoastră — chiar dacă locuiți în străinătate."
+    "owner_p": "Fiecare anunț de pe această pagină este administrat de Velox Living. Dacă dețineți un apartament în Târgu Mureș, putem găsi chiriașul, ne ocupăm de acte și îl administrăm pentru dumneavoastră — chiar dacă locuiți în străinătate.",
+    "rented_heading": "Închiriate recent",
+    "rented_sub": "Aceste locuințe sunt închiriate în prezent. Contactați-ne să aflați când acestea sau proprietăți similare devin disponibile."
   },
   "property": {
     "per_mo": "/lună",
@@ -201,7 +203,12 @@
     "field_message_placeholder": "Sunt interesat de această proprietate...",
     "submit_btn": "Trimite Cererea",
     "or_whatsapp": "sau contactează-ne direct pe",
-    "whatsapp_link": "WhatsApp"
+    "whatsapp_link": "WhatsApp",
+    "rented": "Închiriat",
+    "rented_notice": "Această proprietate este închiriată în prezent.",
+    "rented_link": "Vezi proprietățile disponibile →",
+    "rented_cta": "Proprietăți disponibile",
+    "ask_availability": "Întrebați de disponibilitate"
   },
   "faq": {
     "eyebrow": "Bază de cunoștințe",

@@ -420,3 +420,23 @@
   .swiper-property { height: 240px; }
   .amenities-grid { grid-template-columns: repeat(2, 1fr); }
 }
+
+/* ── Rented notice ── */
+.rented-notice {
+  background: #FFF4E5;
+  border-bottom: 1px solid #F5D9A8;
+  padding: 14px 0;
+  text-align: center;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-navy);
+}
+.rented-notice .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+}
+.rented-notice a { color: var(--color-green); }
+.rented-notice a:hover { color: var(--color-green-dark); }

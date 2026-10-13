@@ -36,38 +36,14 @@
       {
         "@type": "ListItem",
         "position": 1,
-        "url": "https://living.veloxventures.eu/properties/2-bedroom-apartment-tudor-targu-mures.html",
-        "name": "2-Bedroom Apartment with Panoramic Views of Tudor"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
         "url": "https://living.veloxventures.eu/properties/commercial-space-ultracentral-revolutiei-targu-mures.html",
         "name": "Commercial Space — Ultracentral"
       },
       {
         "@type": "ListItem",
-        "position": 3,
-        "url": "https://living.veloxventures.eu/properties/3-room-apartment-tudor-targu-mures.html",
-        "name": "Quiet 3-Room Apartment in Tudor"
-      },
-      {
-        "@type": "ListItem",
-        "position": 4,
+        "position": 2,
         "url": "https://living.veloxventures.eu/properties/2-bedroom-apartment-school-park-tudor.html",
         "name": "Modern apartment near school and park"
-      },
-      {
-        "@type": "ListItem",
-        "position": 5,
-        "url": "https://living.veloxventures.eu/properties/2-bedroom-apartment-acta-residence-tudor.html",
-        "name": "2-Bedroom Apartment in Acta Residence, Tudor"
-      },
-      {
-        "@type": "ListItem",
-        "position": 6,
-        "url": "https://living.veloxventures.eu/properties/studio-apartment-city-center-targu-mures.html",
-        "name": "Modern Studio Apartment in the City Center"
       }
     ]
   }
@@ -101,6 +77,10 @@
       gap: 28px;
     }
 
+    /* ── Recently rented ── */
+    #rented { padding: 0 0 80px; }
+    #rented .section-header { margin-bottom: 40px; }
+
     /* ── Owner CTA ── */
     #owner-cta {
       background: var(--color-navy);
@@ -115,6 +95,7 @@
     @media (max-width: 768px) {
       .page-hero { padding: 120px 0 56px; }
       #listings { padding: 56px 0; }
+      #rented { padding: 0 0 56px; }
     }
   </style>
 </head>
@@ -144,29 +125,6 @@
       <div class="container">
         <div class="listing-grid">
 
-          <!-- Property Card 1 -->
-          <a href="2-bedroom-apartment-tudor-targu-mures.html" class="card" style="display:flex; flex-direction:column; text-decoration:none; overflow:hidden; padding:0;">
-            <div style="height:220px; background:#001F3F; overflow:hidden; position:relative;">
-              <img src="../assets/images/prop1/sufragerie.jpg"
-                   alt="Modern apartment Târgu Mureș"
-                   loading="lazy"
-                   style="width:100%;height:100%;object-fit:cover;opacity:0.85;transition:transform 0.4s ease;"
-                   onmouseover="this.style.transform='scale(1.05)'"
-                   onmouseout="this.style.transform='scale(1)'" />
-              <span style="position:absolute;top:16px;left:16px;background:#228B22;color:#fff;font-size:0.75rem;font-weight:600;padding:4px 12px;border-radius:20px;" data-i18n="property.for_rent">For Rent</span>
-            </div>
-            <div style="padding:24px;">
-              <p style="font-size:0.8rem;color:#718096;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px;" data-i18n="prop1.location">Centru, Târgu Mureș</p>
-              <h3 style="font-size:1.1rem;margin-bottom:8px;color:#001F3F;" data-i18n="prop1.title">2-Bedroom Apartment with Panoramic Views of Tudor</h3>
-              <p style="font-size:1.3rem;font-weight:700;color:#228B22;font-family:'Playfair Display',serif;">€430 <span style="font-size:0.8rem;font-weight:400;color:#718096;" data-i18n="properties.per_month">/month</span></p>
-              <div style="display:flex;gap:16px;margin-top:12px;font-size:0.82rem;color:#718096;">
-                <span>🛏 2</span>
-                <span>📐 55 m²</span>
-                <span>🏢 <span data-i18n="prop1.floor">3rd</span></span>
-              </div>
-            </div>
-          </a>
-
           <!-- Property Card 5 -->
           <a href="commercial-space-ultracentral-revolutiei-targu-mures.html" class="card" style="display:flex; flex-direction:column; text-decoration:none; overflow:hidden; padding:0;">
             <div style="height:220px; background:#001F3F; overflow:hidden; position:relative;">
@@ -185,29 +143,6 @@
               <div style="display:flex;gap:16px;margin-top:12px;font-size:0.82rem;color:#718096;">
                 <span>📐 90 m²</span>
                 <span>🏢 <span data-i18n="prop5.floor">Ground</span></span>
-              </div>
-            </div>
-          </a>
-
-          <!-- Property Card 4 -->
-          <a href="3-room-apartment-tudor-targu-mures.html" class="card" style="display:flex; flex-direction:column; text-decoration:none; overflow:hidden; padding:0;">
-            <div style="height:220px; background:#001F3F; overflow:hidden; position:relative;">
-              <img src="../assets/images/prop4/sufragerie2.jpg"
-                   alt="3-room apartment Tudor Târgu Mureș"
-                   loading="lazy"
-                   style="width:100%;height:100%;object-fit:cover;opacity:0.85;transition:transform 0.4s ease;"
-                   onmouseover="this.style.transform='scale(1.05)'"
-                   onmouseout="this.style.transform='scale(1)'" />
-              <span style="position:absolute;top:16px;left:16px;background:#228B22;color:#fff;font-size:0.75rem;font-weight:600;padding:4px 12px;border-radius:20px;" data-i18n="property.for_rent">For Rent</span>
-            </div>
-            <div style="padding:24px;">
-              <p style="font-size:0.8rem;color:#718096;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px;" data-i18n="prop4.location">Tudor, Târgu Mureș</p>
-              <h3 style="font-size:1.1rem;margin-bottom:8px;color:#001F3F;" data-i18n="prop4.title">Quiet 3-Room Apartment in Tudor</h3>
-              <p style="font-size:1.3rem;font-weight:700;color:#228B22;font-family:'Playfair Display',serif;">€400 <span style="font-size:0.8rem;font-weight:400;color:#718096;" data-i18n="properties.per_month">/month</span></p>
-              <div style="display:flex;gap:16px;margin-top:12px;font-size:0.82rem;color:#718096;">
-                <span>🛏 3</span>
-                <span>📐 65 m²</span>
-                <span>🏢 <span data-i18n="prop4.floor">1st</span></span>
               </div>
             </div>
           </a>
@@ -235,21 +170,83 @@
             </div>
           </a>
 
-          <!-- Property Card 6 -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         RECENTLY RENTED (move a card back up to re-list it)
+         ================================================ -->
+    <section id="rented" aria-label="Recently rented properties">
+      <div class="container">
+        <div class="section-header centered">
+          <h2 data-i18n="properties.rented_heading">Recently Rented</h2>
+          <div class="divider"></div>
+          <p data-i18n="properties.rented_sub">These homes are currently let. Contact us to hear when they or similar properties become available.</p>
+        </div>
+        <div class="listing-grid">
+
+          <!-- Rented: Property Card 1 -->
+          <a href="2-bedroom-apartment-tudor-targu-mures.html" class="card" style="display:flex; flex-direction:column; text-decoration:none; overflow:hidden; padding:0;">
+            <div style="height:220px; background:#001F3F; overflow:hidden; position:relative;">
+              <img src="../assets/images/prop1/sufragerie.jpg"
+                   alt="Modern apartment Târgu Mureș"
+                   loading="lazy"
+                   style="width:100%;height:100%;object-fit:cover;opacity:0.6;filter:grayscale(35%);transition:transform 0.4s ease;"
+                   onmouseover="this.style.transform='scale(1.05)'"
+                   onmouseout="this.style.transform='scale(1)'" />
+              <span style="position:absolute;top:16px;left:16px;background:#718096;color:#fff;font-size:0.75rem;font-weight:600;padding:4px 12px;border-radius:20px;" data-i18n="property.rented">Rented</span>
+            </div>
+            <div style="padding:24px;">
+              <p style="font-size:0.8rem;color:#718096;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px;" data-i18n="prop1.location">Centru, Târgu Mureș</p>
+              <h3 style="font-size:1.1rem;margin-bottom:8px;color:#001F3F;" data-i18n="prop1.title">2-Bedroom Apartment with Panoramic Views of Tudor</h3>
+              <p style="font-size:1.3rem;font-weight:700;color:#718096;font-family:'Playfair Display',serif;">€430 <span style="font-size:0.8rem;font-weight:400;color:#718096;" data-i18n="properties.per_month">/month</span></p>
+              <div style="display:flex;gap:16px;margin-top:12px;font-size:0.82rem;color:#718096;">
+                <span>🛏 2</span>
+                <span>📐 55 m²</span>
+                <span>🏢 <span data-i18n="prop1.floor">3rd</span></span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Rented: Property Card 4 -->
+          <a href="3-room-apartment-tudor-targu-mures.html" class="card" style="display:flex; flex-direction:column; text-decoration:none; overflow:hidden; padding:0;">
+            <div style="height:220px; background:#001F3F; overflow:hidden; position:relative;">
+              <img src="../assets/images/prop4/sufragerie2.jpg"
+                   alt="3-room apartment Tudor Târgu Mureș"
+                   loading="lazy"
+                   style="width:100%;height:100%;object-fit:cover;opacity:0.6;filter:grayscale(35%);transition:transform 0.4s ease;"
+                   onmouseover="this.style.transform='scale(1.05)'"
+                   onmouseout="this.style.transform='scale(1)'" />
+              <span style="position:absolute;top:16px;left:16px;background:#718096;color:#fff;font-size:0.75rem;font-weight:600;padding:4px 12px;border-radius:20px;" data-i18n="property.rented">Rented</span>
+            </div>
+            <div style="padding:24px;">
+              <p style="font-size:0.8rem;color:#718096;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px;" data-i18n="prop4.location">Tudor, Târgu Mureș</p>
+              <h3 style="font-size:1.1rem;margin-bottom:8px;color:#001F3F;" data-i18n="prop4.title">Quiet 3-Room Apartment in Tudor</h3>
+              <p style="font-size:1.3rem;font-weight:700;color:#718096;font-family:'Playfair Display',serif;">€400 <span style="font-size:0.8rem;font-weight:400;color:#718096;" data-i18n="properties.per_month">/month</span></p>
+              <div style="display:flex;gap:16px;margin-top:12px;font-size:0.82rem;color:#718096;">
+                <span>🛏 3</span>
+                <span>📐 65 m²</span>
+                <span>🏢 <span data-i18n="prop4.floor">1st</span></span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Rented: Property Card 6 -->
           <a href="2-bedroom-apartment-acta-residence-tudor.html" class="card" style="display:flex; flex-direction:column; text-decoration:none; overflow:hidden; padding:0;">
             <div style="height:220px; background:#001F3F; overflow:hidden; position:relative;">
               <img src="../assets/images/prop6/photo1.jpg"
                    alt="2-Bedroom apartment in Acta Residence Tudor Târgu Mureș"
                    loading="lazy"
-                   style="width:100%;height:100%;object-fit:cover;opacity:0.85;transition:transform 0.4s ease;"
+                   style="width:100%;height:100%;object-fit:cover;opacity:0.6;filter:grayscale(35%);transition:transform 0.4s ease;"
                    onmouseover="this.style.transform='scale(1.05)'"
                    onmouseout="this.style.transform='scale(1)'" />
-              <span style="position:absolute;top:16px;left:16px;background:#228B22;color:#fff;font-size:0.75rem;font-weight:600;padding:4px 12px;border-radius:20px;" data-i18n="property.for_rent">For Rent</span>
+              <span style="position:absolute;top:16px;left:16px;background:#718096;color:#fff;font-size:0.75rem;font-weight:600;padding:4px 12px;border-radius:20px;" data-i18n="property.rented">Rented</span>
             </div>
             <div style="padding:24px;">
               <p style="font-size:0.8rem;color:#718096;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px;" data-i18n="prop6.location">Tudor, Târgu Mureș</p>
               <h3 style="font-size:1.1rem;margin-bottom:8px;color:#001F3F;" data-i18n="prop6.title">2-Bedroom Apartment in Acta Residence, Tudor</h3>
-              <p style="font-size:1.3rem;font-weight:700;color:#228B22;font-family:'Playfair Display',serif;">€400 <span style="font-size:0.8rem;font-weight:400;color:#718096;" data-i18n="properties.per_month">/month</span></p>
+              <p style="font-size:1.3rem;font-weight:700;color:#718096;font-family:'Playfair Display',serif;">€400 <span style="font-size:0.8rem;font-weight:400;color:#718096;" data-i18n="properties.per_month">/month</span></p>
               <div style="display:flex;gap:16px;margin-top:12px;font-size:0.82rem;color:#718096;">
                 <span>🛏 2</span>
                 <span>📐 65 m²</span>
@@ -258,25 +255,48 @@
             </div>
           </a>
 
-          <!-- Property Card 7 -->
+          <!-- Rented: Property Card 7 -->
           <a href="studio-apartment-city-center-targu-mures.html" class="card" style="display:flex; flex-direction:column; text-decoration:none; overflow:hidden; padding:0;">
             <div style="height:220px; background:#001F3F; overflow:hidden; position:relative;">
               <img src="../assets/images/prop7/photo1.jpg"
                    alt="Modern studio apartment in the city center Târgu Mureș"
                    loading="lazy"
-                   style="width:100%;height:100%;object-fit:cover;opacity:0.85;transition:transform 0.4s ease;"
+                   style="width:100%;height:100%;object-fit:cover;opacity:0.6;filter:grayscale(35%);transition:transform 0.4s ease;"
                    onmouseover="this.style.transform='scale(1.05)'"
                    onmouseout="this.style.transform='scale(1)'" />
-              <span style="position:absolute;top:16px;left:16px;background:#228B22;color:#fff;font-size:0.75rem;font-weight:600;padding:4px 12px;border-radius:20px;" data-i18n="property.for_rent">For Rent</span>
+              <span style="position:absolute;top:16px;left:16px;background:#718096;color:#fff;font-size:0.75rem;font-weight:600;padding:4px 12px;border-radius:20px;" data-i18n="property.rented">Rented</span>
             </div>
             <div style="padding:24px;">
               <p style="font-size:0.8rem;color:#718096;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px;" data-i18n="prop7.location">Centru, Târgu Mureș</p>
               <h3 style="font-size:1.1rem;margin-bottom:8px;color:#001F3F;" data-i18n="prop7.title">Modern Studio Apartment in the City Center</h3>
-              <p style="font-size:1.3rem;font-weight:700;color:#228B22;font-family:'Playfair Display',serif;">€400 <span style="font-size:0.8rem;font-weight:400;color:#718096;" data-i18n="properties.per_month">/month</span></p>
+              <p style="font-size:1.3rem;font-weight:700;color:#718096;font-family:'Playfair Display',serif;">€400 <span style="font-size:0.8rem;font-weight:400;color:#718096;" data-i18n="properties.per_month">/month</span></p>
               <div style="display:flex;gap:16px;margin-top:12px;font-size:0.82rem;color:#718096;">
                 <span>🛏 1</span>
                 <span>📐 36 m²</span>
                 <span>🏢 <span data-i18n="prop7.floor">1st</span></span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Rented: Property Card 2 -->
+          <a href="apartment-radio-area-targu-mures.html" class="card" style="display:flex; flex-direction:column; text-decoration:none; overflow:hidden; padding:0;">
+            <div style="height:220px; background:#001F3F; overflow:hidden; position:relative;">
+              <img src="../assets/images/prop2/sufragerie1.jpeg"
+                   alt="Apartment in the Radio area Târgu Mureș"
+                   loading="lazy"
+                   style="width:100%;height:100%;object-fit:cover;opacity:0.6;filter:grayscale(35%);transition:transform 0.4s ease;"
+                   onmouseover="this.style.transform='scale(1.05)'"
+                   onmouseout="this.style.transform='scale(1)'" />
+              <span style="position:absolute;top:16px;left:16px;background:#718096;color:#fff;font-size:0.75rem;font-weight:600;padding:4px 12px;border-radius:20px;" data-i18n="property.rented">Rented</span>
+            </div>
+            <div style="padding:24px;">
+              <p style="font-size:0.8rem;color:#718096;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px;" data-i18n="prop2.location">Radio Area, Târgu Mureș</p>
+              <h3 style="font-size:1.1rem;margin-bottom:8px;color:#001F3F;" data-i18n="prop2.title">Chic apartment in the Radio area</h3>
+              <p style="font-size:1.3rem;font-weight:700;color:#718096;font-family:'Playfair Display',serif;">€450 <span style="font-size:0.8rem;font-weight:400;color:#718096;" data-i18n="properties.per_month">/month</span></p>
+              <div style="display:flex;gap:16px;margin-top:12px;font-size:0.82rem;color:#718096;">
+                <span>🛏 2</span>
+                <span>📐 47 m²</span>
+                <span>🏢 <span data-i18n="prop2.floor">3rd</span></span>
               </div>
             </div>
           </a>

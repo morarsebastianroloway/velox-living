@@ -172,7 +172,9 @@
     "view_all": "Ver todos los inmuebles →",
     "owner_eyebrow": "Para Propietarios",
     "owner_h2": "¿Tiene un Inmueble en Târgu Mureș?",
-    "owner_p": "Todos los anuncios de esta página los gestiona Velox Living. Si tiene un piso en Târgu Mureș, podemos encontrar inquilino, encargarnos del papeleo y gestionarlo por usted — aunque viva en el extranjero."
+    "owner_p": "Todos los anuncios de esta página los gestiona Velox Living. Si tiene un piso en Târgu Mureș, podemos encontrar inquilino, encargarnos del papeleo y gestionarlo por usted — aunque viva en el extranjero.",
+    "rented_heading": "Alquilados Recientemente",
+    "rented_sub": "Estas viviendas están alquiladas actualmente. Contáctenos para saber cuándo estas u otras similares vuelvan a estar disponibles."
   },
   "property": {
     "per_mo": "/mes",
@@ -201,7 +203,12 @@
     "field_message_placeholder": "Me interesa esta propiedad...",
     "submit_btn": "Enviar Consulta",
     "or_whatsapp": "o contáctanos directamente por",
-    "whatsapp_link": "WhatsApp"
+    "whatsapp_link": "WhatsApp",
+    "rented": "Alquilado",
+    "rented_notice": "Este inmueble está alquilado actualmente.",
+    "rented_link": "Ver inmuebles disponibles →",
+    "rented_cta": "Inmuebles Disponibles",
+    "ask_availability": "Consultar Disponibilidad"
   },
   "faq": {
     "eyebrow": "Base de Conocimiento",

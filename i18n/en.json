@@ -172,7 +172,9 @@
     "view_all": "View all properties →",
     "owner_eyebrow": "For Property Owners",
     "owner_h2": "Own a Property in Târgu Mureș?",
-    "owner_p": "Every listing on this page is managed by Velox Living. If you own an apartment in Târgu Mureș, we can find a tenant, handle the paperwork and manage it for you — even if you live abroad."
+    "owner_p": "Every listing on this page is managed by Velox Living. If you own an apartment in Târgu Mureș, we can find a tenant, handle the paperwork and manage it for you — even if you live abroad.",
+    "rented_heading": "Recently Rented",
+    "rented_sub": "These homes are currently let. Contact us to hear when they or similar properties become available."
   },
   "property": {
     "per_mo": "/mo",
@@ -201,7 +203,12 @@
     "field_message_placeholder": "I'm interested in this property...",
     "submit_btn": "Send Inquiry",
     "or_whatsapp": "or contact us directly on",
-    "whatsapp_link": "WhatsApp"
+    "whatsapp_link": "WhatsApp",
+    "rented": "Rented",
+    "rented_notice": "This property is currently rented.",
+    "rented_link": "See available properties →",
+    "rented_cta": "Available Properties",
+    "ask_availability": "Ask About Availability"
   },
   "faq": {
     "eyebrow": "Knowledge Base",

@@ -30,11 +30,7 @@
     "pricing_cta": "Vezi Prețurile →"
   },
   "trust": {
-    "tagline": "Servicii complete în <strong>Engleză, Română, Maghiară și Spaniolă</strong>",
-    "en": "Engleză",
-    "ro": "Română",
-    "hu": "Maghiară",
-    "es": "Spaniolă"
+    "tagline": "Servicii complete în <strong>Engleză, Română, Maghiară și Spaniolă</strong>"
   },
   "why": {
     "eyebrow": "De ce Velox Living",
@@ -271,13 +267,9 @@
     "lang_heading": "Vorbim limba ta — la propriu.",
     "lang_p1": "Administrarea imobiliară în Transilvania se află la o răscruce culturală unică. Târgu Mureșul este un oraș bilingv, unde atât româna, cât și maghiara sunt limbi de zi cu zi — iar mulți dintre clienții noștri sunt investitori internaționali care lucrează în engleză sau spaniolă.",
     "lang_p2": "De aceea Velox Living operează fluent în toate cele patru limbi — nu doar traducând cuvinte, ci navigând în obiceiurile locale, terminologia juridică și așteptările chiriașilor în fiecare limbă în mod nativ.",
-    "lang_en_label": "Engleză",
     "lang_en_desc": "Serviciu complet — consultații, contracte, rapoarte &amp; suport",
-    "lang_ro_label": "Română",
     "lang_ro_desc": "Nativ — toate depunerile ANAF, contracte &amp; administrație locală",
-    "lang_hu_label": "Maghiară",
     "lang_hu_desc": "Nativ — comunicare cu chiriașii, negocieri &amp; relații locale",
-    "lang_es_label": "Spaniolă",
     "lang_es_desc": "Serviciu complet — pentru clienți din Spania și America Latină",
     "lang_callout_heading": "De ce contează asta pentru proprietarii la distanță",
     "lang_callout_p1": "Când chiriașul tău sună în legătură cu o defecțiune a instalației de încălzire într-o seară de iarnă, ai nevoie de cineva care poate răspunde în română <em>și</em> coordona reparația — nu una sau alta. Când primești un contract de revizuit, acesta ar trebui să fie în limba în care te simți cel mai confortabil, nu în cea mai ușoară pentru noi.",

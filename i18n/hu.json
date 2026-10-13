@@ -30,11 +30,7 @@
     "pricing_cta": "Áraink Megtekintése →"
   },
   "trust": {
-    "tagline": "Teljes körű szolgáltatás <strong>angolul, románul, magyarul és spanyolul</strong>",
-    "en": "Angol",
-    "ro": "Román",
-    "hu": "Magyar",
-    "es": "Spanyol"
+    "tagline": "Teljes körű szolgáltatás <strong>angolul, románul, magyarul és spanyolul</strong>"
   },
   "why": {
     "eyebrow": "Miért a Velox Living",
@@ -271,13 +267,9 @@
     "lang_heading": "Az ön nyelvén beszélünk — szó szerint.",
     "lang_p1": "Az erdélyi ingatlankezelés egyedülálló kulturális keresztúton helyezkedik el. Marosvásárhely kétnyelvű város, ahol a román és a magyar is hétköznapi nyelv — és ügyfeleink közül sokan olyan nemzetközi befektetők, akik angolul vagy spanyolul dolgoznak.",
     "lang_p2": "Ezért a Velox Living mind a négy nyelven folyékonyan működik — nem csupán szavakat fordít, hanem natív módon navigál a helyi szokásokban, jogi terminológiában és bérlői elvárásokban.",
-    "lang_en_label": "Angol",
     "lang_en_desc": "Teljes körű — konzultációk, szerződések, jelentések &amp; ügyfélszolgálat",
-    "lang_ro_label": "Román",
     "lang_ro_desc": "Anyanyelvi — minden ANAF-beadványhoz, szerződésekhez &amp; helyi adminisztrációhoz",
-    "lang_hu_label": "Magyar",
     "lang_hu_desc": "Anyanyelvi — bérlői kommunikáció, tárgyalások &amp; helyi ügyek",
-    "lang_es_label": "Spanyol",
     "lang_es_desc": "Teljes körű — spanyolországi és latin-amerikai ügyfeleknek",
     "lang_callout_heading": "Miért fontos ez a távolban élő tulajdonosoknak",
     "lang_callout_p1": "Ha a bérlője egy téli este fűtési meghibásodás miatt hív, valakire van szüksége, aki románul tud válaszolni <em>és</em> koordinálni a javítást — nem az egyikre vagy a másikra. Ha szerződést kap áttekintésre, azt a nyelven kell megkapnia, amelyen a legkényelmesebb dolgozni — nem azon, amelyik nekünk a legkönnyebb.",

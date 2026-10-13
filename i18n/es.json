@@ -30,11 +30,7 @@
     "pricing_cta": "Ver Nuestros Precios →"
   },
   "trust": {
-    "tagline": "Servicio completo en <strong>inglés, rumano, húngaro y español</strong>",
-    "en": "Inglés",
-    "ro": "Rumano",
-    "hu": "Húngaro",
-    "es": "Español"
+    "tagline": "Servicio completo en <strong>inglés, rumano, húngaro y español</strong>"
   },
   "why": {
     "eyebrow": "Por qué Velox Living",
@@ -271,13 +267,9 @@
     "lang_heading": "Hablamos tu idioma — literalmente.",
     "lang_p1": "La gestión inmobiliaria en Transilvania se sitúa en un cruce cultural único. Târgu Mureș es una ciudad bilingüe donde tanto el rumano como el húngaro son lenguas cotidianas — y muchos de nuestros clientes son inversores internacionales que trabajan en inglés o español.",
     "lang_p2": "Por eso Velox Living opera con fluidez en los cuatro idiomas — no solo traduciendo palabras, sino navegando con naturalidad por las costumbres locales, la terminología jurídica y las expectativas de los inquilinos en cada lengua.",
-    "lang_en_label": "Inglés",
     "lang_en_desc": "Servicio completo — consultas, contratos, informes &amp; soporte",
-    "lang_ro_label": "Rumano",
     "lang_ro_desc": "Nativo — todos los trámites ANAF, contratos &amp; administración local",
-    "lang_hu_label": "Húngaro",
     "lang_hu_desc": "Nativo — comunicación con inquilinos, negociaciones &amp; trámites locales",
-    "lang_es_label": "Español",
     "lang_es_desc": "Servicio completo — para clientes en España y Latinoamérica",
     "lang_callout_heading": "Por qué esto importa a los propietarios remotos",
     "lang_callout_p1": "Cuando tu inquilino llama por un fallo en la calefacción en una tarde de invierno, necesitas a alguien que pueda responder en rumano <em>y</em> coordinar la reparación — no una cosa o la otra. Cuando recibes un contrato para revisar, debe estar en el idioma en que te sientas más cómodo, no en el que sea más fácil para nosotros.",

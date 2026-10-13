@@ -30,11 +30,7 @@
     "pricing_cta": "See Our Pricing →"
   },
   "trust": {
-    "tagline": "Fully serviced in <strong>English, Romanian, Hungarian & Spanish</strong>",
-    "en": "English",
-    "ro": "Romanian",
-    "hu": "Hungarian",
-    "es": "Spanish"
+    "tagline": "Fully serviced in <strong>English, Romanian, Hungarian & Spanish</strong>"
   },
   "why": {
     "eyebrow": "Why Velox Living",
@@ -271,13 +267,9 @@
     "lang_heading": "We Speak Your Language — Literally.",
     "lang_p1": "Property management in Transylvania sits at a unique cultural crossroads. Târgu Mureș is a bilingual city where both Romanian and Hungarian are everyday languages — and many of our clients are international investors who work in English or Spanish.",
     "lang_p2": "That's why Velox Living operates fluently in all four languages — not just translating words, but navigating local customs, legal terminology, and tenant expectations in each language natively.",
-    "lang_en_label": "English",
     "lang_en_desc": "Full service — consultations, contracts, reports &amp; support",
-    "lang_ro_label": "Română",
     "lang_ro_desc": "Native — all ANAF filings, contracts &amp; local administration",
-    "lang_hu_label": "Magyar",
     "lang_hu_desc": "Native — tenant communication, negotiations &amp; local dealings",
-    "lang_es_label": "Español",
     "lang_es_desc": "Full service — for clients across Spain and Latin America",
     "lang_callout_heading": "Why This Matters for Remote Owners",
     "lang_callout_p1": "When your tenant calls about a heating failure on a winter evening, you need someone who can respond in Romanian <em>and</em> coordinate the repair — not one or the other. When you receive a contract to review, it should be in the language you're most comfortable in, not the one that's easiest for us.",

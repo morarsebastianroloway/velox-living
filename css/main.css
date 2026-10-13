@@ -685,6 +685,27 @@ p { line-height: 1.75; }
   background: rgba(255,255,255,0.15);
 }
 
+.trust-lang.lang-btn {
+  width: auto;
+  padding: 6px 10px;
+  margin: -6px -10px;
+  border: none;
+  background: transparent;
+  border-radius: 20px;
+  font-family: inherit;
+  transition: background var(--transition-fast);
+}
+
+.trust-lang.lang-btn:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.trust-lang.lang-btn.active {
+  background: rgba(255,255,255,0.14);
+  color: var(--color-white);
+  font-weight: 600;
+}
+
 /* ==============================================
    WHY VELOX LIVING SECTION
    ============================================== */

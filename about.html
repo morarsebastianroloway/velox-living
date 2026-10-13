@@ -346,6 +346,12 @@
       display: flex;
       align-items: center;
       gap: 16px;
+      text-align: left;
+      border-radius: var(--radius-sm, 6px);
+    }
+
+    .lang-row:hover .lang-info strong {
+      color: var(--color-green);
     }
 
     .lang-flag {
@@ -685,34 +691,34 @@
             </p>
 
             <div class="lang-list">
-              <div class="lang-row">
+              <button type="button" class="lang-row lang-btn" data-lang="en" aria-label="Switch site language to English">
                 <img src="assets/flags/en.svg" alt="English" class="lang-flag" />
                 <div class="lang-info">
                   <strong data-i18n="about.lang_en_label">English</strong>
                   <span data-i18n="about.lang_en_desc">Full service — consultations, contracts, reports &amp; support</span>
                 </div>
-              </div>
-              <div class="lang-row">
+              </button>
+              <button type="button" class="lang-row lang-btn" data-lang="ro" aria-label="Switch site language to Romanian">
                 <img src="assets/flags/ro.svg" alt="Romanian" class="lang-flag" />
                 <div class="lang-info">
                   <strong data-i18n="about.lang_ro_label">Română</strong>
                   <span data-i18n="about.lang_ro_desc">Native — all ANAF filings, contracts &amp; local administration</span>
                 </div>
-              </div>
-              <div class="lang-row">
+              </button>
+              <button type="button" class="lang-row lang-btn" data-lang="hu" aria-label="Switch site language to Hungarian">
                 <img src="assets/flags/hu.svg" alt="Hungarian" class="lang-flag" />
                 <div class="lang-info">
                   <strong data-i18n="about.lang_hu_label">Magyar</strong>
                   <span data-i18n="about.lang_hu_desc">Native — tenant communication, negotiations &amp; local dealings</span>
                 </div>
-              </div>
-              <div class="lang-row">
+              </button>
+              <button type="button" class="lang-row lang-btn" data-lang="es" aria-label="Switch site language to Spanish">
                 <img src="assets/flags/es.svg" alt="Spanish" class="lang-flag" />
                 <div class="lang-info">
                   <strong data-i18n="about.lang_es_label">Español</strong>
                   <span data-i18n="about.lang_es_desc">Full service — for clients across Spain and Latin America</span>
                 </div>
-              </div>
+              </button>
             </div>
           </div>
 

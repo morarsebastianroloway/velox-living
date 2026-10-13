@@ -167,7 +167,12 @@
     "eyebrow": "Our Properties",
     "heading": "Featured Listings in Târgu Mureș",
     "subheading": "Premium apartments available for rent, professionally managed by Velox Living.",
-    "per_month": "/month"
+    "per_month": "/month",
+    "page_h1": "Properties for Rent in Târgu Mureș",
+    "view_all": "View all properties →",
+    "owner_eyebrow": "For Property Owners",
+    "owner_h2": "Own a Property in Târgu Mureș?",
+    "owner_p": "Every listing on this page is managed by Velox Living. If you own an apartment in Târgu Mureș, we can find a tenant, handle the paperwork and manage it for you — even if you live abroad."
   },
   "property": {
     "per_mo": "/mo",

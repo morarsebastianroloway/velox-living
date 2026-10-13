@@ -167,7 +167,12 @@
     "eyebrow": "Nuestras Propiedades",
     "heading": "Anuncios Destacados en Târgu Mureș",
     "subheading": "Apartamentos premium disponibles para alquiler, gestionados profesionalmente por Velox Living.",
-    "per_month": "/mes"
+    "per_month": "/mes",
+    "page_h1": "Inmuebles en Alquiler en Târgu Mureș",
+    "view_all": "Ver todos los inmuebles →",
+    "owner_eyebrow": "Para Propietarios",
+    "owner_h2": "¿Tiene un Inmueble en Târgu Mureș?",
+    "owner_p": "Todos los anuncios de esta página los gestiona Velox Living. Si tiene un piso en Târgu Mureș, podemos encontrar inquilino, encargarnos del papeleo y gestionarlo por usted — aunque viva en el extranjero."
   },
   "property": {
     "per_mo": "/mes",

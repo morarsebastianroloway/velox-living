@@ -167,7 +167,12 @@
     "eyebrow": "Ingatlanaink",
     "heading": "Kiemelt Hirdetések Marosvásárhelyen",
     "subheading": "Prémium lakások kiadásra kínálva, professzionálisan kezelve a Velox Living által.",
-    "per_month": "/hó"
+    "per_month": "/hó",
+    "page_h1": "Kiadó ingatlanok Marosvásárhelyen",
+    "view_all": "Összes ingatlan megtekintése →",
+    "owner_eyebrow": "Ingatlantulajdonosoknak",
+    "owner_h2": "Ingatlana van Marosvásárhelyen?",
+    "owner_p": "Az oldalon szereplő összes hirdetést a Velox Living kezeli. Ha Önnek lakása van Marosvásárhelyen, bérlőt találunk, intézzük a papírmunkát és kezeljük az ingatlant Ön helyett — akkor is, ha külföldön él."
   },
   "property": {
     "per_mo": "/hó",

@@ -43,7 +43,7 @@
         '<div class="footer-col">' +
           '<h4 data-i18n="footer.links_heading">Quick Links</h4>' +
           '<ul>' +
-            '<li><a href="' + s('properties') + '" data-i18n="nav.properties">Properties</a></li>' +
+            '<li><a href="' + p + 'properties/" data-i18n="nav.properties">Properties</a></li>' +
             '<li><a href="' + s('services')   + '" data-i18n="nav.services">Services</a></li>' +
             '<li><a href="' + p + 'about.html" data-i18n="nav.about">About</a></li>' +
             '<li><a href="' + p + 'faq.html" data-i18n="nav.faq">FAQ</a></li>' +

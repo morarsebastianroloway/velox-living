@@ -44,7 +44,7 @@
         '<img src="' + p + 'assets/VeloxLivingLogoTransparent.png" alt="Velox Living Logo" width="44" height="44" />' +
       '</a>' +
       '<ul class="nav-links" role="list">' +
-        '<li><a href="' + s('properties') + '" data-i18n="nav.properties">Properties</a></li>' +
+        '<li><a href="' + p + 'properties/" data-i18n="nav.properties">Properties</a></li>' +
         '<li><a href="' + s('services')   + '" data-i18n="nav.services">Services</a></li>' +
         '<li><a href="' + p + 'about.html" data-i18n="nav.about">About</a></li>' +
         '<li><a href="' + p + 'faq.html" data-i18n="nav.faq">FAQ</a></li>' +
@@ -90,7 +90,7 @@
         ' data-i18n="nav.cta">' +
         'Free Consultation' +
       '</a>' +
-      '<a href="' + s('properties') + '" data-i18n="nav.properties">Properties</a>' +
+      '<a href="' + p + 'properties/" data-i18n="nav.properties">Properties</a>' +
       '<a href="' + s('services')   + '" data-i18n="nav.services">Services</a>' +
       '<a href="' + p + 'about.html" data-i18n="nav.about">About</a>' +
       '<a href="' + p + 'faq.html" data-i18n="nav.faq">FAQ</a>' +

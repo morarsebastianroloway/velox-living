@@ -373,7 +373,11 @@
   overflow: hidden;
   box-shadow: var(--shadow);
   margin-top: 36px;
-  filter: grayscale(30%);
+}
+
+/* Soften the OSM tiles to match the site palette; marker keeps its colours */
+#map .leaflet-tile-pane {
+  filter: grayscale(65%) brightness(1.04);
 }
 
 /* Leaflet overrides */

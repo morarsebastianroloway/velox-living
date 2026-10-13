@@ -470,5 +470,73 @@ Market snapshot for Târgu Mureș in 2026:
 
 
 ================================================================================
+BLOG POST: TENANT SCREENING — https://living.veloxventures.eu/blog/how-to-choose-tenants-romania-remote.html
+================================================================================
+
+How to Choose the Right Tenant in Romania When You Live Abroad
+
+Published: October 2026 | Read time: 9 minutes
+Audience: Diaspora Romanians and international investors who own property in Târgu Mureș / Transylvania
+
+Tenant selection is the single biggest risk for remote owners. Under the Romanian Civil Code, a tenant cannot be evicted without a court order, and that process can take several months. Most bad tenancies are predictable if screening is done properly before the lease is signed.
+
+--- WHAT MAKES A GOOD TENANT IN THE ROMANIAN RENTAL MARKET ---
+
+Târgu Mureș is a long-term rental market. Common tenant profiles: medical and pharmacy students (usually rent paid by parents — a guarantor matters), doctors, residents and healthcare staff, local employees, and relocating professionals and families.
+
+Stability signals:
+- Verifiable, regular income covering rent, utilities and building association costs; an indefinite-term employment contract (contract de muncă pe perioadă nedeterminată) is a stronger signal than a short fixed-term one
+- A coherent story: reason for moving, timing and intended length of stay match the documents
+- A positive rental history confirmed by a previous landlord
+- Clear, consistent communication
+- Realistic expectations about the property, rent and house rules
+
+--- DOCUMENTS TO REQUEST BEFORE SIGNING ---
+
+- Identity document (Romanian carte de identitate or valid passport); details must match the lease
+- Employment contract or employer salary certificate (adeverință de salariu)
+- Last three payslips or bank statements showing salary received
+- References: previous landlord and, where possible, employer
+- Students: proof of enrolment plus the guarantor's ID and income documents
+- Self-employed: evidence of regular business income (bank statements, tax filings)
+
+Verify, don't just collect: check consistency across documents, call the employer on an independently found number, and ask the previous landlord whether they would rent to the tenant again. Copies of IDs and payslips are personal data under GDPR — request only what is needed, store securely, delete files of unsuccessful applicants.
+
+--- RED FLAGS ---
+
+Behavioural: pressure to sign immediately; asking for no contract or no ANAF registration (every lease must be registered with ANAF within 30 days); offering many months' rent in cash upfront to skip checks; vague or changing answers about occupants or length of stay; interest in subletting or short-term rental; negative comments about every previous landlord; wanting keys before the lease is signed and the deposit paid.
+
+Documentary: names, dates or addresses that don't match; payslips that look edited or don't fit the job; an employer that can't be found independently; a "previous landlord" who is a friend or relative; refusal to provide documents.
+
+--- HOW TO CONDUCT A REMOTE VIEWING AND INTERVIEW ---
+
+Step 1 — Pre-screen in writing (occupants, job, move-in date, length of stay, pets, smoking)
+Step 2 — In-person viewing by a trusted local (relative, friend or property manager)
+Step 3 — Video interview with the owner, including ID shown on camera
+Step 4 — Verify documents and call references (allow 3–7 days)
+Step 5 — Sign electronically (valid under Law No. 455/2001), hand over keys in person with a signed handover report (proces-verbal de predare-primire), photos and meter readings
+
+--- THE LEASE CLAUSES THAT PROTECT YOU MOST ---
+
+- Guarantor: optional, strongly recommended for students and applicants without stable local income
+- Security deposit: no legal maximum; market practice is 1–2 months' rent, with deduction conditions in writing
+- Penalty clause for late payment with a fixed due date (have wording reviewed — excessive penalties can be challenged)
+- Named occupants and a no-subletting / no-short-term-rental clause
+- Notice and termination: at least 30 days' written notice for open-ended contracts; state early-termination conditions
+- Written lease registered with ANAF within 30 days
+
+--- PROFESSIONAL SCREENING VS GOING IT ALONE ---
+
+Velox Living verifies employment, runs reference checks and reviews financial standing before recommending any applicant; the owner always has final approval. The tenant finding service includes listing, screening, contract drafting, key handover with photo/video inventory, and a 3-month tenant guarantee: if the tenant leaves within 3 months, Velox Living finds the next one at no extra charge.
+
+Key facts:
+- Documents: ID, employment contract, last 3 payslips, references
+- Deposit: 1–2 months standard
+- Guarantor: optional but recommended for students
+- Minimum notice (open-ended lease): 30 days
+- Screening time: 3–7 days recommended
+
+
+================================================================================
 END OF CONTENT
 ================================================================================

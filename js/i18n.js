@@ -5,7 +5,7 @@
    ============================================== */
 
 const LANGS = ['en', 'ro', 'hu', 'es'];
-const DEFAULT_LANG = 'en';
+const DEFAULT_LANG = 'ro';
 const _fp = (window.NAV_BASE ? window.NAV_BASE.replace(/\/+$/, '') + '/' : '') + 'assets/flags/';
 const FLAG_DATA = {
   en: { src: _fp + 'en.svg', alt: 'English' },

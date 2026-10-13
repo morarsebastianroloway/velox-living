@@ -13,6 +13,7 @@
   <meta property="og:description" content="Velox Living manages rental properties in Târgu Mureș and Transylvania for remote owners. Tenant screening, maintenance, bills, and compliance — 4 languages." />
   <meta property="og:image" content="https://living.veloxventures.eu/assets/images/house.png" />
   <meta property="og:url" content="https://living.veloxventures.eu/" />
+  <link rel="canonical" href="https://living.veloxventures.eu/" />
   <meta name="twitter:card" content="summary_large_image" />
 
   <!-- hreflang -->
@@ -291,25 +292,25 @@
             Fully serviced in <strong>English, Romanian, Hungarian &amp; Spanish</strong>
           </p>
           <div class="trust-langs">
-            <div class="trust-lang">
+            <button type="button" class="trust-lang lang-btn" data-lang="en" aria-label="Switch site language to English">
               <img src="assets/flags/en.svg" class="flag-icon" alt="English flag" aria-hidden="true">
-              <span data-i18n="trust.en">English</span>
-            </div>
+              <span>English</span>
+            </button>
             <div class="trust-divider" aria-hidden="true"></div>
-            <div class="trust-lang">
+            <button type="button" class="trust-lang lang-btn" data-lang="ro" aria-label="Switch site language to Romanian">
               <img src="assets/flags/ro.svg" class="flag-icon" alt="Romanian flag" aria-hidden="true">
-              <span data-i18n="trust.ro">Romanian</span>
-            </div>
+              <span>Română</span>
+            </button>
             <div class="trust-divider" aria-hidden="true"></div>
-            <div class="trust-lang">
+            <button type="button" class="trust-lang lang-btn" data-lang="hu" aria-label="Switch site language to Hungarian">
               <img src="assets/flags/hu.svg" class="flag-icon" alt="Hungarian flag" aria-hidden="true">
-              <span data-i18n="trust.hu">Hungarian</span>
-            </div>
+              <span>Magyar</span>
+            </button>
             <div class="trust-divider" aria-hidden="true"></div>
-            <div class="trust-lang">
+            <button type="button" class="trust-lang lang-btn" data-lang="es" aria-label="Switch site language to Spanish">
               <img src="assets/flags/es.svg" class="flag-icon" alt="Spanish flag" aria-hidden="true">
-              <span data-i18n="trust.es">Spanish</span>
-            </div>
+              <span>Español</span>
+            </button>
           </div>
         </div>
       </div>
@@ -419,29 +420,6 @@
 
         <div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 28px;">
 
-          <!-- Property Card 1 -->
-          <a href="properties/2-bedroom-apartment-tudor-targu-mures.html" class="card" style="display:flex; flex-direction:column; text-decoration:none; overflow:hidden; padding:0;">
-            <div style="height:220px; background:#001F3F; overflow:hidden; position:relative;">
-              <img src="assets/images/prop1/sufragerie.jpg"
-                   alt="Modern apartment Târgu Mureș"
-                   loading="lazy"
-                   style="width:100%;height:100%;object-fit:cover;opacity:0.85;transition:transform 0.4s ease;"
-                   onmouseover="this.style.transform='scale(1.05)'"
-                   onmouseout="this.style.transform='scale(1)'" />
-              <span style="position:absolute;top:16px;left:16px;background:#228B22;color:#fff;font-size:0.75rem;font-weight:600;padding:4px 12px;border-radius:20px;" data-i18n="property.for_rent">For Rent</span>
-            </div>
-            <div style="padding:24px;">
-              <p style="font-size:0.8rem;color:#718096;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px;" data-i18n="prop1.location">Centru, Târgu Mureș</p>
-              <h3 style="font-size:1.1rem;margin-bottom:8px;color:#001F3F;" data-i18n="prop1.title">2-Bedroom Apartment with Panoramic Views of Tudor</h3>
-              <p style="font-size:1.3rem;font-weight:700;color:#228B22;font-family:'Playfair Display',serif;">€430 <span style="font-size:0.8rem;font-weight:400;color:#718096;" data-i18n="properties.per_month">/month</span></p>
-              <div style="display:flex;gap:16px;margin-top:12px;font-size:0.82rem;color:#718096;">
-                <span>🛏 2</span>
-                <span>📐 55 m²</span>
-                <span>🏢 <span data-i18n="prop1.floor">3rd</span></span>
-              </div>
-            </div>
-          </a>
-
           <!-- Property Card 5 -->
           <a href="properties/commercial-space-ultracentral-revolutiei-targu-mures.html" class="card" style="display:flex; flex-direction:column; text-decoration:none; overflow:hidden; padding:0;">
             <div style="height:220px; background:#001F3F; overflow:hidden; position:relative;">
@@ -460,29 +438,6 @@
               <div style="display:flex;gap:16px;margin-top:12px;font-size:0.82rem;color:#718096;">
                 <span>📐 90 m²</span>
                 <span>🏢 <span data-i18n="prop5.floor">Ground</span></span>
-              </div>
-            </div>
-          </a>
-
-          <!-- Property Card 4 -->
-          <a href="properties/3-room-apartment-tudor-targu-mures.html" class="card" style="display:flex; flex-direction:column; text-decoration:none; overflow:hidden; padding:0;">
-            <div style="height:220px; background:#001F3F; overflow:hidden; position:relative;">
-              <img src="assets/images/prop4/sufragerie2.jpg"
-                   alt="3-room apartment Tudor Târgu Mureș"
-                   loading="lazy"
-                   style="width:100%;height:100%;object-fit:cover;opacity:0.85;transition:transform 0.4s ease;"
-                   onmouseover="this.style.transform='scale(1.05)'"
-                   onmouseout="this.style.transform='scale(1)'" />
-              <span style="position:absolute;top:16px;left:16px;background:#228B22;color:#fff;font-size:0.75rem;font-weight:600;padding:4px 12px;border-radius:20px;" data-i18n="property.for_rent">For Rent</span>
-            </div>
-            <div style="padding:24px;">
-              <p style="font-size:0.8rem;color:#718096;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px;" data-i18n="prop4.location">Tudor, Târgu Mureș</p>
-              <h3 style="font-size:1.1rem;margin-bottom:8px;color:#001F3F;" data-i18n="prop4.title">Quiet 3-Room Apartment in Tudor</h3>
-              <p style="font-size:1.3rem;font-weight:700;color:#228B22;font-family:'Playfair Display',serif;">€400 <span style="font-size:0.8rem;font-weight:400;color:#718096;" data-i18n="properties.per_month">/month</span></p>
-              <div style="display:flex;gap:16px;margin-top:12px;font-size:0.82rem;color:#718096;">
-                <span>🛏 3</span>
-                <span>📐 65 m²</span>
-                <span>🏢 <span data-i18n="prop4.floor">1st</span></span>
               </div>
             </div>
           </a>
@@ -510,52 +465,10 @@
             </div>
           </a>
 
-          <!-- Property Card 6 -->
-          <a href="properties/2-bedroom-apartment-acta-residence-tudor.html" class="card" style="display:flex; flex-direction:column; text-decoration:none; overflow:hidden; padding:0;">
-            <div style="height:220px; background:#001F3F; overflow:hidden; position:relative;">
-              <img src="assets/images/prop6/photo1.jpg"
-                   alt="2-Bedroom apartment in Acta Residence Tudor Târgu Mureș"
-                   loading="lazy"
-                   style="width:100%;height:100%;object-fit:cover;opacity:0.85;transition:transform 0.4s ease;"
-                   onmouseover="this.style.transform='scale(1.05)'"
-                   onmouseout="this.style.transform='scale(1)'" />
-              <span style="position:absolute;top:16px;left:16px;background:#228B22;color:#fff;font-size:0.75rem;font-weight:600;padding:4px 12px;border-radius:20px;" data-i18n="property.for_rent">For Rent</span>
-            </div>
-            <div style="padding:24px;">
-              <p style="font-size:0.8rem;color:#718096;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px;" data-i18n="prop6.location">Tudor, Târgu Mureș</p>
-              <h3 style="font-size:1.1rem;margin-bottom:8px;color:#001F3F;" data-i18n="prop6.title">2-Bedroom Apartment in Acta Residence, Tudor</h3>
-              <p style="font-size:1.3rem;font-weight:700;color:#228B22;font-family:'Playfair Display',serif;">€400 <span style="font-size:0.8rem;font-weight:400;color:#718096;" data-i18n="properties.per_month">/month</span></p>
-              <div style="display:flex;gap:16px;margin-top:12px;font-size:0.82rem;color:#718096;">
-                <span>🛏 2</span>
-                <span>📐 65 m²</span>
-                <span>🏢 <span data-i18n="prop6.floor">5th</span></span>
-              </div>
-            </div>
-          </a>
+        </div>
 
-          <!-- Property Card 7 -->
-          <a href="properties/studio-apartment-city-center-targu-mures.html" class="card" style="display:flex; flex-direction:column; text-decoration:none; overflow:hidden; padding:0;">
-            <div style="height:220px; background:#001F3F; overflow:hidden; position:relative;">
-              <img src="assets/images/prop7/photo1.jpg"
-                   alt="Modern studio apartment in the city center Târgu Mureș"
-                   loading="lazy"
-                   style="width:100%;height:100%;object-fit:cover;opacity:0.85;transition:transform 0.4s ease;"
-                   onmouseover="this.style.transform='scale(1.05)'"
-                   onmouseout="this.style.transform='scale(1)'" />
-              <span style="position:absolute;top:16px;left:16px;background:#228B22;color:#fff;font-size:0.75rem;font-weight:600;padding:4px 12px;border-radius:20px;" data-i18n="property.for_rent">For Rent</span>
-            </div>
-            <div style="padding:24px;">
-              <p style="font-size:0.8rem;color:#718096;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px;" data-i18n="prop7.location">Centru, Târgu Mureș</p>
-              <h3 style="font-size:1.1rem;margin-bottom:8px;color:#001F3F;" data-i18n="prop7.title">Modern Studio Apartment in the City Center</h3>
-              <p style="font-size:1.3rem;font-weight:700;color:#228B22;font-family:'Playfair Display',serif;">€400 <span style="font-size:0.8rem;font-weight:400;color:#718096;" data-i18n="properties.per_month">/month</span></p>
-              <div style="display:flex;gap:16px;margin-top:12px;font-size:0.82rem;color:#718096;">
-                <span>🛏 1</span>
-                <span>📐 36 m²</span>
-                <span>🏢 <span data-i18n="prop7.floor">1st</span></span>
-              </div>
-            </div>
-          </a>
-
+        <div style="text-align:center;margin-top:40px;">
+          <a href="properties/" class="btn btn-outline-navy" data-i18n="properties.view_all">View all properties →</a>
         </div>
       </div>
     </section>
@@ -624,7 +537,7 @@
           <div class="divider"></div>
         </div>
 
-        <div id="guides-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:48px;">
+        <div id="guides-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:48px;">
 
           <a href="blog/remote-owners-renting-romania.html" class="card" style="display:flex;flex-direction:column;gap:14px;padding:32px;text-decoration:none;">
             <span style="font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-green);" data-i18n="guides.card1_tag">Remote Owners</span>
@@ -640,6 +553,17 @@
             <span style="font-size:0.88rem;font-weight:600;color:var(--color-green);" data-i18n="guides.cta">Read Guide →</span>
           </a>
 
+          <a href="blog/how-to-choose-tenants-romania-remote.html" class="card" style="display:flex;flex-direction:column;gap:14px;padding:32px;text-decoration:none;">
+            <span style="font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-green);" data-i18n="guides.card3_tag">Tenant Screening</span>
+            <h3 style="font-size:1.1rem;line-height:1.4;color:var(--color-navy);margin:0;" data-i18n="guides.card3_title">How to Choose the Right Tenant in Romania When You Live Abroad</h3>
+            <p style="font-size:0.9rem;color:var(--color-slate);line-height:1.65;flex:1;margin:0;" data-i18n="guides.card3_desc">Documents to request, red flags, remote viewings, and the lease clauses that protect you — a tenant selection guide for owners living abroad.</p>
+            <span style="font-size:0.88rem;font-weight:600;color:var(--color-green);" data-i18n="guides.cta">Read Guide →</span>
+          </a>
+
+        </div>
+
+        <div style="text-align:center;margin-top:40px;">
+          <a href="blog/" class="btn btn-outline-navy" data-i18n="guides.all_cta">See all guides →</a>
         </div>
       </div>
     </section>

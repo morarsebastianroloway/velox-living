@@ -444,3 +444,23 @@
 }
 .rented-notice a { color: var(--color-green); }
 .rented-notice a:hover { color: var(--color-green-dark); }
+
+/* Rent-or-sale notice (property available both ways) */
+.sale-notice {
+  background: #EAF6EA;
+  border-bottom: 1px solid #BFE3BF;
+  padding: 14px 0;
+  text-align: center;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-navy);
+}
+.sale-notice .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+}
+.sale-notice a { color: var(--color-green); }
+.sale-notice a:hover { color: var(--color-green-dark); }

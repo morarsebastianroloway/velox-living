@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Build WhatsApp message
       const text = `Hello Velox Living! 👋\n\nI'm interested in: *${property}*\n\nName: ${name}\nEmail: ${email}\nPhone: ${phone}\n\n${message}`;
-      const url  = `https://wa.me/40700000000?text=${encodeURIComponent(text)}`;
+      const url  = `https://wa.me/40774622914?text=${encodeURIComponent(text)}`;
       window.open(url, '_blank', 'noopener,noreferrer');
     });
   }
